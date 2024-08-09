@@ -1,11 +1,18 @@
-import { FormEvent, MouseEvent, useCallback, useState } from "react";
+import {
+  Dispatch,
+  FormEvent,
+  MouseEvent,
+  SetStateAction,
+  useCallback,
+  useState,
+} from "react";
 import { CiMenuBurger, CiSearch } from "react-icons/ci";
 import { FaYoutube } from "react-icons/fa";
 import { Link, useNavigate } from "react-router-dom";
 
 interface HeaderProps {
   toggle: boolean;
-  setToggle: React.Dispatch<React.SetStateAction<boolean>>;
+  setToggle: Dispatch<SetStateAction<boolean>>;
 }
 
 function Header({ toggle, setToggle }: HeaderProps) {
@@ -17,12 +24,11 @@ function Header({ toggle, setToggle }: HeaderProps) {
     e.preventDefault();
     navigate(`results/${inputValue}`);
   }, []);
-  const onClickMenu = useCallback(
-    (e: MouseEvent<HTMLOrSVGElement>) => {
-      setToggle((toggle) => !toggle);
-    },
-    [toggle]
-  );
+
+  const onClickMenu = useCallback(() => {
+    setToggle((toggle) => !toggle);
+  }, []);
+
   // const onChange = useCallback((e: ChangeEvent<HTMLInputElement>) => {}, []);
 
   return (
@@ -33,7 +39,7 @@ function Header({ toggle, setToggle }: HeaderProps) {
           onClick={onClickMenu}
           aria-label="menu button"
         />
-        <Link to="/" className="flex items-center text-xl">
+        <Link to="/" className="flex items-center text-xl gap-1">
           <FaYoutube />
           YouTube
         </Link>
@@ -44,11 +50,12 @@ function Header({ toggle, setToggle }: HeaderProps) {
       >
         <input
           type="text"
+          className="outline-none px-3"
           value={inputValue}
           onChange={(e) => setInputValue(e.target.value)}
           placeholder="search"
         />
-        <button type="submit" className="rounded-none border-l-gray-200">
+        <button type="submit" className="rounded-none border-l-gray-200 ">
           <CiSearch />
         </button>
       </form>

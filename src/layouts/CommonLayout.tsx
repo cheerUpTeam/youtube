@@ -7,8 +7,8 @@ function CommonLayout() {
   const [toggle, setToggle] = useState(false);
 
   return (
-    <div className={`flex flex-col  relative px-5 `}>
-      <Sidebar toggle={toggle} setToggle={setToggle} />
+    <div className="flex flex-col relative px-5 h-screen">
+      {toggle && <Sidebar setToggle={setToggle} />}
       <Header toggle={toggle} setToggle={setToggle} />
       <main className="max-w-[1220px] mx-auto w-full">
         <Outlet />

@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import Test from "./components/Test";
+import Test from "./components/home/Test";
 
 interface DetailProps {
   title: string;

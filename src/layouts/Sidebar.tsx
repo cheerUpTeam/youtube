@@ -26,10 +26,10 @@ function Sidebar({ setToggle }: SidebarProps) {
           <SidebarLink to="/" icon={<MdHomeFilled />}>
             Home
           </SidebarLink>
-          <SidebarLink to="/detail" icon={<SiYoutubeshorts />}>
+          <SidebarLink to="/" icon={<SiYoutubeshorts />}>
             Shorts
           </SidebarLink>
-          <SidebarLink to="/test" icon={<MdOutlineSubscriptions />}>
+          <SidebarLink to="/" icon={<MdOutlineSubscriptions />}>
             Subscriptions
           </SidebarLink>
         </nav>

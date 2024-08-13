@@ -20,15 +20,17 @@ function Header({ toggle, setToggle }: HeaderProps) {
 
   const [inputValue, setInputValue] = useState("");
 
-  const handleSubmit = useCallback((e: FormEvent) => {
-    e.preventDefault();
-    navigate(`results/${inputValue}`);
-  }, []);
+  const handleSubmit = useCallback(
+    (e: FormEvent) => {
+      e.preventDefault();
+      navigate(`results/${inputValue}`);
+    },
+    [inputValue]
+  );
 
   const onClickMenu = useCallback(() => {
     setToggle((toggle) => !toggle);
   }, []);
-
   // const onChange = useCallback((e: ChangeEvent<HTMLInputElement>) => {}, []);
 
   return (

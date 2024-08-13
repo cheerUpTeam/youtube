@@ -1,11 +1,11 @@
 import { useQuery } from "@tanstack/react-query";
 import { queryKey } from "@utils/const/queryKey";
-import { getHome } from "../api/home";
+import { getHome } from ".";
 
 function useHome() {
   const { data: homeData } = useQuery({
     queryKey: [queryKey.home],
-    queryFn: () => getHome({ id: 1 }),
+    queryFn: getHome,
   });
 
   return { homeData };

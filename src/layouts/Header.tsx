@@ -43,7 +43,7 @@ function Header({ toggle, setToggle }: HeaderProps) {
         />
         <Link to="/" className="flex items-center text-xl gap-1">
           <FaYoutube />
-          YouTube
+          <p className="hidden md:block">YouTube</p>
         </Link>
       </div>
       <form

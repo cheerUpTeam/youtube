@@ -37,7 +37,8 @@
       "@services/*": ["./src/services/*"],
       "@styles/*": ["./src/styles/*"],
       "@types/*": ["./src/types/*"],
-      "@utils/*": ["./src/utils/*"]
+      "@utils/*": ["./src/utils/*"],
+      "@datas/*": ["./public/datas/*"]
     }
   },
   "include": ["src", "global.d.ts"]

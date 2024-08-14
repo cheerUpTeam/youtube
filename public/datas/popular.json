@@ -1,0 +1,449 @@
+{
+  "kind": "youtube#videoListResponse",
+  "etag": "j1jKJjjF2TuvJrtrqmZaBjdsQAQ",
+  "items": [
+    {
+      "kind": "youtube#video",
+      "etag": "iccN1QquAqiSK-veHyOsSLOUh2s",
+      "id": "ujiGbJbyaWA",
+      "snippet": {
+        "publishedAt": "2024-08-14T09:27:33Z",
+        "channelId": "UCkh6TlSape86-iHiehXvsmA",
+        "title": "출산특집#7 조리원 브이로그✨ 웃고, 울고, 배우고 인내하는 그 곳! 왜 조리원은 산모만 갈 수 있는 것일까 의문을 남기며.. 난 이제 조리원 갈 일 없다.",
+        "description": "* 이 영상은 스킨푸드 부분 유료광고를 포함 하고 있습니다 *\n\n🥕구매 링크 : https://vo.la/eFFTCe\n   프로모션 내용 : 스킨푸드 공식몰 40% 할인\n   사은품 : 당근 토너, 앰플, 크림, 클렌징폼 샘플 각 1개 & 당근 마스크팩 1매\n\n\n하이염?!\n여러분! 조리원 브이로그입니다 :)\n\n먹고, 자고, 아기 보고, 붓고.. 또 붓고 붓기는 안 빠지고.. 그렇습니다 ㅋㅋㅋ\n지금은 붓기가 훨씬 많이 빠졌는데요, \n편집하면서 보니 저렇게 부어도 되나 싶을정도로 부었네요...?! \n거기다가 팩폭 때려대는 실버라인 입을 좀 꼬매줄 걸 그랬습니다 ㅋㅋㅋ\n(상처받지 않아요 걱정마세요 ㅋㅋㅋㅋ)\n\n저에게 조리원은 배움의 장소여요.\n강빈이때도 나음이때도!\n둘째라고는 하지만 또 다시 처음부터 배우는 기분이었는데 이번에도 잘~ 배우고 나왔습니다 :) \n\n다음편은 이제 네식구가 된 유트루네 모습 보여드릴게요!\n아직까지는 바깥 일까지는 못 하고 있어서 집안에만 있을거여요..! :)\n업로드하는 지금은 벌써 한달이 지났는데요, 이제 슬슬... 나가고 싶긴합니다. \n(사실 오늘은 외식도 했어요!! 흐흣)\n\n그럼 우린 또 다음 영상에서 뵈어요!\n빠이염!!\n\n\n평소 사용/착용 제품 정보 올라가는 Instagram ID \n👉🏻yootrue_info\n\nInstagram ID \n👉🏻yootrue5502\n\n유트루 헤어밴드\n👉🏻http://www.bbokki.co.kr/shop/item.php?it_id=1558073017\n\n채널 No.1 뷰티채널\n👉🏻 https://www.youtube.com/user/yootruebeutyroom/\n\n채널 No.2 생방송 채널\n👉🏻 https://www.youtube.com/c/yootrueonair",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ujiGbJbyaWA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ujiGbJbyaWA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ujiGbJbyaWA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/ujiGbJbyaWA/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/ujiGbJbyaWA/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "yoovlog",
+        "tags": [
+          "유트루",
+          "vlog",
+          "한국일상",
+          "유투버",
+          "Collab",
+          "Korean",
+          "먹방",
+          "가족",
+          "뷰티유튜버일상",
+          "mukbang",
+          "커플",
+          "부부",
+          "신혼",
+          "신혼일기",
+          "요리"
+        ],
+        "categoryId": "22",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "출산특집#7 조리원 브이로그✨ 웃고, 울고, 배우고 인내하는 그 곳! 왜 조리원은 산모만 갈 수 있는 것일까 의문을 남기며.. 난 이제 조리원 갈 일 없다.",
+          "description": "* 이 영상은 스킨푸드 부분 유료광고를 포함 하고 있습니다 *\n\n🥕구매 링크 : https://vo.la/eFFTCe\n   프로모션 내용 : 스킨푸드 공식몰 40% 할인\n   사은품 : 당근 토너, 앰플, 크림, 클렌징폼 샘플 각 1개 & 당근 마스크팩 1매\n\n\n하이염?!\n여러분! 조리원 브이로그입니다 :)\n\n먹고, 자고, 아기 보고, 붓고.. 또 붓고 붓기는 안 빠지고.. 그렇습니다 ㅋㅋㅋ\n지금은 붓기가 훨씬 많이 빠졌는데요, \n편집하면서 보니 저렇게 부어도 되나 싶을정도로 부었네요...?! \n거기다가 팩폭 때려대는 실버라인 입을 좀 꼬매줄 걸 그랬습니다 ㅋㅋㅋ\n(상처받지 않아요 걱정마세요 ㅋㅋㅋㅋ)\n\n저에게 조리원은 배움의 장소여요.\n강빈이때도 나음이때도!\n둘째라고는 하지만 또 다시 처음부터 배우는 기분이었는데 이번에도 잘~ 배우고 나왔습니다 :) \n\n다음편은 이제 네식구가 된 유트루네 모습 보여드릴게요!\n아직까지는 바깥 일까지는 못 하고 있어서 집안에만 있을거여요..! :)\n업로드하는 지금은 벌써 한달이 지났는데요, 이제 슬슬... 나가고 싶긴합니다. \n(사실 오늘은 외식도 했어요!! 흐흣)\n\n그럼 우린 또 다음 영상에서 뵈어요!\n빠이염!!\n\n\n평소 사용/착용 제품 정보 올라가는 Instagram ID \n👉🏻yootrue_info\n\nInstagram ID \n👉🏻yootrue5502\n\n유트루 헤어밴드\n👉🏻http://www.bbokki.co.kr/shop/item.php?it_id=1558073017\n\n채널 No.1 뷰티채널\n👉🏻 https://www.youtube.com/user/yootruebeutyroom/\n\n채널 No.2 생방송 채널\n👉🏻 https://www.youtube.com/c/yootrueonair"
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT43M5S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "294629",
+        "likeCount": "7829",
+        "favoriteCount": "0",
+        "commentCount": "611"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "ABADTtI7nQnXkeDCF32aWLiRXvk",
+      "id": "BNws3fmdGeY",
+      "snippet": {
+        "publishedAt": "2024-08-14T09:00:23Z",
+        "channelId": "UCRuSxVu4iqTK5kCh90ntAgA",
+        "title": "직장인 퇴근 할 때 특",
+        "description": "시청해주셔서 감사드립니다♥\n\n[총몇명 스튜디오]\n총감독 : 총몇명 / 부감독 : 임뮨 / 제작진행 : 스노유진 / 스토리보드 : 규리팍 / 원동화 : 예진 / 편집 : 다윙 / 배경 : 이옌 / 기획 :  총몇명, 미미, 센, Belli / 사운드 : 총몇명, Akuku, 임뮨 / 더빙 : Belli, 총몇명",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/BNws3fmdGeY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/BNws3fmdGeY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/BNws3fmdGeY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/BNws3fmdGeY/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/BNws3fmdGeY/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "총몇명",
+        "tags": [
+          "총몇명",
+          "회사원",
+          "직장인",
+          "퇴근",
+          "ㅋㅋㅋ",
+          "재밌는만화",
+          "공감"
+        ],
+        "categoryId": "1",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "직장인 퇴근 할 때 특",
+          "description": "시청해주셔서 감사드립니다♥\n\n[총몇명 스튜디오]\n총감독 : 총몇명 / 부감독 : 임뮨 / 제작진행 : 스노유진 / 스토리보드 : 규리팍 / 원동화 : 예진 / 편집 : 다윙 / 배경 : 이옌 / 기획 :  총몇명, 미미, 센, Belli / 사운드 : 총몇명, Akuku, 임뮨 / 더빙 : Belli, 총몇명"
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT4M43S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "909216",
+        "likeCount": "19802",
+        "favoriteCount": "0",
+        "commentCount": "1009"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "CNvXZJSE6hwiedKrMprwcyvI6PY",
+      "id": "hMtCSjhxNwA",
+      "snippet": {
+        "publishedAt": "2024-08-14T09:47:50Z",
+        "channelId": "UCoHirUZkTs1nOtyJTNbNJ5g",
+        "title": "만칼로리는 이제 쉽다.. 하루만에 15000Kcal 먹어봤습니다 (15,000Kcal challenge)",
+        "description": "구독과 좋아요! 공유 부탁드립니다!\n영상을 통해 많은 도움이 되셨으면 좋겠습니다 \n\n#지피티 #먹방 #만칼로리 #칼로리챌린지 \n\n*비즈니스 문의 E-mail : tjrdbs999@naver.com\n\n* 지피티가 추천하는 닭가슴살 & 다이어트 식단 👉 https://bit.ly/3Lzdz75\n\n(위 링크 클릭 후 회원가입 시 추천인 아이디 \"gpt91\"가 자동으로 입력되며 \n매달마다 진행되는 무료나눔 이벤트 참여 가능합니다)\r\n\r\n회원가입만 하셔도 6종의 할인 및 무료 쿠폰을 드립니다\n\n* 아프리카 TV : http://afreecatv.com/tjrdbs999\n\n* 지피티 인스타 : https://www.instagram.com/tjrdbs91 (인스타에 '지피티' 검색)\n—————————————————————————————————————————————————————————\n채널 내 영상을 무단 도용, 불펌, 2차 편집 및 재업로드를 금지합니다. \ncopyright ⓒ 지피티 All rights reserved.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/hMtCSjhxNwA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/hMtCSjhxNwA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/hMtCSjhxNwA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/hMtCSjhxNwA/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/hMtCSjhxNwA/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "지피티",
+        "tags": [
+          "운동",
+          "헬스",
+          "다이어트",
+          "벌크업",
+          "지피티",
+          "운동유튜버",
+          "먹방",
+          "말왕",
+          "권혁",
+          "피지컬갤러리",
+          "짐종국",
+          "동기부여",
+          "라면",
+          "핏블리",
+          "김종국",
+          "턱걸이",
+          "챌린지",
+          "피지컬100",
+          "피지컬",
+          "쇼미더바디",
+          "보디빌딩",
+          "챗지피티",
+          "GPT",
+          "마선호",
+          "랭킹닭컴",
+          "맛있닭",
+          "잇메이트",
+          "이상호",
+          "김민교",
+          "아프리카TV",
+          "이적생",
+          "이적",
+          "김봉준",
+          "와꾸대장봉준",
+          "감스트"
+        ],
+        "categoryId": "17",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "만칼로리는 이제 쉽다.. 하루만에 15000Kcal 먹어봤습니다 (15,000Kcal challenge)",
+          "description": "구독과 좋아요! 공유 부탁드립니다!\n영상을 통해 많은 도움이 되셨으면 좋겠습니다 \n\n#지피티 #먹방 #만칼로리 #칼로리챌린지 \n\n*비즈니스 문의 E-mail : tjrdbs999@naver.com\n\n* 지피티가 추천하는 닭가슴살 & 다이어트 식단 👉 https://bit.ly/3Lzdz75\n\n(위 링크 클릭 후 회원가입 시 추천인 아이디 \"gpt91\"가 자동으로 입력되며 \n매달마다 진행되는 무료나눔 이벤트 참여 가능합니다)\r\n\r\n회원가입만 하셔도 6종의 할인 및 무료 쿠폰을 드립니다\n\n* 아프리카 TV : http://afreecatv.com/tjrdbs999\n\n* 지피티 인스타 : https://www.instagram.com/tjrdbs91 (인스타에 '지피티' 검색)\n—————————————————————————————————————————————————————————\n채널 내 영상을 무단 도용, 불펌, 2차 편집 및 재업로드를 금지합니다. \ncopyright ⓒ 지피티 All rights reserved."
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT24M48S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "256864",
+        "likeCount": "3523",
+        "favoriteCount": "0",
+        "commentCount": "740"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "WRKzNAUTd7nxao2kRCdGpAQWFCo",
+      "id": "K25eYCAXknQ",
+      "snippet": {
+        "publishedAt": "2024-08-14T09:00:04Z",
+        "channelId": "UCnXwXrQ8KIBoV8k1T3xGznw",
+        "title": "[MV] LUCY - 빌런 / ENG sub",
+        "description": "LUCY OFFICIAL \n- spotify : https://spoti.fi/3cy2ShA\n- fancafe : http://cafe.daum.net/band.lucy\n- instagram : https://www.instagram.com/band_lucy\n- facebook : https://www.facebook.com/BANDLUCY.mystic\n- twitter : https://twitter.com/BANDLUCY_mystic\n\n#LUCY #루시 #신예찬 #최상엽 #조원상 #신광일",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/K25eYCAXknQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/K25eYCAXknQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/K25eYCAXknQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/K25eYCAXknQ/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/K25eYCAXknQ/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "LUCY ISLAND",
+        "tags": [
+          "Choi Sangyeop",
+          "Shin Yechan",
+          "Cho Wonsang",
+          "Shin Gwang Il",
+          "예찬",
+          "상엽",
+          "원상",
+          "광일",
+          "루시",
+          "빌런",
+          "루시 빌런",
+          "루시 컴백",
+          "루시 프롬",
+          "LUCY 빌런"
+        ],
+        "categoryId": "10",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "[MV] LUCY - 빌런 / ENG sub",
+          "description": "LUCY OFFICIAL \n- spotify : https://spoti.fi/3cy2ShA\n- fancafe : http://cafe.daum.net/band.lucy\n- instagram : https://www.instagram.com/band_lucy\n- facebook : https://www.facebook.com/BANDLUCY.mystic\n- twitter : https://twitter.com/BANDLUCY_mystic\n\n#LUCY #루시 #신예찬 #최상엽 #조원상 #신광일"
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT4M19S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "true",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "374304",
+        "likeCount": "15669",
+        "favoriteCount": "0",
+        "commentCount": "1272"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "fadFJk1fDzNyijCFzEJiF-wIjZU",
+      "id": "69qOnBD9O-8",
+      "snippet": {
+        "publishedAt": "2024-08-13T09:00:07Z",
+        "channelId": "UC-uIpGINZDL-VIHQQzJW8jw",
+        "title": "[SUB] 이런 게 우정이면 나는 친구 없어…| EP.53 정해인 정소민 김지은 | 살롱드립2",
+        "description": "어때 어때 이런 해인X소민X지은 어때? 😆\n이런 엄친아딸이라면 내가 낳았어야 하는데 (흑흑)\n이런 동네 친구들이라면 내가 이사를 갔어야 하는데 (진짜)\n보기만 해도 흐뭇한 세 사람과의 흥나는 토크 함께해요🎶\n\n[살롱드립2] 매주 화요일 오후 6시 테오 유튜브에서 공개\n#정해인 #정소민 #김지은 #엄마친구아들 #장도연 #살롱드립2 #SalonDrip #TEO #테오\n\n*본 영상과 무관한 내용의 댓글과 출연자에 대한 무분별한 욕설, 비난 및 조롱 등 악의적인 댓글은 무통보 삭제될 수 있습니다. (Hateful comments or indiscriminate swearing, criticism, and ridicule of the cast may be deleted without notice.)\n\n*본 영상은 유료 광고를 포함하고 있습니다. (This video includes sponsored content.)\n\n◼️TEO 공식 SNS \n➡️https://www.youtube.com/@TEO_universe\n➡️https://www.instagram.com/teo.universe/\n➡️https://twitter.com/TEO_universe_",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/69qOnBD9O-8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/69qOnBD9O-8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/69qOnBD9O-8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/69qOnBD9O-8/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/69qOnBD9O-8/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "TEO 테오",
+        "tags": [
+          "김태호",
+          "teo",
+          "지구마불",
+          "ena",
+          "곽튜브",
+          "빠니보틀",
+          "원지",
+          "세계여행",
+          "예능",
+          "tvN",
+          "댄스가수유랑단",
+          "댄스가수 유랑단",
+          "이효리",
+          "엄정화",
+          "김완선",
+          "보아",
+          "화사",
+          "마마무",
+          "Kpop",
+          "KimWansun",
+          "UhmJunghwa",
+          "LeeHyori",
+          "BoA",
+          "HwaSa",
+          "게스트",
+          "아이돌",
+          "음악",
+          "music",
+          "stage",
+          "idol",
+          "k-pop",
+          "티비엔",
+          "살롱드립",
+          "테오유튜브",
+          "유튜브",
+          "노래",
+          "무대",
+          "star",
+          "super star",
+          "k-dol",
+          "케이팝",
+          "kpop",
+          "k-music",
+          "차정숙",
+          "장도연",
+          "토크쇼",
+          "토크 예능",
+          "salon drip",
+          "테어",
+          "트렌디한조영지"
+        ],
+        "categoryId": "24",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "[SUB] 이런 게 우정이면 나는 친구 없어…| EP.53 정해인 정소민 김지은 | 살롱드립2",
+          "description": "어때 어때 이런 해인X소민X지은 어때? 😆\n이런 엄친아딸이라면 내가 낳았어야 하는데 (흑흑)\n이런 동네 친구들이라면 내가 이사를 갔어야 하는데 (진짜)\n보기만 해도 흐뭇한 세 사람과의 흥나는 토크 함께해요🎶\n\n[살롱드립2] 매주 화요일 오후 6시 테오 유튜브에서 공개\n#정해인 #정소민 #김지은 #엄마친구아들 #장도연 #살롱드립2 #SalonDrip #TEO #테오\n\n*본 영상과 무관한 내용의 댓글과 출연자에 대한 무분별한 욕설, 비난 및 조롱 등 악의적인 댓글은 무통보 삭제될 수 있습니다. (Hateful comments or indiscriminate swearing, criticism, and ridicule of the cast may be deleted without notice.)\n\n*본 영상은 유료 광고를 포함하고 있습니다. (This video includes sponsored content.)\n\n◼️TEO 공식 SNS \n➡️https://www.youtube.com/@TEO_universe\n➡️https://www.instagram.com/teo.universe/\n➡️https://twitter.com/TEO_universe_"
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT37M51S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "true",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "814838",
+        "likeCount": "18656",
+        "favoriteCount": "0",
+        "commentCount": "1248"
+      }
+    }
+  ],
+  "nextPageToken": "CAUQAA",
+  "pageInfo": {
+    "totalResults": 200,
+    "resultsPerPage": 5
+  }
+}

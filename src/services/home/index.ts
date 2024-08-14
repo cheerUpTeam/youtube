@@ -1,7 +1,11 @@
+import { AxiosPromise } from "axios";
 import { Instance } from "../Instance";
+import popularData from "@datas/popular.json";
 
-const PATH = "korea.json";
+const PATH = "popular.json";
 
-export function getHome() {
+type PopularDataType = typeof popularData;
+
+export function getHome(): Promise<PopularDataType> {
   return Instance.get(PATH).then((data) => data.data);
 }

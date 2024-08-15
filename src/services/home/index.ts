@@ -1,4 +1,3 @@
-import { AxiosPromise } from "axios";
 import { Instance } from "../Instance";
 import popularData from "@datas/popular.json";
 

@@ -14,7 +14,7 @@ function Sidebar({ setToggle }: SidebarProps) {
   }, []);
 
   return (
-    <aside className="flex left-0 fixed h-screen w-full">
+    <aside className="flex left-0 fixed h-screen w-full z-10">
       <div className="w-80 h-full bg-white overflow-auto">
         <img
           className="mx-auto"
@@ -23,13 +23,13 @@ function Sidebar({ setToggle }: SidebarProps) {
         />
 
         <nav className="p-4 flex flex-col gap-2 text-lg">
-          <SidebarLink to="/" icon={<MdHomeFilled />}>
+          <SidebarLink classname="" to="/" icon={<MdHomeFilled />}>
             Home
           </SidebarLink>
-          <SidebarLink to="/" icon={<SiYoutubeshorts />}>
+          <SidebarLink to="" icon={<SiYoutubeshorts />}>
             Shorts
           </SidebarLink>
-          <SidebarLink to="/" icon={<MdOutlineSubscriptions />}>
+          <SidebarLink to="" icon={<MdOutlineSubscriptions />}>
             Subscriptions
           </SidebarLink>
         </nav>

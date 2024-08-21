@@ -15,7 +15,7 @@ interface HeaderProps {
   setToggle: Dispatch<SetStateAction<boolean>>;
 }
 
-function Header({ toggle, setToggle }: HeaderProps) {
+function Header({ setToggle }: HeaderProps) {
   const navigate = useNavigate();
 
   const [inputValue, setInputValue] = useState("");
@@ -23,7 +23,7 @@ function Header({ toggle, setToggle }: HeaderProps) {
   const handleSubmit = useCallback(
     (e: FormEvent) => {
       e.preventDefault();
-      navigate(`results/${inputValue}`);
+      inputValue && navigate(`results/${inputValue}`);
     },
     [inputValue]
   );
@@ -41,9 +41,15 @@ function Header({ toggle, setToggle }: HeaderProps) {
           onClick={onClickMenu}
           aria-label="menu button"
         />
-        <Link to="/" className="flex items-center text-xl gap-1">
-          <FaYoutube />
-          <p className="hidden md:block">YouTube</p>
+        <Link to="/" className="flex items-center gap-1">
+          <FaYoutube className="text-3xl" />
+          <p
+            className="hidden text-2xl
+          font-semibold md:block 
+          "
+          >
+            YouTube
+          </p>
         </Link>
       </div>
       <form
@@ -57,7 +63,10 @@ function Header({ toggle, setToggle }: HeaderProps) {
           onChange={(e) => setInputValue(e.target.value)}
           placeholder="search"
         />
-        <button type="submit" className="rounded-none border-l-gray-200 ">
+        <button
+          type="submit"
+          className="rounded-none border-l-gray-200 outline-none"
+        >
           <CiSearch />
         </button>
       </form>

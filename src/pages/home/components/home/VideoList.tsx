@@ -9,7 +9,7 @@ function VideoList({}: VideoListProps) {
 
   return (
     <section>
-      <ul className="flex items-center flex-col ">
+      <ul className="flex items-center flex-col">
         {homeData?.items?.map(({ snippet, statistics }, idx) => (
           <li className="w-full my-6" key={idx}>
             <img

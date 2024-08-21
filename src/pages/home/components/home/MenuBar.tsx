@@ -6,10 +6,10 @@ function MenuBar({}: MenuBarProps) {
   const { menuData } = useMenuQuery.useMenu();
 
   return (
-    <section>
-      <ul className="flex items-center flex-col ">
+    <section className="w-screen whitespace-nowrap overflow-hidden">
+      <ul className="flex gap-4 translate-x-0">
         {menuData?.items?.map(({ snippet }, idx) => (
-          <li className="w-full my-6" key={idx}>
+          <li className="" key={idx}>
             {snippet.title}
           </li>
         ))}

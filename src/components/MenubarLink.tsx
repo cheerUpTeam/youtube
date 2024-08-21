@@ -1,16 +1,16 @@
 import { PropsWithChildren, ReactNode } from "react";
 import { Link, useLocation } from "react-router-dom";
 
-interface SidebarLinkProps {
+interface MenubarLinkProps {
   to: string;
   icon: ReactNode;
 }
 
-function SidebarLink({
+function MenubarLink({
   children,
   to,
   icon,
-}: PropsWithChildren<SidebarLinkProps>) {
+}: PropsWithChildren<MenubarLinkProps>) {
   const { pathname } = useLocation();
   const isFilled = pathname === to;
 
@@ -26,4 +26,4 @@ function SidebarLink({
   );
 }
 
-export default SidebarLink;
+export default MenubarLink;

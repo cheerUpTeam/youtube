@@ -9,9 +9,9 @@ function VideoList({}: VideoListProps) {
 
   return (
     <section>
-      <ul className="grid gap-4 min-[700px]:grid-cols-2">
+      <ul className="grid gap-4 justify-center min-[700px]:grid-cols-2">
         {homeData?.items?.map(({ snippet, statistics }, idx) => (
-          <li className="w-full my-6" key={idx}>
+          <li className="max-w-[500px] my-6 min-[700px]:w-full" key={idx}>
             <img
               className="w-full rounded-2xl"
               src={snippet.thumbnails.maxres.url}

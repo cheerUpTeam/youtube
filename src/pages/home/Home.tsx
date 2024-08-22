@@ -14,6 +14,8 @@ function Home() {
         <Common />
       </section>
     </section>
+
+    
   );
 }
 

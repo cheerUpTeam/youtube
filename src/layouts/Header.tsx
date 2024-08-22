@@ -44,21 +44,20 @@ function Header({ setToggle }: HeaderProps) {
         <Link to="/" className="flex items-center gap-1">
           <FaYoutube className="text-3xl" />
           <p
-            className="hidden text-2xl
-          font-semibold md:block 
-          "
+            className="text-2xl
+          font-semibold"
           >
             YouTube
           </p>
         </Link>
       </div>
       <form
-        className="flex items-center border rounded-3xl overflow-hidden mx-auto"
+        className="flex flex-1 ml-20 basis-1 items-center border rounded-3xl overflow-hidden mx-auto"
         onSubmit={handleSubmit}
       >
         <input
           type="text"
-          className="outline-none px-3"
+          className="flex-1 basis-1 outline-none px-3"
           value={inputValue}
           onChange={(e) => setInputValue(e.target.value)}
           placeholder="search"

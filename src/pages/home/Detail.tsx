@@ -1,13 +1,15 @@
-import { Link } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 
 interface DetailProps {
   title: string;
 }
 
-function Detail({ title }: DetailProps) {
+function Detail({}: DetailProps) {
+  const { title, detail } = useParams();
   return (
     <div>
-      {title} 페이지입니다. <Link to="/">메인페이지로 이동</Link>
+      {detail} 페이지입니다. <Link to="/">메인페이지로 이동</Link>
+      {title}
     </div>
   );
 }

@@ -1,5 +1,6 @@
 import numberFormat from "@hooks/numberFormat";
 import useHomeQuery from "@services/home/useHomeQuery";
+import { useNavigate } from "react-router-dom";
 import { format } from "timeago.js";
 
 interface VideoListProps {}
@@ -7,11 +8,19 @@ interface VideoListProps {}
 function VideoList({}: VideoListProps) {
   const { homeData } = useHomeQuery.useHome();
 
+  const navigate = useNavigate();
+
   return (
     <section>
-      <ul className="grid gap-4 justify-center min-[700px]:grid-cols-2">
-        {homeData?.items?.map(({ snippet, statistics }, idx) => (
-          <li className="max-w-[500px] my-6 min-[700px]:w-full" key={idx}>
+      <ul className="grid gap-4 justify-center min-[700px]:grid-cols-2 lg:grid-cols-3">
+        {homeData?.items?.map(({ snippet, statistics, etag }, idx) => (
+          <li
+            onClick={() => {
+              navigate(`watch/${etag}`);
+            }}
+            className="max-w-[500px] my-6 min-[700px]:w-full cursor-pointer"
+            key={idx}
+          >
             <img
               className="w-full rounded-2xl"
               src={snippet.thumbnails.maxres.url}

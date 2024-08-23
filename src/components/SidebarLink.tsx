@@ -19,8 +19,8 @@ function SidebarLink({
   return (
     <Link
       to={to}
-      className={`flex items-center p-2 px-3 gap-3 text-black transition-all hover:bg-gray-200/50  hover:text-black
-        ${isFilled && "bg-gray-200/50 font-semibold"} ${classname}`}
+      className={`flex items-center p-2 px-3 gap-3  transition-all hover:bg-gray-200/50
+        ${isFilled && "bg-gray-200/50"} ${classname}`}
     >
       {icon}
       {children}

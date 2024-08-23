@@ -8,7 +8,7 @@ function MenuBar({}: MenuBarProps) {
 
   return (
     <section className="w-full whitespace-nowrap overflow-hidden my-5">
-      <ul className="flex gap-4 translate-x-0  w-[calc(100vw-60px)] overflow-auto">
+      <ul className="flex gap-4 translate-x-0  w-[calc(100vw-60px)] overflow-auto md:w-[calc(100vw-140px)]">
         <SidebarLink
           to=""
           icon

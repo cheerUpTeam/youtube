@@ -1,34 +1,38 @@
 import SidebarLink from "@components/SidebarLink";
 import useMenuQuery from "@services/menu/useMenuQuery";
+import { useMemo } from "react";
 
 interface MenuBarProps {}
 
 function MenuBar({}: MenuBarProps) {
   const { menuData } = useMenuQuery.useMenu();
 
+  const items = useMemo(() => {
+    if (!menuData) return [];
+
+    return [
+      {
+        snippet: {
+          title: "All",
+        },
+      },
+      ...menuData?.items,
+    ];
+  }, [menuData]);
+
   return (
-    <section className="w-full whitespace-nowrap overflow-hidden my-5">
-      <ul className="flex gap-4 translate-x-0  w-[calc(100vw-60px)] overflow-auto md:w-[calc(100vw-140px)]">
+    <nav className="whitespace-nowrap flex gap-4 w-[calc(100vw-20px)] md:w-[calc(100vw-120px)] overflow-auto">
+      {items?.map(({ snippet }, idx) => (
         <SidebarLink
           to=""
           icon
           classname="rounded-lg bg-gray-200/50 font-semibold text-sm hover:brightness-50"
+          key={idx}
         >
-          All
+          {snippet.title}
         </SidebarLink>
-
-        {menuData?.items?.map(({ snippet }, idx) => (
-          <SidebarLink
-            to=""
-            icon
-            classname="rounded-lg bg-gray-200/50 font-semibold text-sm hover:brightness-50"
-            key={idx}
-          >
-            {snippet.title}
-          </SidebarLink>
-        ))}
-      </ul>
-    </section>
+      ))}
+    </nav>
   );
 }
 export default MenuBar;

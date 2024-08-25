@@ -1,241 +1,171 @@
 {
   "kind": "youtube#videoListResponse",
-  "etag": "j1jKJjjF2TuvJrtrqmZaBjdsQAQ",
+  "etag": "kW_19cObQWIA8_XnbNuOXHtFrxc",
   "items": [
     {
       "kind": "youtube#video",
-      "etag": "iccN1QquAqiSK-veHyOsSLOUh2s",
-      "id": "ujiGbJbyaWA",
+      "etag": "Vdk1s1y9RknCItkYUBERahj3l0w",
+      "id": "99lomvB96vE",
       "snippet": {
-        "publishedAt": "2024-08-14T09:27:33Z",
-        "channelId": "UCkh6TlSape86-iHiehXvsmA",
-        "title": "출산특집#7 조리원 브이로그✨ 웃고, 울고, 배우고 인내하는 그 곳! 왜 조리원은 산모만 갈 수 있는 것일까 의문을 남기며.. 난 이제 조리원 갈 일 없다.",
-        "description": "* 이 영상은 스킨푸드 부분 유료광고를 포함 하고 있습니다 *\n\n🥕구매 링크 : https://vo.la/eFFTCe\n   프로모션 내용 : 스킨푸드 공식몰 40% 할인\n   사은품 : 당근 토너, 앰플, 크림, 클렌징폼 샘플 각 1개 & 당근 마스크팩 1매\n\n\n하이염?!\n여러분! 조리원 브이로그입니다 :)\n\n먹고, 자고, 아기 보고, 붓고.. 또 붓고 붓기는 안 빠지고.. 그렇습니다 ㅋㅋㅋ\n지금은 붓기가 훨씬 많이 빠졌는데요, \n편집하면서 보니 저렇게 부어도 되나 싶을정도로 부었네요...?! \n거기다가 팩폭 때려대는 실버라인 입을 좀 꼬매줄 걸 그랬습니다 ㅋㅋㅋ\n(상처받지 않아요 걱정마세요 ㅋㅋㅋㅋ)\n\n저에게 조리원은 배움의 장소여요.\n강빈이때도 나음이때도!\n둘째라고는 하지만 또 다시 처음부터 배우는 기분이었는데 이번에도 잘~ 배우고 나왔습니다 :) \n\n다음편은 이제 네식구가 된 유트루네 모습 보여드릴게요!\n아직까지는 바깥 일까지는 못 하고 있어서 집안에만 있을거여요..! :)\n업로드하는 지금은 벌써 한달이 지났는데요, 이제 슬슬... 나가고 싶긴합니다. \n(사실 오늘은 외식도 했어요!! 흐흣)\n\n그럼 우린 또 다음 영상에서 뵈어요!\n빠이염!!\n\n\n평소 사용/착용 제품 정보 올라가는 Instagram ID \n👉🏻yootrue_info\n\nInstagram ID \n👉🏻yootrue5502\n\n유트루 헤어밴드\n👉🏻http://www.bbokki.co.kr/shop/item.php?it_id=1558073017\n\n채널 No.1 뷰티채널\n👉🏻 https://www.youtube.com/user/yootruebeutyroom/\n\n채널 No.2 생방송 채널\n👉🏻 https://www.youtube.com/c/yootrueonair",
+        "publishedAt": "2024-08-24T16:50:01Z",
+        "channelId": "UCnXNukjRxXGD8aeZGRV-lYg",
+        "title": "'손흥민 멀티골'… 홈 개막전 대승 이끌다! #SPOTIME",
+        "description": "#손흥민 #멀티골 #활약 #토트넘\n\n손흥민이 홈 개막전에서 멀티골을 터트렸습니다\n자세한 내용은 영상으로 확인하시죠~\n\n📺 지금 보고 있는 '이 장면'\nSPOTV NOW에서 시청하실 수 있습니다.\n\nSPOTV NOW ☞ https://www.spotvnow.co.kr/football/",
         "thumbnails": {
           "default": {
-            "url": "https://i.ytimg.com/vi/ujiGbJbyaWA/default.jpg",
+            "url": "https://i.ytimg.com/vi/99lomvB96vE/default.jpg",
             "width": 120,
             "height": 90
           },
           "medium": {
-            "url": "https://i.ytimg.com/vi/ujiGbJbyaWA/mqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/99lomvB96vE/mqdefault.jpg",
             "width": 320,
             "height": 180
           },
           "high": {
-            "url": "https://i.ytimg.com/vi/ujiGbJbyaWA/hqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/99lomvB96vE/hqdefault.jpg",
             "width": 480,
             "height": 360
           },
           "standard": {
-            "url": "https://i.ytimg.com/vi/ujiGbJbyaWA/sddefault.jpg",
+            "url": "https://i.ytimg.com/vi/99lomvB96vE/sddefault.jpg",
             "width": 640,
             "height": 480
           },
           "maxres": {
-            "url": "https://i.ytimg.com/vi/ujiGbJbyaWA/maxresdefault.jpg",
+            "url": "https://i.ytimg.com/vi/99lomvB96vE/maxresdefault.jpg",
             "width": 1280,
             "height": 720
           }
         },
-        "channelTitle": "yoovlog",
+        "channelTitle": "스포타임",
         "tags": [
-          "유트루",
-          "vlog",
-          "한국일상",
-          "유투버",
-          "Collab",
-          "Korean",
-          "먹방",
-          "가족",
-          "뷰티유튜버일상",
-          "mukbang",
-          "커플",
-          "부부",
-          "신혼",
-          "신혼일기",
-          "요리"
-        ],
-        "categoryId": "22",
-        "liveBroadcastContent": "none",
-        "localized": {
-          "title": "출산특집#7 조리원 브이로그✨ 웃고, 울고, 배우고 인내하는 그 곳! 왜 조리원은 산모만 갈 수 있는 것일까 의문을 남기며.. 난 이제 조리원 갈 일 없다.",
-          "description": "* 이 영상은 스킨푸드 부분 유료광고를 포함 하고 있습니다 *\n\n🥕구매 링크 : https://vo.la/eFFTCe\n   프로모션 내용 : 스킨푸드 공식몰 40% 할인\n   사은품 : 당근 토너, 앰플, 크림, 클렌징폼 샘플 각 1개 & 당근 마스크팩 1매\n\n\n하이염?!\n여러분! 조리원 브이로그입니다 :)\n\n먹고, 자고, 아기 보고, 붓고.. 또 붓고 붓기는 안 빠지고.. 그렇습니다 ㅋㅋㅋ\n지금은 붓기가 훨씬 많이 빠졌는데요, \n편집하면서 보니 저렇게 부어도 되나 싶을정도로 부었네요...?! \n거기다가 팩폭 때려대는 실버라인 입을 좀 꼬매줄 걸 그랬습니다 ㅋㅋㅋ\n(상처받지 않아요 걱정마세요 ㅋㅋㅋㅋ)\n\n저에게 조리원은 배움의 장소여요.\n강빈이때도 나음이때도!\n둘째라고는 하지만 또 다시 처음부터 배우는 기분이었는데 이번에도 잘~ 배우고 나왔습니다 :) \n\n다음편은 이제 네식구가 된 유트루네 모습 보여드릴게요!\n아직까지는 바깥 일까지는 못 하고 있어서 집안에만 있을거여요..! :)\n업로드하는 지금은 벌써 한달이 지났는데요, 이제 슬슬... 나가고 싶긴합니다. \n(사실 오늘은 외식도 했어요!! 흐흣)\n\n그럼 우린 또 다음 영상에서 뵈어요!\n빠이염!!\n\n\n평소 사용/착용 제품 정보 올라가는 Instagram ID \n👉🏻yootrue_info\n\nInstagram ID \n👉🏻yootrue5502\n\n유트루 헤어밴드\n👉🏻http://www.bbokki.co.kr/shop/item.php?it_id=1558073017\n\n채널 No.1 뷰티채널\n👉🏻 https://www.youtube.com/user/yootruebeutyroom/\n\n채널 No.2 생방송 채널\n👉🏻 https://www.youtube.com/c/yootrueonair"
-        },
-        "defaultAudioLanguage": "ko"
-      },
-      "contentDetails": {
-        "duration": "PT43M5S",
-        "dimension": "2d",
-        "definition": "hd",
-        "caption": "false",
-        "licensedContent": true,
-        "contentRating": {},
-        "projection": "rectangular"
-      },
-      "statistics": {
-        "viewCount": "294629",
-        "likeCount": "7829",
-        "favoriteCount": "0",
-        "commentCount": "611"
-      }
-    },
-    {
-      "kind": "youtube#video",
-      "etag": "ABADTtI7nQnXkeDCF32aWLiRXvk",
-      "id": "BNws3fmdGeY",
-      "snippet": {
-        "publishedAt": "2024-08-14T09:00:23Z",
-        "channelId": "UCRuSxVu4iqTK5kCh90ntAgA",
-        "title": "직장인 퇴근 할 때 특",
-        "description": "시청해주셔서 감사드립니다♥\n\n[총몇명 스튜디오]\n총감독 : 총몇명 / 부감독 : 임뮨 / 제작진행 : 스노유진 / 스토리보드 : 규리팍 / 원동화 : 예진 / 편집 : 다윙 / 배경 : 이옌 / 기획 :  총몇명, 미미, 센, Belli / 사운드 : 총몇명, Akuku, 임뮨 / 더빙 : Belli, 총몇명",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/BNws3fmdGeY/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/BNws3fmdGeY/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/BNws3fmdGeY/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          },
-          "standard": {
-            "url": "https://i.ytimg.com/vi/BNws3fmdGeY/sddefault.jpg",
-            "width": 640,
-            "height": 480
-          },
-          "maxres": {
-            "url": "https://i.ytimg.com/vi/BNws3fmdGeY/maxresdefault.jpg",
-            "width": 1280,
-            "height": 720
-          }
-        },
-        "channelTitle": "총몇명",
-        "tags": [
-          "총몇명",
-          "회사원",
-          "직장인",
-          "퇴근",
-          "ㅋㅋㅋ",
-          "재밌는만화",
-          "공감"
-        ],
-        "categoryId": "1",
-        "liveBroadcastContent": "none",
-        "defaultLanguage": "ko",
-        "localized": {
-          "title": "직장인 퇴근 할 때 특",
-          "description": "시청해주셔서 감사드립니다♥\n\n[총몇명 스튜디오]\n총감독 : 총몇명 / 부감독 : 임뮨 / 제작진행 : 스노유진 / 스토리보드 : 규리팍 / 원동화 : 예진 / 편집 : 다윙 / 배경 : 이옌 / 기획 :  총몇명, 미미, 센, Belli / 사운드 : 총몇명, Akuku, 임뮨 / 더빙 : Belli, 총몇명"
-        },
-        "defaultAudioLanguage": "ko"
-      },
-      "contentDetails": {
-        "duration": "PT4M43S",
-        "dimension": "2d",
-        "definition": "hd",
-        "caption": "false",
-        "licensedContent": true,
-        "contentRating": {},
-        "projection": "rectangular"
-      },
-      "statistics": {
-        "viewCount": "909216",
-        "likeCount": "19802",
-        "favoriteCount": "0",
-        "commentCount": "1009"
-      }
-    },
-    {
-      "kind": "youtube#video",
-      "etag": "CNvXZJSE6hwiedKrMprwcyvI6PY",
-      "id": "hMtCSjhxNwA",
-      "snippet": {
-        "publishedAt": "2024-08-14T09:47:50Z",
-        "channelId": "UCoHirUZkTs1nOtyJTNbNJ5g",
-        "title": "만칼로리는 이제 쉽다.. 하루만에 15000Kcal 먹어봤습니다 (15,000Kcal challenge)",
-        "description": "구독과 좋아요! 공유 부탁드립니다!\n영상을 통해 많은 도움이 되셨으면 좋겠습니다 \n\n#지피티 #먹방 #만칼로리 #칼로리챌린지 \n\n*비즈니스 문의 E-mail : tjrdbs999@naver.com\n\n* 지피티가 추천하는 닭가슴살 & 다이어트 식단 👉 https://bit.ly/3Lzdz75\n\n(위 링크 클릭 후 회원가입 시 추천인 아이디 \"gpt91\"가 자동으로 입력되며 \n매달마다 진행되는 무료나눔 이벤트 참여 가능합니다)\r\n\r\n회원가입만 하셔도 6종의 할인 및 무료 쿠폰을 드립니다\n\n* 아프리카 TV : http://afreecatv.com/tjrdbs999\n\n* 지피티 인스타 : https://www.instagram.com/tjrdbs91 (인스타에 '지피티' 검색)\n—————————————————————————————————————————————————————————\n채널 내 영상을 무단 도용, 불펌, 2차 편집 및 재업로드를 금지합니다. \ncopyright ⓒ 지피티 All rights reserved.",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/hMtCSjhxNwA/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/hMtCSjhxNwA/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/hMtCSjhxNwA/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          },
-          "standard": {
-            "url": "https://i.ytimg.com/vi/hMtCSjhxNwA/sddefault.jpg",
-            "width": 640,
-            "height": 480
-          },
-          "maxres": {
-            "url": "https://i.ytimg.com/vi/hMtCSjhxNwA/maxresdefault.jpg",
-            "width": 1280,
-            "height": 720
-          }
-        },
-        "channelTitle": "지피티",
-        "tags": [
-          "운동",
-          "헬스",
-          "다이어트",
-          "벌크업",
-          "지피티",
-          "운동유튜버",
-          "먹방",
-          "말왕",
-          "권혁",
-          "피지컬갤러리",
-          "짐종국",
-          "동기부여",
-          "라면",
-          "핏블리",
-          "김종국",
-          "턱걸이",
-          "챌린지",
-          "피지컬100",
-          "피지컬",
-          "쇼미더바디",
-          "보디빌딩",
-          "챗지피티",
-          "GPT",
-          "마선호",
-          "랭킹닭컴",
-          "맛있닭",
-          "잇메이트",
-          "이상호",
-          "김민교",
-          "아프리카TV",
-          "이적생",
-          "이적",
-          "김봉준",
-          "와꾸대장봉준",
-          "감스트"
+          "손흥민",
+          "손흥민 골",
+          "손흥민 득점",
+          "손흥민 활약",
+          "손흥민 이슈",
+          "손흥민 첫 골",
+          "손흥민 토트넘",
+          "손흥민 토트넘 골",
+          "손흥민 토트넘 득점",
+          "손흥민 토트넘 활약",
+          "손흥민 토트넘 이슈",
+          "손흥민 에버튼전",
+          "손흥민 에버튼전 골",
+          "토트넘 에버튼 손흥민",
+          "토트넘 손흥민 에버튼 골",
+          "토트넘 손흥민 에버튼전 골",
+          "토트넘 손흥민 에버튼전 득점",
+          "토트넘 손흥민 활약",
+          "토트넘 손흥민 골",
+          "손흥민 토트넘 에버튼전",
+          "토트넘 에버튼 하이라이트",
+          "토트넘 에버튼 골",
+          "토트넘 에버튼 경기",
+          "토트넘 에버튼 경기 하이라이트",
+          "손흥민 골 하이라이트",
+          "손흥민 득점 하이라이트",
+          "손흥민 토트넘 첫 골",
+          "손흥민 시즌 첫 골",
+          "손흥민 멀티골",
+          "손흥민 추가골",
+          "손흥민 멀티 득점",
+          "손흥민 멀티 골 활약",
+          "손흥민 멀티골 활약",
+          "손흥민 에버튼 멀티골",
+          "손흥민 경기 하이라이트",
+          "손흥민 멀티골 하이라이트",
+          "토트넘 에버튼 경기 다시보기"
         ],
         "categoryId": "17",
         "liveBroadcastContent": "none",
-        "defaultLanguage": "ko",
         "localized": {
-          "title": "만칼로리는 이제 쉽다.. 하루만에 15000Kcal 먹어봤습니다 (15,000Kcal challenge)",
-          "description": "구독과 좋아요! 공유 부탁드립니다!\n영상을 통해 많은 도움이 되셨으면 좋겠습니다 \n\n#지피티 #먹방 #만칼로리 #칼로리챌린지 \n\n*비즈니스 문의 E-mail : tjrdbs999@naver.com\n\n* 지피티가 추천하는 닭가슴살 & 다이어트 식단 👉 https://bit.ly/3Lzdz75\n\n(위 링크 클릭 후 회원가입 시 추천인 아이디 \"gpt91\"가 자동으로 입력되며 \n매달마다 진행되는 무료나눔 이벤트 참여 가능합니다)\r\n\r\n회원가입만 하셔도 6종의 할인 및 무료 쿠폰을 드립니다\n\n* 아프리카 TV : http://afreecatv.com/tjrdbs999\n\n* 지피티 인스타 : https://www.instagram.com/tjrdbs91 (인스타에 '지피티' 검색)\n—————————————————————————————————————————————————————————\n채널 내 영상을 무단 도용, 불펌, 2차 편집 및 재업로드를 금지합니다. \ncopyright ⓒ 지피티 All rights reserved."
+          "title": "'손흥민 멀티골'… 홈 개막전 대승 이끌다! #SPOTIME",
+          "description": "#손흥민 #멀티골 #활약 #토트넘\n\n손흥민이 홈 개막전에서 멀티골을 터트렸습니다\n자세한 내용은 영상으로 확인하시죠~\n\n📺 지금 보고 있는 '이 장면'\nSPOTV NOW에서 시청하실 수 있습니다.\n\nSPOTV NOW ☞ https://www.spotvnow.co.kr/football/"
         },
         "defaultAudioLanguage": "ko"
       },
       "contentDetails": {
-        "duration": "PT24M48S",
+        "duration": "PT4M15S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "regionRestriction": {
+          "allowed": ["KR"]
+        },
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "2629376",
+        "likeCount": "34915",
+        "favoriteCount": "0",
+        "commentCount": "4300"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "PBF8D5vKiBir9IyN42_OpGDXs2Y",
+      "id": "gj8HhHxcDhc",
+      "snippet": {
+        "publishedAt": "2024-08-24T03:00:27Z",
+        "channelId": "UCaxbXRPhdHPXjM-e-F00LVA",
+        "title": "전남친",
+        "description": "#띱 #스케치코미디 #배달\n#푸라닭 #치킨 #띱띱크런치 \n\n🎉 띱 X 띱띱 크런치 드디어 만났띱! 🤤\n\n규남이도 혁준이도 잊지 못한 \n띱띱 크런치의 네 가지 소스 🧡💛🤍💚\n대파크림.. 콘버터.. 트러플마요.. 홍고추마요..! \n\n오늘 야식으로 띱?\n\n하늘셔츠 남 / 윤태용 - https://www.instagram.com/actor_y16/ \n여 / 김규남 - https://www.instagram.com/knamiiiiii/\n회색셔츠 남 / 윤혁준 - https://www.instagram.com/yhjune/",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/gj8HhHxcDhc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/gj8HhHxcDhc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/gj8HhHxcDhc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/gj8HhHxcDhc/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/gj8HhHxcDhc/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "띱 Deep",
+        "tags": [
+          "동영상",
+          "공유",
+          "카메라폰",
+          "동영상폰",
+          "무료",
+          "올리기",
+          "스케치코미디",
+          "개그",
+          "코믹숏무비",
+          "김규남",
+          "윤태용",
+          "윤혁준"
+        ],
+        "categoryId": "23",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "전남친",
+          "description": "#띱 #스케치코미디 #배달\n#푸라닭 #치킨 #띱띱크런치 \n\n🎉 띱 X 띱띱 크런치 드디어 만났띱! 🤤\n\n규남이도 혁준이도 잊지 못한 \n띱띱 크런치의 네 가지 소스 🧡💛🤍💚\n대파크림.. 콘버터.. 트러플마요.. 홍고추마요..! \n\n오늘 야식으로 띱?\n\n하늘셔츠 남 / 윤태용 - https://www.instagram.com/actor_y16/ \n여 / 김규남 - https://www.instagram.com/knamiiiiii/\n회색셔츠 남 / 윤혁준 - https://www.instagram.com/yhjune/"
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT5M13S",
         "dimension": "2d",
         "definition": "hd",
         "caption": "false",
@@ -244,188 +174,741 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "256864",
-        "likeCount": "3523",
+        "viewCount": "872928",
+        "likeCount": "16891",
         "favoriteCount": "0",
-        "commentCount": "740"
+        "commentCount": "813"
       }
     },
     {
       "kind": "youtube#video",
-      "etag": "WRKzNAUTd7nxao2kRCdGpAQWFCo",
-      "id": "K25eYCAXknQ",
+      "etag": "dsTEqPV8NXlEG0nI0qTtSNjwRV4",
+      "id": "4FCqaRJX98I",
       "snippet": {
-        "publishedAt": "2024-08-14T09:00:04Z",
-        "channelId": "UCnXwXrQ8KIBoV8k1T3xGznw",
-        "title": "[MV] LUCY - 빌런 / ENG sub",
-        "description": "LUCY OFFICIAL \n- spotify : https://spoti.fi/3cy2ShA\n- fancafe : http://cafe.daum.net/band.lucy\n- instagram : https://www.instagram.com/band_lucy\n- facebook : https://www.facebook.com/BANDLUCY.mystic\n- twitter : https://twitter.com/BANDLUCY_mystic\n\n#LUCY #루시 #신예찬 #최상엽 #조원상 #신광일",
+        "publishedAt": "2024-08-24T17:12:46Z",
+        "channelId": "UClJspSpzADMROqOW9HLHaoA",
+        "title": "브롤 토크: 스폰지밥과 친구들이 브롤스타즈에?!🍍 [브롤스타즈]",
+        "description": "깊은 저 바닷속 파인애플엔 어떤 브롤러가 살고 있을까요!?\n미리 업데이트 내용을 확인하고 플레이어 아이콘도 받아가세요!\n\n플레이어 아이콘 링크! : https://link.brawlstars.com/kr/?action=voucher&code=4c9ea6d6-10f7-430d-a506-201903512c50\n\n📲 지금 다운로드 받으세요 👉 https://supr.cl/BrawlStarsKR\n\n브롤스타즈 Youtube 🔗 https://www.youtube.com/BrawlStarsKorea/\n브롤스타즈 공식 카페 🔗 https://cafe.naver.com/brawlstars\n브롤스타즈 Kakaotalk 🔗 http://pf.kakao.com/_Wqxdwxj/friend\n브롤스타즈 Instagram 🔗 https://www.instagram.com/brawlstars_korea/ \n브롤스타즈 Tik Tok 🔗 https://www.tiktok.com/@brawlstars_korea\n\n#브롤스타즈 #브롤토크 #업데이트 #스폰지밥 \n#brawlstars #brawltalk #update #spongebob",
         "thumbnails": {
           "default": {
-            "url": "https://i.ytimg.com/vi/K25eYCAXknQ/default.jpg",
+            "url": "https://i.ytimg.com/vi/4FCqaRJX98I/default.jpg",
             "width": 120,
             "height": 90
           },
           "medium": {
-            "url": "https://i.ytimg.com/vi/K25eYCAXknQ/mqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/4FCqaRJX98I/mqdefault.jpg",
             "width": 320,
             "height": 180
           },
           "high": {
-            "url": "https://i.ytimg.com/vi/K25eYCAXknQ/hqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/4FCqaRJX98I/hqdefault.jpg",
             "width": 480,
             "height": 360
           },
           "standard": {
-            "url": "https://i.ytimg.com/vi/K25eYCAXknQ/sddefault.jpg",
+            "url": "https://i.ytimg.com/vi/4FCqaRJX98I/sddefault.jpg",
             "width": 640,
             "height": 480
           },
           "maxres": {
-            "url": "https://i.ytimg.com/vi/K25eYCAXknQ/maxresdefault.jpg",
+            "url": "https://i.ytimg.com/vi/4FCqaRJX98I/maxresdefault.jpg",
             "width": 1280,
             "height": 720
           }
         },
-        "channelTitle": "LUCY ISLAND",
+        "channelTitle": "브롤스타즈",
         "tags": [
-          "Choi Sangyeop",
-          "Shin Yechan",
-          "Cho Wonsang",
-          "Shin Gwang Il",
-          "예찬",
-          "상엽",
-          "원상",
-          "광일",
-          "루시",
-          "빌런",
-          "루시 빌런",
-          "루시 컴백",
-          "루시 프롬",
-          "LUCY 빌런"
+          "브롤스타즈",
+          "슈퍼셀",
+          "브롤",
+          "brawlstars",
+          "supercell",
+          "플랭크톤 대릴",
+          "다람이 제시",
+          "집게사장 틱",
+          "뚱이 버즈",
+          "징징이 모티스",
+          "스폰지밥 엘 프리모",
+          "켄지",
+          "모",
+          "해골 서지",
+          "악당 해골 서지",
+          "안티 히어로 해골 서지",
+          "공포의 기사 드라코",
+          "악의 여왕 맨디",
+          "자물쇠 따개 키트",
+          "악몽의 기사 나니",
+          "다크 캐슬 펄",
+          "악령 포코",
+          "뒤틀린 영혼 다이너마이크",
+          "으스스 거스",
+          "언데드 팸",
+          "달의 수호자 크로우",
+          "달의 수호자 체스터",
+          "달의 수호자 행크",
+          "e스포츠 팽",
+          "용기사 벨",
+          "쿨 헤어 브록",
+          "체더치즈 모",
+          "과일 사무라이 켄지",
+          "빨간 재킷 리코",
+          "엘 벰파이어",
+          "크레이지 콜레트"
         ],
-        "categoryId": "10",
+        "categoryId": "20",
         "liveBroadcastContent": "none",
         "localized": {
-          "title": "[MV] LUCY - 빌런 / ENG sub",
-          "description": "LUCY OFFICIAL \n- spotify : https://spoti.fi/3cy2ShA\n- fancafe : http://cafe.daum.net/band.lucy\n- instagram : https://www.instagram.com/band_lucy\n- facebook : https://www.facebook.com/BANDLUCY.mystic\n- twitter : https://twitter.com/BANDLUCY_mystic\n\n#LUCY #루시 #신예찬 #최상엽 #조원상 #신광일"
+          "title": "브롤 토크: 스폰지밥과 친구들이 브롤스타즈에?!🍍 [브롤스타즈]",
+          "description": "깊은 저 바닷속 파인애플엔 어떤 브롤러가 살고 있을까요!?\n미리 업데이트 내용을 확인하고 플레이어 아이콘도 받아가세요!\n\n플레이어 아이콘 링크! : https://link.brawlstars.com/kr/?action=voucher&code=4c9ea6d6-10f7-430d-a506-201903512c50\n\n📲 지금 다운로드 받으세요 👉 https://supr.cl/BrawlStarsKR\n\n브롤스타즈 Youtube 🔗 https://www.youtube.com/BrawlStarsKorea/\n브롤스타즈 공식 카페 🔗 https://cafe.naver.com/brawlstars\n브롤스타즈 Kakaotalk 🔗 http://pf.kakao.com/_Wqxdwxj/friend\n브롤스타즈 Instagram 🔗 https://www.instagram.com/brawlstars_korea/ \n브롤스타즈 Tik Tok 🔗 https://www.tiktok.com/@brawlstars_korea\n\n#브롤스타즈 #브롤토크 #업데이트 #스폰지밥 \n#brawlstars #brawltalk #update #spongebob"
         },
-        "defaultAudioLanguage": "ko"
+        "defaultAudioLanguage": "en-US"
       },
       "contentDetails": {
-        "duration": "PT4M19S",
+        "duration": "PT8M35S",
         "dimension": "2d",
         "definition": "hd",
         "caption": "true",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "208781",
+        "likeCount": "2779",
+        "favoriteCount": "0",
+        "commentCount": "864"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "qs1ehy_bvSdUd_1lyuIPuLkTZbw",
+      "id": "FDxvciNH6Vo",
+      "snippet": {
+        "publishedAt": "2024-08-24T12:00:19Z",
+        "channelId": "UCL7BB2StsDBYE2kU1a6127g",
+        "title": "한 달 수입이 2000만원인 알래스카 택시 기사의 삶ㅣ 미국3🇺🇸",
+        "description": "#곽준빈의기사식당 #곽준빈 #곽튜브 #미국 #🇺🇸\n\n👥 : 방송국에서 여기 찍을 게 뭐 있다고 왔디야~?\n\n팬의 제보를 받고 알래스카 시골 마을에 등판한 준빈!\n그런데 이 택시도 저 택시도 전부 한국인 기사 뿐...?\n\n\n매주 토요일 저녁 8시 5분\nEBS 1TV, ENA 동시 방송\n 🚕곽준빈의 기사식당",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/FDxvciNH6Vo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/FDxvciNH6Vo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/FDxvciNH6Vo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/FDxvciNH6Vo/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/FDxvciNH6Vo/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "곽준빈의 세계기사식당",
+        "tags": ["곽준빈", "곽튜브", "알래스카", "미국", "곽준빈의기사식당"],
+        "categoryId": "24",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "한 달 수입이 2000만원인 알래스카 택시 기사의 삶ㅣ 미국3🇺🇸",
+          "description": "#곽준빈의기사식당 #곽준빈 #곽튜브 #미국 #🇺🇸\n\n👥 : 방송국에서 여기 찍을 게 뭐 있다고 왔디야~?\n\n팬의 제보를 받고 알래스카 시골 마을에 등판한 준빈!\n그런데 이 택시도 저 택시도 전부 한국인 기사 뿐...?\n\n\n매주 토요일 저녁 8시 5분\nEBS 1TV, ENA 동시 방송\n 🚕곽준빈의 기사식당"
+        }
+      },
+      "contentDetails": {
+        "duration": "PT25M52S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
         "licensedContent": true,
         "contentRating": {},
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "374304",
-        "likeCount": "15669",
+        "viewCount": "622342",
+        "likeCount": "9685",
         "favoriteCount": "0",
-        "commentCount": "1272"
+        "commentCount": "586"
       }
     },
     {
       "kind": "youtube#video",
-      "etag": "fadFJk1fDzNyijCFzEJiF-wIjZU",
-      "id": "69qOnBD9O-8",
+      "etag": "OGo_DptRNlln0XU6GkcJju2-Kso",
+      "id": "o3milC4yn7E",
       "snippet": {
-        "publishedAt": "2024-08-13T09:00:07Z",
-        "channelId": "UC-uIpGINZDL-VIHQQzJW8jw",
-        "title": "[SUB] 이런 게 우정이면 나는 친구 없어…| EP.53 정해인 정소민 김지은 | 살롱드립2",
-        "description": "어때 어때 이런 해인X소민X지은 어때? 😆\n이런 엄친아딸이라면 내가 낳았어야 하는데 (흑흑)\n이런 동네 친구들이라면 내가 이사를 갔어야 하는데 (진짜)\n보기만 해도 흐뭇한 세 사람과의 흥나는 토크 함께해요🎶\n\n[살롱드립2] 매주 화요일 오후 6시 테오 유튜브에서 공개\n#정해인 #정소민 #김지은 #엄마친구아들 #장도연 #살롱드립2 #SalonDrip #TEO #테오\n\n*본 영상과 무관한 내용의 댓글과 출연자에 대한 무분별한 욕설, 비난 및 조롱 등 악의적인 댓글은 무통보 삭제될 수 있습니다. (Hateful comments or indiscriminate swearing, criticism, and ridicule of the cast may be deleted without notice.)\n\n*본 영상은 유료 광고를 포함하고 있습니다. (This video includes sponsored content.)\n\n◼️TEO 공식 SNS \n➡️https://www.youtube.com/@TEO_universe\n➡️https://www.instagram.com/teo.universe/\n➡️https://twitter.com/TEO_universe_",
+        "publishedAt": "2024-08-24T11:00:47Z",
+        "channelId": "UChgOgRNxrtCcVARDQT_c-Zg",
+        "title": "정착할 남자",
+        "description": "#날좋아하는사람 #좋은남자 #연애초반 #썸붕 #센스있는남자\n멤버십 가입 \nhttps://www.youtube.com/channel/UChgOgRNxrtCcVARDQT_c-Zg/join\n\n동시녹음 원경찬 신주훈\nhttps://www.instagram.com/paper_sound_\n\n분장 총괄\n이지혜 \nhttps://www.instagram.com/@2xoxeoxex \nhttps://www.instagram.com/@wit_makeup_official\n\n헤어\n가을 https://www.instagram.com/@wh_autumn\n\n어시스턴트\n보경 https://www.instagram.com/@_floson\n\n광고문의 - ad@shortenm.com\n일반문의 - short_paper@naver.com\n배우지원 - short_audi@naver.com\n배우협업문의 - casting@shortenm.com",
         "thumbnails": {
           "default": {
-            "url": "https://i.ytimg.com/vi/69qOnBD9O-8/default.jpg",
+            "url": "https://i.ytimg.com/vi/o3milC4yn7E/default.jpg",
             "width": 120,
             "height": 90
           },
           "medium": {
-            "url": "https://i.ytimg.com/vi/69qOnBD9O-8/mqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/o3milC4yn7E/mqdefault.jpg",
             "width": 320,
             "height": 180
           },
           "high": {
-            "url": "https://i.ytimg.com/vi/69qOnBD9O-8/hqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/o3milC4yn7E/hqdefault.jpg",
             "width": 480,
             "height": 360
           },
           "standard": {
-            "url": "https://i.ytimg.com/vi/69qOnBD9O-8/sddefault.jpg",
+            "url": "https://i.ytimg.com/vi/o3milC4yn7E/sddefault.jpg",
             "width": 640,
             "height": 480
           },
           "maxres": {
-            "url": "https://i.ytimg.com/vi/69qOnBD9O-8/maxresdefault.jpg",
+            "url": "https://i.ytimg.com/vi/o3milC4yn7E/maxresdefault.jpg",
             "width": 1280,
             "height": 720
           }
         },
-        "channelTitle": "TEO 테오",
+        "channelTitle": "짧은대본 ShortPaper",
         "tags": [
-          "김태호",
-          "teo",
-          "지구마불",
-          "ena",
-          "곽튜브",
-          "빠니보틀",
-          "원지",
-          "세계여행",
-          "예능",
-          "tvN",
-          "댄스가수유랑단",
-          "댄스가수 유랑단",
-          "이효리",
-          "엄정화",
-          "김완선",
-          "보아",
-          "화사",
-          "마마무",
-          "Kpop",
-          "KimWansun",
-          "UhmJunghwa",
-          "LeeHyori",
-          "BoA",
-          "HwaSa",
-          "게스트",
-          "아이돌",
-          "음악",
-          "music",
-          "stage",
-          "idol",
-          "k-pop",
-          "티비엔",
-          "살롱드립",
-          "테오유튜브",
-          "유튜브",
-          "노래",
-          "무대",
-          "star",
-          "super star",
-          "k-dol",
-          "케이팝",
-          "kpop",
-          "k-music",
-          "차정숙",
-          "장도연",
-          "토크쇼",
-          "토크 예능",
-          "salon drip",
-          "테어",
-          "트렌디한조영지"
+          "드라마",
+          "web drama",
+          "남사친",
+          "여사친",
+          "로멘스",
+          "연애",
+          "사랑",
+          "love",
+          "대학교",
+          "대학생활"
         ],
         "categoryId": "24",
         "liveBroadcastContent": "none",
         "localized": {
-          "title": "[SUB] 이런 게 우정이면 나는 친구 없어…| EP.53 정해인 정소민 김지은 | 살롱드립2",
-          "description": "어때 어때 이런 해인X소민X지은 어때? 😆\n이런 엄친아딸이라면 내가 낳았어야 하는데 (흑흑)\n이런 동네 친구들이라면 내가 이사를 갔어야 하는데 (진짜)\n보기만 해도 흐뭇한 세 사람과의 흥나는 토크 함께해요🎶\n\n[살롱드립2] 매주 화요일 오후 6시 테오 유튜브에서 공개\n#정해인 #정소민 #김지은 #엄마친구아들 #장도연 #살롱드립2 #SalonDrip #TEO #테오\n\n*본 영상과 무관한 내용의 댓글과 출연자에 대한 무분별한 욕설, 비난 및 조롱 등 악의적인 댓글은 무통보 삭제될 수 있습니다. (Hateful comments or indiscriminate swearing, criticism, and ridicule of the cast may be deleted without notice.)\n\n*본 영상은 유료 광고를 포함하고 있습니다. (This video includes sponsored content.)\n\n◼️TEO 공식 SNS \n➡️https://www.youtube.com/@TEO_universe\n➡️https://www.instagram.com/teo.universe/\n➡️https://twitter.com/TEO_universe_"
+          "title": "정착할 남자",
+          "description": "#날좋아하는사람 #좋은남자 #연애초반 #썸붕 #센스있는남자\n멤버십 가입 \nhttps://www.youtube.com/channel/UChgOgRNxrtCcVARDQT_c-Zg/join\n\n동시녹음 원경찬 신주훈\nhttps://www.instagram.com/paper_sound_\n\n분장 총괄\n이지혜 \nhttps://www.instagram.com/@2xoxeoxex \nhttps://www.instagram.com/@wit_makeup_official\n\n헤어\n가을 https://www.instagram.com/@wh_autumn\n\n어시스턴트\n보경 https://www.instagram.com/@_floson\n\n광고문의 - ad@shortenm.com\n일반문의 - short_paper@naver.com\n배우지원 - short_audi@naver.com\n배우협업문의 - casting@shortenm.com"
         },
         "defaultAudioLanguage": "ko"
       },
       "contentDetails": {
-        "duration": "PT37M51S",
+        "duration": "PT8M12S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "465122",
+        "likeCount": "5938",
+        "favoriteCount": "0",
+        "commentCount": "439"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "PyLUDwBB8Q2Z5nyiuVDmrpNHxik",
+      "id": "OqjPd8qvMOc",
+      "snippet": {
+        "publishedAt": "2024-08-24T14:30:11Z",
+        "channelId": "UCcOYEm78CpaZQvPE6LtoSeA",
+        "title": "김지상입니다, 죄송합니다.",
+        "description": "이혼이 ‘천직’인 스타 변호사 차은경과 이혼은 ‘처음’인 신입 변호사 한유리의 차갑고 뜨거운 휴먼 법정 오피스 드라마\n#장나라 #남지현 #김준한 #표지훈 #지승현 #한재이\n#SBS금토드라마 #굿파트너 #Goodpartner\n#휴먼 #법정 #오피스 #워맨스 #이혼 #이혼전문변호사\n\nSBS 금토드라마 '굿파트너'\n☞ [금,토] 밤 10시\n\nCopyright Ⓒ SBS. All rights reserved. 무단 전재, 재배포 및 AI학습 이용 금지",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/OqjPd8qvMOc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/OqjPd8qvMOc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/OqjPd8qvMOc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/OqjPd8qvMOc/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/OqjPd8qvMOc/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "SBS ",
+        "tags": [
+          "SBS Entertainment",
+          "SBS새드라마",
+          "금토드라마",
+          "스브스드라마",
+          "SBS새금토드리마",
+          "SBS금토드라마",
+          "스브스금토드라마",
+          "장나라",
+          "남지현",
+          "김준한",
+          "표지훈",
+          "지승현",
+          "한재이",
+          "장나라 드라마",
+          "남지현 드라마",
+          "김준한 드라마",
+          "표지훈 드라마",
+          "피오 드라마",
+          "지승현 드라마",
+          "한재이 드라마",
+          "변호사",
+          "법정",
+          "휴먼",
+          "오피스",
+          "워맨스",
+          "이혼",
+          "이혼 변호사",
+          "스타 변호사",
+          "신입 변호사",
+          "이진희",
+          "굿파트너7회",
+          "막장",
+          "사과"
+        ],
+        "categoryId": "24",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "김지상입니다, 죄송합니다.",
+          "description": "이혼이 ‘천직’인 스타 변호사 차은경과 이혼은 ‘처음’인 신입 변호사 한유리의 차갑고 뜨거운 휴먼 법정 오피스 드라마\n#장나라 #남지현 #김준한 #표지훈 #지승현 #한재이\n#SBS금토드라마 #굿파트너 #Goodpartner\n#휴먼 #법정 #오피스 #워맨스 #이혼 #이혼전문변호사\n\nSBS 금토드라마 '굿파트너'\n☞ [금,토] 밤 10시\n\nCopyright Ⓒ SBS. All rights reserved. 무단 전재, 재배포 및 AI학습 이용 금지"
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT1M12S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "543941",
+        "likeCount": "14602",
+        "favoriteCount": "0",
+        "commentCount": "2276"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "w4bmuzzaT9rMiRWSc_PO-eunphs",
+      "id": "LydbsVqLUMw",
+      "snippet": {
+        "publishedAt": "2024-08-24T13:48:10Z",
+        "channelId": "UC3m0s5XAQydCtbLHc8j1Uog",
+        "title": "[#편스토랑] 이상우❤️김소연 부부 러브하우스 최초 공개⭐️ 오직 소연이를 위한 요리광인 이상우👨‍🍳 | KBS 240823 방송",
+        "description": "#편스토랑 🍽 금요일 저녁 8시 30분 KBS 2TV\n\n예쁜 말과 사랑이 가득~✨\n공장 데이트를 즐기며 신혼집을 꾸민 두 사람🏠\n꽁냥꽁냥 7년째 썸 타는 중…❣️\n\n00:00 신혼집 랜선 집들이 (with 소연)\n04:20 소연을 위한 김밥😘\n11:45 소연이는 얇게~\n\n#신상출시편스토랑 #편스토랑 #요리 #이상우 #김소연\n\nCopyright ⓒ KBS. All rights reserved. 무단 전재, 재배포 및 이용(AI 학습 포함) 금지\n\n\nEdited by 백아영",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/LydbsVqLUMw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/LydbsVqLUMw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/LydbsVqLUMw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/LydbsVqLUMw/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/LydbsVqLUMw/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "KBS 한국방송",
+        "tags": ["KBS", "한국방송공사", "mylovekbs", "예고", "티저"],
+        "categoryId": "24",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "[#편스토랑] 이상우❤️김소연 부부 러브하우스 최초 공개⭐️ 오직 소연이를 위한 요리광인 이상우👨‍🍳 | KBS 240823 방송",
+          "description": "#편스토랑 🍽 금요일 저녁 8시 30분 KBS 2TV\n\n예쁜 말과 사랑이 가득~✨\n공장 데이트를 즐기며 신혼집을 꾸민 두 사람🏠\n꽁냥꽁냥 7년째 썸 타는 중…❣️\n\n00:00 신혼집 랜선 집들이 (with 소연)\n04:20 소연을 위한 김밥😘\n11:45 소연이는 얇게~\n\n#신상출시편스토랑 #편스토랑 #요리 #이상우 #김소연\n\nCopyright ⓒ KBS. All rights reserved. 무단 전재, 재배포 및 이용(AI 학습 포함) 금지\n\n\nEdited by 백아영"
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT12M25S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "467644",
+        "likeCount": "3457",
+        "favoriteCount": "0",
+        "commentCount": "246"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "A1i54WlOxNrG5YIe4QoXtw92BNg",
+      "id": "gw2FsbIgplc",
+      "snippet": {
+        "publishedAt": "2024-08-24T12:28:31Z",
+        "channelId": "UCyNHdF4hMxHUFSsPbY24p6A",
+        "title": "“하루 종일 애니만 본 거예요?” 단과 전문 학원에 가서 공부 허수 판독하고 왔습니다 | 허수판독기 12화",
+        "description": "포기를 모르는 남자 미미미누, 포기하면 혼내는 부엉이 듀오.\n지금 듀오링고로 놀러오세요. https://bit.ly/3GFG5Bp\n\n📪 채널 협업 문의: ad@overlaps.studio\n❓ 채널 기타 문의: https://open.kakao.com/o/sB4cqoGc\n📺 방송 풀버전 채널: https://www.youtube.com/@미미미미미누\n✅인스타그램 :@mimi__minu\n💬네이버 팬카페: https://cafe.naver.com/mimiminu",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/gw2FsbIgplc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/gw2FsbIgplc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/gw2FsbIgplc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/gw2FsbIgplc/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/gw2FsbIgplc/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "미미미누",
+        "tags": [
+          "미미미누",
+          "미미미누 강의",
+          "미미미누 발표",
+          "미미미누 성대모사",
+          "미미미누 리뷰",
+          "미미미누 썰",
+          "미미미누 모의고사",
+          "현역",
+          "재수",
+          "삼수",
+          "줌독서실",
+          "헬스터디",
+          "N수의신",
+          "길거리수학챌린지",
+          "길수챌",
+          "N수",
+          "올어바웃입시",
+          "윤도영",
+          "모의고사 리뷰",
+          "수능"
+        ],
+        "categoryId": "27",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "“하루 종일 애니만 본 거예요?” 단과 전문 학원에 가서 공부 허수 판독하고 왔습니다 | 허수판독기 12화",
+          "description": "포기를 모르는 남자 미미미누, 포기하면 혼내는 부엉이 듀오.\n지금 듀오링고로 놀러오세요. https://bit.ly/3GFG5Bp\n\n📪 채널 협업 문의: ad@overlaps.studio\n❓ 채널 기타 문의: https://open.kakao.com/o/sB4cqoGc\n📺 방송 풀버전 채널: https://www.youtube.com/@미미미미미누\n✅인스타그램 :@mimi__minu\n💬네이버 팬카페: https://cafe.naver.com/mimiminu"
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT21M31S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "378245",
+        "likeCount": "5679",
+        "favoriteCount": "0",
+        "commentCount": "569"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "ERmM6b_N89atYei2-WyrHFXLWJ8",
+      "id": "EJjju4uYcxo",
+      "snippet": {
+        "publishedAt": "2024-08-24T14:10:00Z",
+        "channelId": "UC7lb15P-Hux7A5gBuhCxtuQ",
+        "title": "[#백설공주에게죽음을] 4회 요약본 | ＂보영이 우리가 죽였잖아＂ 사건 당일 기억을 뒤쫓는 변요한과 무천시 살인 사건에 연관된 경찰서장 권해효? MBC240824방송",
+        "description": "#백설공주에게죽음을 #snowwhitemustdie #MBC #Blackout #변요한 #고준 #고보결 #김보라 #미스터리 #스릴러 #추적\n\n\n[백설공주에게 죽음을-Black Out] Snow White Must Die\n매주 금토 밤 9시 50분\n\n시신이 발견되지 않은 미스터리한 살인 사건의 범인으로 지목돼 살인 전과자가 된 청년이 10년 후 그날의 진실을 밝히는 과정을 담은 역추적 범죄 스릴러\n\n* 백설공주에게 죽음을-Black Out 풀버전 (Full version) 보러가기\n✔ WAVVE : https://www.wavve.com/player/vod?programid=M_T60481G&landing=season&page=1\n✔ iMBC: https://program.imbc.com/BlackOut\n\n© MBC&iMBC 무단 전재, 재배포 및 이용(AI학습 포함)금지",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/EJjju4uYcxo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/EJjju4uYcxo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/EJjju4uYcxo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/EJjju4uYcxo/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/EJjju4uYcxo/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "MBCdrama",
+        "tags": [
+          "백설공주에게죽음을",
+          "MBC",
+          "MBC드라마",
+          "MBCdrama",
+          "snowwhitemustdie",
+          "백설공주에게죽음을blackout",
+          "변요한",
+          "고준",
+          "고보결",
+          "김보라",
+          "변영주",
+          "변영주감독",
+          "넬레노이하우스",
+          "추리소설",
+          "추리드라마",
+          "역추적드라마",
+          "스릴러",
+          "미스터리드라마",
+          "배종옥",
+          "조재윤",
+          "권해효",
+          "T60481G",
+          "240824"
+        ],
+        "categoryId": "24",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "[#백설공주에게죽음을] 4회 요약본 | ＂보영이 우리가 죽였잖아＂ 사건 당일 기억을 뒤쫓는 변요한과 무천시 살인 사건에 연관된 경찰서장 권해효? MBC240824방송",
+          "description": "#백설공주에게죽음을 #snowwhitemustdie #MBC #Blackout #변요한 #고준 #고보결 #김보라 #미스터리 #스릴러 #추적\n\n\n[백설공주에게 죽음을-Black Out] Snow White Must Die\n매주 금토 밤 9시 50분\n\n시신이 발견되지 않은 미스터리한 살인 사건의 범인으로 지목돼 살인 전과자가 된 청년이 10년 후 그날의 진실을 밝히는 과정을 담은 역추적 범죄 스릴러\n\n* 백설공주에게 죽음을-Black Out 풀버전 (Full version) 보러가기\n✔ WAVVE : https://www.wavve.com/player/vod?programid=M_T60481G&landing=season&page=1\n✔ iMBC: https://program.imbc.com/BlackOut\n\n© MBC&iMBC 무단 전재, 재배포 및 이용(AI학습 포함)금지"
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT19M23S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "regionRestriction": {
+          "allowed": ["KR"]
+        },
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "96477",
+        "likeCount": "929",
+        "favoriteCount": "0",
+        "commentCount": "142"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "nf68zJBLflFiA2HlpARLOqwTn0U",
+      "id": "-gOSxJwqcU8",
+      "snippet": {
+        "publishedAt": "2024-08-23T07:15:00Z",
+        "channelId": "UC9M8GGVwPqc9ubNruArCNPg",
+        "title": "모든 길의 종착지 // 바이스 요원 트레일러 - 발로란트",
+        "description": "모든 길은 바이스로 끝납니다. 치명적인 전술가이자 금속 조작 능력자인 발로란트의 신규 감시자 요원입니다.\n__\n\n오리지널 음원: Engine Custom/Eternal Music Group의 So Much Blood\n\n이 영상은 Eddy.tv와의 협업으로 Brunch Studio에서 제작되었습니다.\n\n✅발로란트는 라이엇 게임즈에서 만든 5대5 캐릭터 기반 전술 슈팅 게임입니다. 지금 무료로 다운로드 받고 플레이하세요!\n\n👉 발로란트 웹사이트: https://playvalorant.com/ko-kr/\n👉 페이스북: https://www.facebook.com/VALORANTKR/\n👉 인스타그램: https://instagram.com/valorantkr/\n👉 디스코드: https://discord.gg/q96dkc454B\n👉 발로란트 챔피언스 투어: @VCTkr",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/-gOSxJwqcU8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/-gOSxJwqcU8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/-gOSxJwqcU8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/-gOSxJwqcU8/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/-gOSxJwqcU8/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "발로란트",
+        "tags": [
+          "yt:cc=on",
+          "valorant",
+          "발로란트",
+          "Riotgames",
+          "라이엇",
+          "라이엇 게임즈",
+          "총게임",
+          "라이엇 총게임",
+          "FPS",
+          "바이스"
+        ],
+        "categoryId": "20",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "모든 길의 종착지 // 바이스 요원 트레일러 - 발로란트",
+          "description": "모든 길은 바이스로 끝납니다. 치명적인 전술가이자 금속 조작 능력자인 발로란트의 신규 감시자 요원입니다.\n__\n\n오리지널 음원: Engine Custom/Eternal Music Group의 So Much Blood\n\n이 영상은 Eddy.tv와의 협업으로 Brunch Studio에서 제작되었습니다.\n\n✅발로란트는 라이엇 게임즈에서 만든 5대5 캐릭터 기반 전술 슈팅 게임입니다. 지금 무료로 다운로드 받고 플레이하세요!\n\n👉 발로란트 웹사이트: https://playvalorant.com/ko-kr/\n👉 페이스북: https://www.facebook.com/VALORANTKR/\n👉 인스타그램: https://instagram.com/valorantkr/\n👉 디스코드: https://discord.gg/q96dkc454B\n👉 발로란트 챔피언스 투어: @VCTkr"
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT2M20S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "353154",
+        "likeCount": "7910",
+        "favoriteCount": "0",
+        "commentCount": "1400"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "ozwBZN4suZKOK1CU-8tlLEcE6Lw",
+      "id": "EhpDVTWQcrs",
+      "snippet": {
+        "publishedAt": "2024-08-23T08:30:07Z",
+        "channelId": "UCmbGE7Y2ov7pTBuUrkXgtTQ",
+        "title": "(ENG) 어우 배불러 EC.. 컵라면 리뷰 한바가지 한 것 같은데 또 신상이 나왔대?ㅣ삼계탕면 기네스짜장면 마슐랭 뿌빔면 푸팟퐁구리ㅣ신상 컵라면 리뷰ㅣ할명수ep.197",
+        "description": "명-하!\n\n먹방 유튜버를 꿈꾸는 깨스 여러분들\n웬만하면 하지 마세요\n드럽게 배불러요\n\n#박명수 #할명수 #컵라면리뷰 #2탄\n========================================\n\n✌할명수 인스타그램✌ https://www.instagram.com/jtbc_hms/\n\n※ 협찬/비즈니스 문의\nJTBC 마케팅솔루션팀 jtbc.ms@jtbc.co.kr\n\n※본 영상은 상업적 목적으로 영상 및 스틸을 무단 사용할 경우, 법적 조치가 진행될 수 있음을 알려드립니다.\n※ 지나친 욕설 및 인신공격성 댓글은 삭제 조치될 수 있습니다.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/EhpDVTWQcrs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/EhpDVTWQcrs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/EhpDVTWQcrs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/EhpDVTWQcrs/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/EhpDVTWQcrs/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "할명수",
+        "tags": [
+          "JTBCEntertainment",
+          "예능",
+          "JTBC",
+          "명수",
+          "Gpark",
+          "Parkmyungsoo",
+          "Halmyungsoo",
+          "명수옹",
+          "거성",
+          "명수형",
+          "박명수 레전드",
+          "오분순삭",
+          "무한도전",
+          "무도",
+          "무도 레전드",
+          "inside out",
+          "인사이드 아웃 2",
+          "인사이드아웃 리뷰",
+          "침착맨 인사이드 아웃",
+          "기쁨이",
+          "슬픔이",
+          "디즈니",
+          "픽사",
+          "인사이드 아웃 ost",
+          "디즈니 ost",
+          "엘리멘탈",
+          "고민 상담",
+          "무한도전 명대사",
+          "박명수 명언",
+          "중꺾그마",
+          "김용명 루피",
+          "snl",
+          "snl 분장",
+          "코미디 빅리그",
+          "분장",
+          "메이크업",
+          "메이크오버",
+          "월드스타 메이크업",
+          "최신유행 메이크업",
+          "냉면",
+          "비빔냉면",
+          "할명수 투어"
+        ],
+        "categoryId": "24",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "(ENG) 어우 배불러 EC.. 컵라면 리뷰 한바가지 한 것 같은데 또 신상이 나왔대?ㅣ삼계탕면 기네스짜장면 마슐랭 뿌빔면 푸팟퐁구리ㅣ신상 컵라면 리뷰ㅣ할명수ep.197",
+          "description": "명-하!\n\n먹방 유튜버를 꿈꾸는 깨스 여러분들\n웬만하면 하지 마세요\n드럽게 배불러요\n\n#박명수 #할명수 #컵라면리뷰 #2탄\n========================================\n\n✌할명수 인스타그램✌ https://www.instagram.com/jtbc_hms/\n\n※ 협찬/비즈니스 문의\nJTBC 마케팅솔루션팀 jtbc.ms@jtbc.co.kr\n\n※본 영상은 상업적 목적으로 영상 및 스틸을 무단 사용할 경우, 법적 조치가 진행될 수 있음을 알려드립니다.\n※ 지나친 욕설 및 인신공격성 댓글은 삭제 조치될 수 있습니다."
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT18M3S",
         "dimension": "2d",
         "definition": "hd",
         "caption": "true",
@@ -434,16 +917,1226 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "814838",
-        "likeCount": "18656",
+        "viewCount": "507827",
+        "likeCount": "8353",
         "favoriteCount": "0",
-        "commentCount": "1248"
+        "commentCount": "374"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "NS1JyCmQr5x6BQdlDgZ_jxqZh3s",
+      "id": "bsu2N6ifcNI",
+      "snippet": {
+        "publishedAt": "2024-08-23T12:00:50Z",
+        "channelId": "UCoKDi-1KsdYjw6lap4ctXRA",
+        "title": "{출산로그} 제왕절개 회복",
+        "description": "안녕하세요 기유TV입니다 :))\n개그쀼 기유부부 유튜브의 향-연\n\n구독과 좋아요&댓글 부탁드려욜❤︎ \n\n#출산로그 #깡총이 #제왕절개 #회복\n\n안녕하세요! 기유티비 입니다. \n\n더운 여름 잘 보내고 계신가요 \n\n저희는 조리원에서 잘 지내고 있.....이제 곧 집으로 갈....ㅋㅋㅋㅋㅋ\n\n각설하고 오늘의 출산로그는 \n\n은형이의 제왕절개 회복브이로그 입니다! \n\n뜨거웠던 깡총이의 출산과 함꼐 \n\n은형이와 재준이의 병원 입원 기록!\n\n오늘도 재밌게 즐겁게 시청해 주시고요\n\n늘 감사합니다.\n\n재준이 은형이 깡총이 드림\n\n문의 : kiyukangbubu@gmail.com\n\n재준In☆ https://www.instagram.com/Jaejunkang/\n은형In☆ https://www.instagram.com/melong416/",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/bsu2N6ifcNI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/bsu2N6ifcNI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/bsu2N6ifcNI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/bsu2N6ifcNI/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/bsu2N6ifcNI/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "기유TV",
+        "tags": ["강재준", "이은형", "기유", "부부생활", "부부일상"],
+        "categoryId": "22",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "{출산로그} 제왕절개 회복",
+          "description": "안녕하세요 기유TV입니다 :))\n개그쀼 기유부부 유튜브의 향-연\n\n구독과 좋아요&댓글 부탁드려욜❤︎ \n\n#출산로그 #깡총이 #제왕절개 #회복\n\n안녕하세요! 기유티비 입니다. \n\n더운 여름 잘 보내고 계신가요 \n\n저희는 조리원에서 잘 지내고 있.....이제 곧 집으로 갈....ㅋㅋㅋㅋㅋ\n\n각설하고 오늘의 출산로그는 \n\n은형이의 제왕절개 회복브이로그 입니다! \n\n뜨거웠던 깡총이의 출산과 함꼐 \n\n은형이와 재준이의 병원 입원 기록!\n\n오늘도 재밌게 즐겁게 시청해 주시고요\n\n늘 감사합니다.\n\n재준이 은형이 깡총이 드림\n\n문의 : kiyukangbubu@gmail.com\n\n재준In☆ https://www.instagram.com/Jaejunkang/\n은형In☆ https://www.instagram.com/melong416/"
+        }
+      },
+      "contentDetails": {
+        "duration": "PT19M57S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "368832",
+        "likeCount": "7529",
+        "favoriteCount": "0",
+        "commentCount": "701"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "82ExowruLyaTPHpZUH1H0J4lLs4",
+      "id": "ddgtmiUU2Bo",
+      "snippet": {
+        "publishedAt": "2024-08-23T14:10:00Z",
+        "channelId": "UC7lb15P-Hux7A5gBuhCxtuQ",
+        "title": "[#백설공주에게죽음을] 3회 요약본 | ＂여기 있으면 안 되잖아＂ 10년 만에 발견된 그 날의 흔적? MBC240823방송",
+        "description": "#백설공주에게죽음을 #snowwhitemustdie #MBC #Blackout #변요한 #고준 #고보결 #김보라 #미스터리 #스릴러 #추적\n\n\n[백설공주에게 죽음을-Black Out] Snow White Must Die\n매주 금토 밤 9시 50분\n\n시신이 발견되지 않은 미스터리한 살인 사건의 범인으로 지목돼 살인 전과자가 된 청년이 10년 후 그날의 진실을 밝히는 과정을 담은 역추적 범죄 스릴러\n\n* 백설공주에게 죽음을-Black Out 풀버전 (Full version) 보러가기\n✔ WAVVE : https://www.wavve.com/player/vod?programid=M_T60481G&landing=season&page=1\n✔ iMBC: https://program.imbc.com/BlackOut\n\n© MBC&iMBC 무단 전재, 재배포 및 이용(AI학습 포함)금지",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ddgtmiUU2Bo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ddgtmiUU2Bo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ddgtmiUU2Bo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/ddgtmiUU2Bo/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/ddgtmiUU2Bo/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "MBCdrama",
+        "tags": [
+          "백설공주에게죽음을",
+          "MBC",
+          "MBC드라마",
+          "MBCdrama",
+          "snowwhitemustdie",
+          "백설공주에게죽음을blackout",
+          "변요한",
+          "고준",
+          "고보결",
+          "김보라",
+          "변영주",
+          "변영주감독",
+          "넬레노이하우스",
+          "추리소설",
+          "추리드라마",
+          "역추적드라마",
+          "스릴러",
+          "미스터리드라마",
+          "배종옥",
+          "조재윤",
+          "권해효",
+          "240823",
+          "240816",
+          "T60481G"
+        ],
+        "categoryId": "24",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "[#백설공주에게죽음을] 3회 요약본 | ＂여기 있으면 안 되잖아＂ 10년 만에 발견된 그 날의 흔적? MBC240823방송",
+          "description": "#백설공주에게죽음을 #snowwhitemustdie #MBC #Blackout #변요한 #고준 #고보결 #김보라 #미스터리 #스릴러 #추적\n\n\n[백설공주에게 죽음을-Black Out] Snow White Must Die\n매주 금토 밤 9시 50분\n\n시신이 발견되지 않은 미스터리한 살인 사건의 범인으로 지목돼 살인 전과자가 된 청년이 10년 후 그날의 진실을 밝히는 과정을 담은 역추적 범죄 스릴러\n\n* 백설공주에게 죽음을-Black Out 풀버전 (Full version) 보러가기\n✔ WAVVE : https://www.wavve.com/player/vod?programid=M_T60481G&landing=season&page=1\n✔ iMBC: https://program.imbc.com/BlackOut\n\n© MBC&iMBC 무단 전재, 재배포 및 이용(AI학습 포함)금지"
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT19M19S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "regionRestriction": {
+          "allowed": ["KR"]
+        },
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "123860",
+        "likeCount": "903",
+        "favoriteCount": "0",
+        "commentCount": "99"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "YmqJaiWQVLwRH3yuld3omugaQIs",
+      "id": "q-4h-S4_9ZE",
+      "snippet": {
+        "publishedAt": "2024-08-23T09:07:32Z",
+        "channelId": "UCInYIznyqojL4rJc83pSJQA",
+        "title": "[박서진] 20년 전으로 돌아간 우리 아빠",
+        "description": "🎁박승철위그스투디오 이벤트 프로모션🎁\n\n📌8/26(월) ~ 9/30(월) 박서진 X 박승철위그스투디오 프로모션\n✔첫 가발 구매 고객 대상, 10만원 할인 + 재 방문 후 10만원 이상 결제 시 '두피 관리권' 제공\n✔상담만 받아도 위그 3종 제품 중 1종 선물 증정\n\n🏡 지점 안내\n정확한 가발의 금액은 상담 후 안내 가능 하오니 가까운 매장으로 연락하셔서 상담 받아보세요!\n전국 23개 지점 확인▶http://www.pscwig.com/partner_place.php \n박승철위그스투디오 공식홈페이지▶ http://www.pscwig.com/\n\n#박승철위그스투디오 #박승철위그 #박승철가발 #남자가발 #탈모가발",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/q-4h-S4_9ZE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/q-4h-S4_9ZE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/q-4h-S4_9ZE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/q-4h-S4_9ZE/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/q-4h-S4_9ZE/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "박서진",
+        "categoryId": "24",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "[박서진] 20년 전으로 돌아간 우리 아빠",
+          "description": "🎁박승철위그스투디오 이벤트 프로모션🎁\n\n📌8/26(월) ~ 9/30(월) 박서진 X 박승철위그스투디오 프로모션\n✔첫 가발 구매 고객 대상, 10만원 할인 + 재 방문 후 10만원 이상 결제 시 '두피 관리권' 제공\n✔상담만 받아도 위그 3종 제품 중 1종 선물 증정\n\n🏡 지점 안내\n정확한 가발의 금액은 상담 후 안내 가능 하오니 가까운 매장으로 연락하셔서 상담 받아보세요!\n전국 23개 지점 확인▶http://www.pscwig.com/partner_place.php \n박승철위그스투디오 공식홈페이지▶ http://www.pscwig.com/\n\n#박승철위그스투디오 #박승철위그 #박승철가발 #남자가발 #탈모가발"
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT9M9S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "177754",
+        "likeCount": "8842",
+        "favoriteCount": "0",
+        "commentCount": "710"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "f1NoLO2pYEhxW-3wnXSiQgq4GTU",
+      "id": "RY7iY1AFHpY",
+      "snippet": {
+        "publishedAt": "2024-08-23T09:00:23Z",
+        "channelId": "UCg8ZzloDPTrOiGztK0C9txQ",
+        "title": "MEOVV TRAILER ‘GAWON’",
+        "description": "MEOVV TRAILER ‘GAWON’ \n\n\"If I were to choose between the two,\nI already know my answer.”\n\nPre-Save Sign-Up Link\n🔗 https://MEOVV.lnk.to/signup\n\nMore about MEOVV @\nhttps://www.youtube.com/@MEOVV_OFFICIAL\nhttps://www.instagram.com/meovv_official_/\nhttps://www.facebook.com/MEOVV.OFFICIAL/\nhttps://www.tiktok.com/@meovv_official\nhttps://x.com/OFFICIAL_MEOVV\nhttps://weibo.com/u/7941496139\n\n#MEOVV #미야오 #GAWON #가원\n#THEBLACKLABEL #더블랙레이블",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/RY7iY1AFHpY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/RY7iY1AFHpY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/RY7iY1AFHpY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/RY7iY1AFHpY/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/RY7iY1AFHpY/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "THEBLACKLABEL",
+        "tags": [
+          "KPOP",
+          "K-POP",
+          "SOMI",
+          "Jeon Somi",
+          "전소미",
+          "소미",
+          "blackpink",
+          "yg entertainment",
+          "music video",
+          "YG",
+          "pop",
+          "r&b",
+          "music",
+          "what you waiting for",
+          "single",
+          "theblacklabel",
+          "sm entertainment",
+          "jyp entertainment",
+          "bts",
+          "big hit entertainment",
+          "dance",
+          "hip hop",
+          "전소미 덤덤",
+          "XOXO",
+          "THEBLACKLABEL",
+          "MEOW",
+          "CAT",
+          "cat",
+          "meow",
+          "테디걸그룹",
+          "걸그룹",
+          "테디",
+          "teddygirlgroup",
+          "yggirlgroup",
+          "미야오",
+          "MEOVV",
+          "hiphop",
+          "BLACKPINK",
+          "블랙핑크",
+          "4세대 아이돌",
+          "5세대 아이돌",
+          "뉴진스",
+          "newjeans",
+          "IVE",
+          "아이브",
+          "르세라핌",
+          "LE SSERAFIM",
+          "에스파",
+          "aespa",
+          "TEASER",
+          "TEASING",
+          "티징",
+          "ELLA",
+          "ELLA GROSS",
+          "엘라",
+          "엘라그로스",
+          "엘라 그로스",
+          "TRAILER",
+          "트레일러",
+          "가원",
+          "GAWON",
+          "클로이",
+          "Chloe"
+        ],
+        "categoryId": "10",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "MEOVV TRAILER ‘GAWON’",
+          "description": "MEOVV TRAILER ‘GAWON’ \n\n\"If I were to choose between the two,\nI already know my answer.”\n\nPre-Save Sign-Up Link\n🔗 https://MEOVV.lnk.to/signup\n\nMore about MEOVV @\nhttps://www.youtube.com/@MEOVV_OFFICIAL\nhttps://www.instagram.com/meovv_official_/\nhttps://www.facebook.com/MEOVV.OFFICIAL/\nhttps://www.tiktok.com/@meovv_official\nhttps://x.com/OFFICIAL_MEOVV\nhttps://weibo.com/u/7941496139\n\n#MEOVV #미야오 #GAWON #가원\n#THEBLACKLABEL #더블랙레이블"
+        },
+        "defaultAudioLanguage": "en"
+      },
+      "contentDetails": {
+        "duration": "PT1M49S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "602650",
+        "favoriteCount": "0",
+        "commentCount": "2313"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "THPM7zYLJucuBS2ssFXQiDG4Iw0",
+      "id": "G74BrmpT5-k",
+      "snippet": {
+        "publishedAt": "2024-08-22T11:12:51Z",
+        "channelId": "UCWkuoK0HbKfMRA44sTPZ7gg",
+        "title": "얼미부부에서 얼미가족으로",
+        "description": "너무 떨리는 업로드였어요..🤍\n아직도 실감이 나진 않지만..저희가 엄마아빠가 되었습니다🥹\n\n입덧 먹덧 체덧 아주 셋트로 있긴 하지만 그래두\n컨디션은 좋은 편이에오🤍 \n\n이제 아기 생기면 먼 곳으로 여행 못간다고\n스페인 다녀와서 아기준비 하자! 했는데\n스페인 마요르카에서…그만..🤭🤭\n\n그래서 태명은 마요👶🏻에요🤍…\n\n이제 얼미가족으로 인사드릴게요🫶🏻",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/G74BrmpT5-k/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/G74BrmpT5-k/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/G74BrmpT5-k/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/G74BrmpT5-k/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/G74BrmpT5-k/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "얼미부부",
+        "categoryId": "22",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "얼미부부에서 얼미가족으로",
+          "description": "너무 떨리는 업로드였어요..🤍\n아직도 실감이 나진 않지만..저희가 엄마아빠가 되었습니다🥹\n\n입덧 먹덧 체덧 아주 셋트로 있긴 하지만 그래두\n컨디션은 좋은 편이에오🤍 \n\n이제 아기 생기면 먼 곳으로 여행 못간다고\n스페인 다녀와서 아기준비 하자! 했는데\n스페인 마요르카에서…그만..🤭🤭\n\n그래서 태명은 마요👶🏻에요🤍…\n\n이제 얼미가족으로 인사드릴게요🫶🏻"
+        }
+      },
+      "contentDetails": {
+        "duration": "PT14M15S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "537691",
+        "likeCount": "16718",
+        "favoriteCount": "0",
+        "commentCount": "1246"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "P04WZ5UlUDzNatDeU-8qS9zvWEQ",
+      "id": "6s1YRHgytwA",
+      "snippet": {
+        "publishedAt": "2024-08-23T04:00:03Z",
+        "channelId": "UCEf_Bc-KVd7onSeifS3py9g",
+        "title": "NCT DREAM 엔시티 드림 'Rains in Heaven' MV",
+        "description": "NCT DREAM's new single \"Rains in Heaven\" is out!\nListen and download on your favorite platform: https://NCTDREAM.lnk.to/RainsinHeaven\n\n[Tracklist]\n01 Rains in Heaven\n\nNCT DREAM Official\nhttps://www.youtube.com/nctdream\nhttps://www.instagram.com/nct_dream\nhttps://www.tiktok.com/@official_nct\nhttps://twitter.com/NCTsmtown_DREAM\nhttps://www.facebook.com/NCTDREAM.smtown\nhttps://twitter.com/NCT_OFFICIAL_JP\n\n#NCTDREAM #엔시티드림 #RainsinHeaven\n#NCTDREAM_RainsinHeaven\nNCT DREAM 엔시티 드림 'Rains in Heaven' MV ℗ SM Entertainment",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/6s1YRHgytwA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/6s1YRHgytwA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/6s1YRHgytwA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/6s1YRHgytwA/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/6s1YRHgytwA/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "SMTOWN",
+        "tags": [
+          "nct dream",
+          "엔시티 드림",
+          "엔드림",
+          "mark",
+          "renjun",
+          "jaemin",
+          "jeno",
+          "haechan",
+          "chenle",
+          "jisung",
+          "마크",
+          "런쥔",
+          "재민",
+          "제노",
+          "해찬",
+          "천러",
+          "지성",
+          "Rains in Heaven",
+          "레인스 인 헤븐",
+          "music video",
+          "mv",
+          "뮤직비디오",
+          "뮤비",
+          "nct",
+          "엔시티"
+        ],
+        "categoryId": "10",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "NCT DREAM 엔시티 드림 'Rains in Heaven' MV",
+          "description": "NCT DREAM's new single \"Rains in Heaven\" is out!\nListen and download on your favorite platform: https://NCTDREAM.lnk.to/RainsinHeaven\n\n[Tracklist]\n01 Rains in Heaven\n\nNCT DREAM Official\nhttps://www.youtube.com/nctdream\nhttps://www.instagram.com/nct_dream\nhttps://www.tiktok.com/@official_nct\nhttps://twitter.com/NCTsmtown_DREAM\nhttps://www.facebook.com/NCTDREAM.smtown\nhttps://twitter.com/NCT_OFFICIAL_JP\n\n#NCTDREAM #엔시티드림 #RainsinHeaven\n#NCTDREAM_RainsinHeaven\nNCT DREAM 엔시티 드림 'Rains in Heaven' MV ℗ SM Entertainment"
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT4M6S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "true",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "1352726",
+        "likeCount": "209555",
+        "favoriteCount": "0",
+        "commentCount": "13181"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "k8ps49BHvFoPHUfe72KavmylMUk",
+      "id": "0kRK_ePZ0oE",
+      "snippet": {
+        "publishedAt": "2024-08-23T01:00:02Z",
+        "channelId": "UChY4PXxJI0aJYsGT1X6INWA",
+        "title": "[#나혼자산다] 한여름에 에어컨 없이 살고 있는 기안의 집에서 지내게 된 현무🫠 #전현무 #기안84 MBC160902방송",
+        "description": "[나혼산 : 혼자 사는 독신 남녀들의 일상 관찰 카메라📹]\n\n✨유명인들의 싱글 라이프를 관찰하는 관찰 예능✨ \n나혼산은 매주 일요일 오후 6시에 업로드됩니다!\n\n\n방영정보 : 나혼자산다 20160902\n\n\n#올끌 #나혼산 #전현무 #기안84\n\n\n나 혼자 산다 1화부터 FULL버전 다시 보기 →\n▶ WAVVE :\nhttps://www.wavve.com/player/vod?programid=M_1002831100000100000&page=1\n▶ iMBC :\nhttps://m.imbc.com/Vod/VodPlay?progCode=1002831100000100000&broadcastID=1002831100001100000\n\n\nⓒ MBC&iMBC 무단 전재, 재배포 및 이용(AI학습 포함) 금지",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/0kRK_ePZ0oE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/0kRK_ePZ0oE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/0kRK_ePZ0oE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/0kRK_ePZ0oE/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/0kRK_ePZ0oE/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "올끌 (All of MBClassic)",
+        "tags": [
+          "나혼자산다",
+          "나혼산",
+          "나 혼자",
+          "싱글라이프",
+          "1인 가정",
+          "1인 가구",
+          "독신",
+          "1인가족",
+          "자취",
+          "솔로",
+          "생활",
+          "1인가구",
+          "나혼자",
+          "요리",
+          "오분순삭",
+          "옛능",
+          "MBC",
+          "윌슨",
+          "힐링",
+          "스타",
+          "음식",
+          "먹방",
+          "인급동",
+          "인기급상승",
+          "올끌",
+          "엠뚜루마뚜루",
+          "T70346G",
+          "전현무",
+          "팜유",
+          "팜유즈",
+          "현무",
+          "팜유대장",
+          "팜유세미나",
+          "무도",
+          "무한도전",
+          "치맥",
+          "치킨",
+          "후라이드",
+          "양념",
+          "데프콘",
+          "원빈84",
+          "기안84",
+          "기안",
+          "셀프",
+          "미용",
+          "여름",
+          "160902",
+          "에어컨",
+          "선풍기"
+        ],
+        "categoryId": "24",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "[#나혼자산다] 한여름에 에어컨 없이 살고 있는 기안의 집에서 지내게 된 현무🫠 #전현무 #기안84 MBC160902방송",
+          "description": "[나혼산 : 혼자 사는 독신 남녀들의 일상 관찰 카메라📹]\n\n✨유명인들의 싱글 라이프를 관찰하는 관찰 예능✨ \n나혼산은 매주 일요일 오후 6시에 업로드됩니다!\n\n\n방영정보 : 나혼자산다 20160902\n\n\n#올끌 #나혼산 #전현무 #기안84\n\n\n나 혼자 산다 1화부터 FULL버전 다시 보기 →\n▶ WAVVE :\nhttps://www.wavve.com/player/vod?programid=M_1002831100000100000&page=1\n▶ iMBC :\nhttps://m.imbc.com/Vod/VodPlay?progCode=1002831100000100000&broadcastID=1002831100001100000\n\n\nⓒ MBC&iMBC 무단 전재, 재배포 및 이용(AI학습 포함) 금지"
+        },
+        "defaultAudioLanguage": "en"
+      },
+      "contentDetails": {
+        "duration": "PT22M2S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "683126",
+        "likeCount": "2897",
+        "favoriteCount": "0",
+        "commentCount": "225"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "MxPOBWpn5-r1mDjQFlQLdzGG_gQ",
+      "id": "7CCmn5Q9k2w",
+      "snippet": {
+        "publishedAt": "2024-08-23T08:00:08Z",
+        "channelId": "UCGYv3tFX_ksKStPG4N2WAag",
+        "title": "(ENG) 남주와 함께하는 일상❤️",
+        "description": "태어난지 9일 차 된 남주! 밥 먹는 것도, 우는 것도 어쩜 이리도 귀여울까요? 역시 신생아는 사랑입니다...❤️\n\n━━━━━━━━━━━━━━━━━━━━━━━\n🔔매주 월요일 오후 5시 업로드🔔\n💟구독과 좋아요, 댓글, 알림 설정 필수💟\n📮비즈니스및 PPL 문의는 darnchive@gmail.com\n━━━━━━━━━━━━━━━━━━━━━━━\n\n#출산준비 #출산준비물 #출산필수템 #출산 #출산로그 #제대혈\n#남다리맥 #윤남기 #이다은 #리은 #남주 #리기 #맥스 #스윗남기 #둘째 #돌싱글즈 #임산부 #임신 #임밍아웃",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/7CCmn5Q9k2w/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/7CCmn5Q9k2w/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/7CCmn5Q9k2w/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/7CCmn5Q9k2w/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/7CCmn5Q9k2w/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "남다리맥",
+        "tags": [
+          "윤남기 이다은",
+          "윤남기",
+          "이다은",
+          "남다리맥 유튜브",
+          "남다리맥 유튜브 채널",
+          "리은",
+          "윤남기 이다은 결혼",
+          "돌싱글즈 윤남기 이다은",
+          "돌싱글즈 남기다은",
+          "리은 남기",
+          "돌싱글즈 다은 남기",
+          "남기 리은",
+          "vlog",
+          "korea vlog",
+          "daily life vlog",
+          "daily vlogs",
+          "vlogs",
+          "love after divorce",
+          "korean dating show",
+          "love after divorce season 1",
+          "love after divorce season 3",
+          "divorced singles",
+          "namgi and daeun",
+          "finding love after divorce",
+          "love after divorce marriage",
+          "love marriage divorce",
+          "after marriage"
+        ],
+        "categoryId": "22",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "(ENG) 남주와 함께하는 일상❤️",
+          "description": "태어난지 9일 차 된 남주! 밥 먹는 것도, 우는 것도 어쩜 이리도 귀여울까요? 역시 신생아는 사랑입니다...❤️\n\n━━━━━━━━━━━━━━━━━━━━━━━\n🔔매주 월요일 오후 5시 업로드🔔\n💟구독과 좋아요, 댓글, 알림 설정 필수💟\n📮비즈니스및 PPL 문의는 darnchive@gmail.com\n━━━━━━━━━━━━━━━━━━━━━━━\n\n#출산준비 #출산준비물 #출산필수템 #출산 #출산로그 #제대혈\n#남다리맥 #윤남기 #이다은 #리은 #남주 #리기 #맥스 #스윗남기 #둘째 #돌싱글즈 #임산부 #임신 #임밍아웃"
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT8M19S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "true",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "356075",
+        "likeCount": "9413",
+        "favoriteCount": "0",
+        "commentCount": "701"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "FO9hGVEA0lzoSWVfmUlw0r5zMeY",
+      "id": "hfsY3IGk45I",
+      "snippet": {
+        "publishedAt": "2024-08-22T11:02:32Z",
+        "channelId": "UCbD8EppRX3ZwJSou-TVo90A",
+        "title": "'최초 공개' NMIXX - 별별별 (See that?) #엠카운트다운 EP.859 | Mnet 240822 방송",
+        "description": "티빙에서 스트리밍 : https://tving.onelink.me/xHqC/30a78d6f\n\nM COUNTDOWN｜Ep.859\n엔믹스 - 별별별 (NMIXX - See that?)\n\nWorld No.1 K-POP Chart Show M COUNTDOWN\nEvery Thur 6PM(KST) Mnet Live on Air\n매주 목요일 저녁 6시 엠넷 생방송\n\n#티빙에서스트리밍",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/hfsY3IGk45I/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/hfsY3IGk45I/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/hfsY3IGk45I/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/hfsY3IGk45I/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/hfsY3IGk45I/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Mnet K-POP",
+        "tags": [
+          "KPOP",
+          "MCD",
+          "MCOUNTDOWN",
+          "Mnet",
+          "NMIXX",
+          "Seethat",
+          "별별별",
+          "엔믹스",
+          "엠넷",
+          "엠카",
+          "엠카운트다운",
+          "케이팝",
+          "티빙에서스트리밍"
+        ],
+        "categoryId": "20",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "'최초 공개' NMIXX - 별별별 (See that?) #엠카운트다운 EP.859 | Mnet 240822 방송",
+          "description": "티빙에서 스트리밍 : https://tving.onelink.me/xHqC/30a78d6f\n\nM COUNTDOWN｜Ep.859\n엔믹스 - 별별별 (NMIXX - See that?)\n\nWorld No.1 K-POP Chart Show M COUNTDOWN\nEvery Thur 6PM(KST) Mnet Live on Air\n매주 목요일 저녁 6시 엠넷 생방송\n\n#티빙에서스트리밍"
+        },
+        "defaultAudioLanguage": "en-US"
+      },
+      "contentDetails": {
+        "duration": "PT3M39S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "568022",
+        "likeCount": "38623",
+        "favoriteCount": "0",
+        "commentCount": "1479"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "7UdwVGM3CCqdNkWIftCXSq-e_ac",
+      "id": "XgZHDIqVaPo",
+      "snippet": {
+        "publishedAt": "2024-08-23T09:41:34Z",
+        "channelId": "UCvzGYMVP5h9CTV8LdtEQUww",
+        "title": "24시간 동안 100km 달리면 생기는 일",
+        "description": "내년 815런 준비하러 나가야겠어요\n감사합니다. 잘될 거야 대한민국!",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/XgZHDIqVaPo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/XgZHDIqVaPo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/XgZHDIqVaPo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/XgZHDIqVaPo/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/XgZHDIqVaPo/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "션과 함께",
+        "tags": [
+          "션과 함께",
+          "sean",
+          "션 정혜영",
+          "션 러닝",
+          "지누션",
+          "션",
+          "션 마라톤",
+          "션 과옵ㄱ절",
+          "광복절",
+          "광복절 러닝",
+          "815fjs",
+          "815런",
+          "션 815",
+          "815",
+          "해비타트",
+          "한국 해비타트",
+          "봉사런",
+          "봉사 마라톤",
+          "션 24시간",
+          "기부마라톤",
+          "기부 마라톤",
+          "션 광복절",
+          "션 과옥절",
+          "광복절 마라톤",
+          "마라톤",
+          "하루에 100km 뛰기",
+          "울트라 마라톤",
+          "100km 마라톤",
+          "100km",
+          "션 100km",
+          "션 광복전",
+          "러닝하는 연예인",
+          "러닝 연예인",
+          "션 독립유공자",
+          "독립유공자",
+          "독립 유공자 후손",
+          "임시완 마라톤",
+          "임시완",
+          "고한민",
+          "윤세아",
+          "임세미",
+          "김성규",
+          "조원희",
+          "이영표"
+        ],
+        "categoryId": "22",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "24시간 동안 100km 달리면 생기는 일",
+          "description": "내년 815런 준비하러 나가야겠어요\n감사합니다. 잘될 거야 대한민국!"
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT23M37S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "466365",
+        "likeCount": "11661",
+        "favoriteCount": "0",
+        "commentCount": "1157"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "p_lpYQ7fpjLh-yAce4igM66AETc",
+      "id": "Qs2s330JQ6E",
+      "snippet": {
+        "publishedAt": "2024-08-22T10:00:25Z",
+        "channelId": "UCA6Z6cF3orXMmdeCPUH1-NA",
+        "title": "안녕하세요 원숭이입니다",
+        "description": "아바타 시리즈 EP14. 코드 쿤스트 소개팅\n\n#카더정원 #카더가든 #넉살 #코드쿤스트 #코쿤",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Qs2s330JQ6E/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Qs2s330JQ6E/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Qs2s330JQ6E/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/Qs2s330JQ6E/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/Qs2s330JQ6E/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "카더정원",
+        "tags": [
+          "카더정원",
+          "카더가든",
+          "소개팅",
+          "아바타소개팅",
+          "코드쿤스트",
+          "코쿤",
+          "넉살"
+        ],
+        "categoryId": "24",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "안녕하세요 원숭이입니다",
+          "description": "아바타 시리즈 EP14. 코드 쿤스트 소개팅\n\n#카더정원 #카더가든 #넉살 #코드쿤스트 #코쿤"
+        }
+      },
+      "contentDetails": {
+        "duration": "PT18M",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "828399",
+        "likeCount": "13169",
+        "favoriteCount": "0",
+        "commentCount": "1090"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "T1rb55xhm75M2PIj4rM7s1FAvsA",
+      "id": "UBXF4X-UlUw",
+      "snippet": {
+        "publishedAt": "2024-08-24T14:26:25Z",
+        "channelId": "UC6erIDuvbOaAO-OT5rB2Xew",
+        "title": "[10회 예고] “재희가 아빠를 잃고 있다는 거야” 장나라×지승현, 사건 종결 바라는 유나 의견에 흔들리는 이혼 소송↗",
+        "description": "드라마 | 굿파트너 10회\n본방송 | 8월 30일 금요일 밤 10시\n\n#굿파트너 #장나라 #지승현\n\nCopyright ⓒ SBS. All rights reserved.\n무단 전재, 재배포 및 AI학습 이용 금지 \n\n*프로그램 다시 보기\n\n✔ SBS홈페이지:\nhttps://programs.sbs.co.kr/tv/youtube?co=youtube&type=tv&content_id=E471612479&yt_channel=SBSDrama",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/UBXF4X-UlUw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/UBXF4X-UlUw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/UBXF4X-UlUw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/UBXF4X-UlUw/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/UBXF4X-UlUw/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "SBS Drama",
+        "tags": [
+          "sbs",
+          "20240824",
+          "장나라",
+          "지승현",
+          "유나",
+          "굿파트너",
+          "굿파트너10회예고",
+          "굿파트너10회미리보기",
+          "굿파트너예고"
+        ],
+        "categoryId": "24",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "[10회 예고] “재희가 아빠를 잃고 있다는 거야” 장나라×지승현, 사건 종결 바라는 유나 의견에 흔들리는 이혼 소송↗",
+          "description": "드라마 | 굿파트너 10회\n본방송 | 8월 30일 금요일 밤 10시\n\n#굿파트너 #장나라 #지승현\n\nCopyright ⓒ SBS. All rights reserved.\n무단 전재, 재배포 및 AI학습 이용 금지 \n\n*프로그램 다시 보기\n\n✔ SBS홈페이지:\nhttps://programs.sbs.co.kr/tv/youtube?co=youtube&type=tv&content_id=E471612479&yt_channel=SBSDrama"
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT29S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "323599",
+        "likeCount": "1947",
+        "favoriteCount": "0",
+        "commentCount": "114"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "m6B5akzNIzaLJKksP2wYwuwo6lo",
+      "id": "j8wbcYC7tbk",
+      "snippet": {
+        "publishedAt": "2024-08-22T08:59:08Z",
+        "channelId": "UCRmm8763aqO0CoeLCA2jNSA",
+        "title": "여름방학 기념 과팅 다녀왔습니다 (feat. 대학가요제) [연합 MT 1부] | 전과자 ep.64 [EN]",
+        "description": "역대 전과자 출연진 총집합!\n제 1회 전과자 연합 MT!🏖\n\n학과의 자존심을 건 학과대항전부터\nMT 국룰 바베큐 파티까지!🥩\n\nMT 출발 전, 전과자에게 주어진 짝꿍찾기 미션…! \n과연 전과자는 모든 짝꿍을 찾아 MT에 갈 수 있을까?\n\n📚 매일 전과하는 남자 [전과자] \n📚 매주 목요일 오후 6시\n\n🎊 맘스피자 X 전과자 PPL 기념 케이준감자튀김 증정 이벤트 🎊\n🔔 기간 : 8월 22일 ~ 8월 31일 (배민, 요기요, 쿠팡이츠)\n‼ 배달 요청 사항에 \"전과자 보고 주문했어요\"를 꼭 적어주세요 ‼\n\n#ootbSTUDIO #이창섭 #전과자\n\n※ 본 영상과 무관한 내용의 댓글, 혐오를 조장하거나 제3자에 대한 무분별한 욕설,조롱, 비난 등 악의적인 댓글은 무통보 삭제될 수 있습니다",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/j8wbcYC7tbk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/j8wbcYC7tbk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/j8wbcYC7tbk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/j8wbcYC7tbk/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/j8wbcYC7tbk/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "ootb STUDIO",
+        "tags": [
+          "오오디디",
+          "오오티디",
+          "ootd",
+          "oodf",
+          "ootv",
+          "전가자",
+          "전까자",
+          "전꽈",
+          "전과",
+          "정과ㅏㅈ",
+          "이차섭",
+          "이차ㅓ서",
+          "이창썹",
+          "이차저",
+          "ㅎ꾜",
+          "학교",
+          "대학",
+          "대학교",
+          "대핵",
+          "창섭",
+          "전과자",
+          "수능",
+          "대학입시",
+          "수시",
+          "교수님",
+          "대학 교수",
+          "교수",
+          "기말고사",
+          "중간고사",
+          "종강",
+          "24학번",
+          "계절학기",
+          "재수강",
+          "F학점",
+          "여름방학",
+          "방학",
+          "교양",
+          "방학mt",
+          "mt",
+          "대학생mt",
+          "연합mt",
+          "성악과",
+          "약대",
+          "실용음악과",
+          "교대",
+          "아주대",
+          "한양대",
+          "체대",
+          "용인대체대",
+          "용인대",
+          "서울대",
+          "카이스트",
+          "서울대카이스트",
+          "성악과실음과",
+          "우주공학",
+          "학과대결",
+          "한성대",
+          "패디",
+          "패디과",
+          "부경대",
+          "부경대해포츠",
+          "해양스포츠학과",
+          "외대",
+          "한국외대",
+          "지금이순간",
+          "지킬앤하이드",
+          "뮤지컬",
+          "여름여행",
+          "여름휴가",
+          "과팅",
+          "휴가"
+        ],
+        "categoryId": "24",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "여름방학 기념 과팅 다녀왔습니다 (feat. 대학가요제) [연합 MT 1부] | 전과자 ep.64 [EN]",
+          "description": "역대 전과자 출연진 총집합!\n제 1회 전과자 연합 MT!🏖\n\n학과의 자존심을 건 학과대항전부터\nMT 국룰 바베큐 파티까지!🥩\n\nMT 출발 전, 전과자에게 주어진 짝꿍찾기 미션…! \n과연 전과자는 모든 짝꿍을 찾아 MT에 갈 수 있을까?\n\n📚 매일 전과하는 남자 [전과자] \n📚 매주 목요일 오후 6시\n\n🎊 맘스피자 X 전과자 PPL 기념 케이준감자튀김 증정 이벤트 🎊\n🔔 기간 : 8월 22일 ~ 8월 31일 (배민, 요기요, 쿠팡이츠)\n‼ 배달 요청 사항에 \"전과자 보고 주문했어요\"를 꼭 적어주세요 ‼\n\n#ootbSTUDIO #이창섭 #전과자\n\n※ 본 영상과 무관한 내용의 댓글, 혐오를 조장하거나 제3자에 대한 무분별한 욕설,조롱, 비난 등 악의적인 댓글은 무통보 삭제될 수 있습니다"
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT39M5S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "true",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "946271",
+        "likeCount": "21081",
+        "favoriteCount": "0",
+        "commentCount": "1334"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "5skzboSGYpKNJV58vW8YbfgXju4",
+      "id": "5bOhQ05JMd8",
+      "snippet": {
+        "publishedAt": "2024-08-23T06:00:03Z",
+        "channelId": "UCsR09lr9oy0DMv6gtqh-XCw",
+        "title": "[농부왕 기안84] 농부왕의 대결! 벼를 지켜라!",
+        "description": "농부왕 찾으러 이시언이 떴다! 두둥!\n정성껏 키운 소중한 벼를 지키기 위해, 각자의 개성으로 만든 허수아비!\n\n과연 그들의 결과는…\n지금 바로 영상에서 만나보세요!\n\n#기안84 #기안 #농부왕 #이시언 #벼농사 #청년농부 #쌀 \n#쌀소비촉진캠페인 #농촌 #농협",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/5bOhQ05JMd8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/5bOhQ05JMd8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/5bOhQ05JMd8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/5bOhQ05JMd8/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/5bOhQ05JMd8/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "농협 공식 유튜브 채널",
+        "tags": ["농협", "농협방송", "NH", "NH농협", "농협중앙회"],
+        "categoryId": "24",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "[농부왕 기안84] 농부왕의 대결! 벼를 지켜라!",
+          "description": "농부왕 찾으러 이시언이 떴다! 두둥!\n정성껏 키운 소중한 벼를 지키기 위해, 각자의 개성으로 만든 허수아비!\n\n과연 그들의 결과는…\n지금 바로 영상에서 만나보세요!\n\n#기안84 #기안 #농부왕 #이시언 #벼농사 #청년농부 #쌀 \n#쌀소비촉진캠페인 #농촌 #농협"
+        }
+      },
+      "contentDetails": {
+        "duration": "PT26M19S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "212071",
+        "likeCount": "5456",
+        "favoriteCount": "0",
+        "commentCount": "360"
       }
     }
   ],
-  "nextPageToken": "CAUQAA",
+  "nextPageToken": "CBkQAA",
   "pageInfo": {
     "totalResults": 200,
-    "resultsPerPage": 5
+    "resultsPerPage": 25
   }
 }

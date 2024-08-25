@@ -10,7 +10,7 @@ export default {
   children: [
     { index: true, element: <Home /> },
     { path: "results/:keyword", element: <Results /> },
-    { path: "watch/:title", element: <Detail detail="디테일" /> },
+    { path: "watch/:id", element: <Detail /> },
   ],
   errorElement: <ErrorLayout />,
 };

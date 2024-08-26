@@ -1,7 +1,7 @@
-import numberFormat from "@hooks/numberFormat";
+import compactNumber from "@lib/numberFormat";
 import useHomeQuery from "@services/home/useHomeQuery";
+import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { format } from "timeago.js";
 
 interface VideoListProps {}
 
@@ -9,6 +9,8 @@ function VideoList({}: VideoListProps) {
   const { homeData } = useHomeQuery.useHome();
 
   const navigate = useNavigate();
+
+  const [videoData, setVideoData] = useState({});
 
   return (
     <section>
@@ -33,9 +35,11 @@ function VideoList({}: VideoListProps) {
                   {snippet.localized.title}
                 </h2>
                 <p>{snippet.channelTitle}</p>
-                <p>{`${numberFormat({
-                  num: parseInt(statistics.viewCount, 10),
-                })} views • ${format(snippet.publishedAt)}`}</p>
+                <p>{`조회수 ${compactNumber(
+                  parseInt(statistics.viewCount, 10)
+                )}회 • 
+              
+                `}</p>
               </figcaption>
             </figure>
           </li>

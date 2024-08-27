@@ -9,4 +9,4 @@
 get('videos') -> list data
 get('video/iccN1QquAqiSK-veHyOsSLOUh2s') -> detail
 
-- 로그인
+- 로그인(@react-oauth/google)

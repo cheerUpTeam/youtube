@@ -28,17 +28,17 @@ function VideoList({}: VideoListProps) {
   // }, [filter]);
 
   useEffect(() => {
-    // filter가 "0"이거나 homeData가 없는 경우 모든 데이터를 사용
     if (filter === "0") {
       setVideoData(homeData);
     } else {
       const filteredData = {
         ...homeData,
-        items: homeData.items.filter(
+        items: homeData!.items.filter(
           (data) => data.snippet.channelId === filter
         ),
       };
       setVideoData(filteredData);
+      console.log(filteredData);
     }
   }, [filter, homeData]);
 

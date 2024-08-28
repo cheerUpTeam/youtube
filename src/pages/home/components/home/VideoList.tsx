@@ -1,7 +1,6 @@
 import { locale } from "@lib/locale";
 import compactNumber from "@lib/numberFormat";
 import useHomeQuery from "@services/home/useHomeQuery";
-import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { useFilterStore } from "../../../../store/filterStore";
 
@@ -13,39 +12,18 @@ function VideoList({}: VideoListProps) {
 
   const navigate = useNavigate();
 
-  const [videoData, setVideoData] = useState({});
-  // console.log(homeData?.items);
-
-  // useEffect(() => {
-  //   const filterData
-
-  //   = homeData?.items.find(
-  //     (data) => data.snippet.categoryId === filter
-  //   );
-  //   console.log(filterData);
-  //   if (filter === "0") return setVideoData(homeData);
-  //   else return setVideoData(filterData);
-  // }, [filter]);
-
-  useEffect(() => {
-    if (filter === "0") {
-      setVideoData(homeData);
-    } else {
-      const filteredData = {
-        ...homeData,
-        items: homeData!.items.filter(
-          (data) => data.snippet.channelId === filter
-        ),
-      };
-      setVideoData(filteredData);
-      console.log(filteredData);
-    }
-  }, [filter, homeData]);
+  const filterData = {
+    ...homeData,
+    items:
+      filter !== "0"
+        ? homeData?.items.filter(({ snippet }) => snippet.categoryId === filter)
+        : homeData?.items,
+  };
 
   return (
     <section>
       <ul className="grid gap-4 justify-center min-[700px]:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5">
-        {videoData?.items?.map(({ snippet, statistics, id }, idx) => (
+        {filterData?.items?.map(({ snippet, statistics, id }, idx) => (
           <li
             onClick={() => {
               navigate(`watch/${id}`);

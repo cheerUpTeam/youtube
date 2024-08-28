@@ -25,7 +25,7 @@ function Detail({}: DetailProps) {
   const { snippet, statistics } = detailData;
 
   return (
-    <section>
+    <section className="w-full">
       <iframe
         className="w-full aspect-video"
         id="player"

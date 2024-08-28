@@ -1,6 +1,7 @@
+import { useGoogleLogin } from "@react-oauth/google";
 import { Dispatch, SetStateAction, useCallback, useState } from "react";
 import { CiMenuBurger, CiSearch } from "react-icons/ci";
-import { FaYoutube, FaMicrophone } from "react-icons/fa";
+import { FaMicrophone, FaYoutube } from "react-icons/fa";
 import { HiOutlineDotsVertical } from "react-icons/hi";
 import { VscAccount } from "react-icons/vsc";
 import { Link, useNavigate } from "react-router-dom";
@@ -22,6 +23,10 @@ function Header({ setToggle }: HeaderProps) {
     e.preventDefault();
     navigate(`/results/${inputValue}`);
   };
+
+  const login = useGoogleLogin({
+    onSuccess: (tokenResponse) => console.log(tokenResponse),
+  });
 
   return (
     <header className="flex [&_*]:flex [&_*]:items-center [&>*]:gap-5 justify-between my-2 px-5">
@@ -64,8 +69,12 @@ function Header({ setToggle }: HeaderProps) {
 
       <nav>
         <HiOutlineDotsVertical className="size-6" />
-        <p className="border border-gray-300 rounded-3xl px-3 py-1">
-          <VscAccount className="size-5 mr-2" />
+        <p
+          onClick={() => login()}
+          className="border border-gray-300 rounded-3xl px-3 py-1 break-keep
+          cursor-pointer text-[#065fd4] hover:bg-[#def1ff]"
+        >
+          <VscAccount className="fill-[#065fd4] size-5 mr-2 " />
           로그인
         </p>
       </nav>

@@ -9,8 +9,7 @@
   font-weight: 400;
   letter-spacing: -0.02rem;
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: #ffffff;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -39,9 +38,15 @@ button {
   transition: all 0.25s;
 }
 
-@media (prefers-color-scheme: light) {
+@media (prefers-color-scheme: ) {
   :root {
-    color: #213547;
+    color: #ffffff;
+    background-color: #282727;
+  }
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    color: #020202;
     background-color: #ffffff;
   }
 }

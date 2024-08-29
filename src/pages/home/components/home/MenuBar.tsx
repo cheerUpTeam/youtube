@@ -39,7 +39,7 @@ function MenuBar({}: MenuBarProps) {
         return (
           <li
             key={idx}
-            className="rounded-lg bg-gray-200/50 font-semibold text-sm hover:brightness-50 p-1 dark:bg-red-500"
+            className="rounded-lg bg-gray-200/50 font-semibold text-sm hover:brightness-50 p-1"
             onClick={() => onClickMenu(id)}
           >
             {snippet.title}

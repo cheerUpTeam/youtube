@@ -1,12 +1,11 @@
-import { Dispatch, SetStateAction, useCallback, useEffect } from "react";
-import { Link } from "react-router-dom";
+import SidebarLink from "@components/SidebarLink";
+import { Dispatch, SetStateAction, useCallback } from "react";
 import {
   MdHomeFilled,
-  MdOutlineSubscriptions,
-  MdOutlineDarkMode,
+  MdOutlineSubscriptions
 } from "react-icons/md";
 import { SiYoutubeshorts } from "react-icons/si";
-import SidebarLink from "@components/SidebarLink";
+import { Link } from "react-router-dom";
 import useDarkStore from "../store/darkStroe";
 
 interface SidebarProps {
@@ -14,10 +13,25 @@ interface SidebarProps {
 }
 
 function Sidebar({ setToggle }: SidebarProps) {
+  const { toggleDarkMode, darkMode } = useDarkStore();
+
   const onClickMenu = useCallback(() => {
     setToggle((toggle) => !toggle);
   }, []);
-  const { toggleDarkMode, darkMode } = useDarkStore();
+
+const handleToggleDarkMode = () => {
+    // 상태 토글
+    toggleDarkMode();
+
+    // 로컬 스토리지 및 문서 클래스 업데이트
+    if (localStorage.theme === "dark" || (!("theme" in localStorage) && window.matchMedia("(prefers-color-scheme: dark)").matches)) {
+      localStorage.theme = "light";
+      document.documentElement.classList.remove("dark");
+    } else {
+      localStorage.theme = "dark";
+      document.documentElement.classList.add("dark");
+    }
+  };
 
   return (
     <aside className="flex left-0 fixed h-screen w-full z-10">
@@ -33,31 +47,10 @@ function Sidebar({ setToggle }: SidebarProps) {
         /> */}
 
         <button
-          onClick={() => {
-            if (
-              localStorage.theme === "dark" ||
-              (!("theme" in localStorage) &&
-                window.matchMedia("(prefers-color-scheme: dark)").matches)
-            ) {
-              document.documentElement.classList.add("dark");
-            } else {
-              document.documentElement.classList.remove("dark");
-            }
-
-            console.log(localStorage.theme);
-            if (localStorage.theme === "light") localStorage.theme = "dark";
-            else localStorage.theme = "light";
-
-            // Whenever the user explicitly chooses dark mode
-            // localStorage.theme = "dark";
-
-            // Whenever the user explicitly chooses to respect the OS preference
-            // localStorage.removeItem("theme");
-            // console.log(localStorage.theme);
-          }}
+          onClick={handleToggleDarkMode}
           className=""
         >
-          {darkMode ? "Dark Mode" : "Light Mode"}
+          {darkMode ? "Light Mode" : "Dark Mode"}
         </button>
 
         <nav className="p-4 flex flex-col gap-2 text-lg">

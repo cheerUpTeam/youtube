@@ -10,7 +10,6 @@ function CommonLayout() {
   const isDetail = pathname.includes("watch");
 
   useEffect(() => {
-    console.log(1111);
     if (localStorage.theme === "dark") {
       document.documentElement.classList.add("dark");
     } else {

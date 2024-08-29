@@ -2,9 +2,7 @@ import useMenuQuery from "@services/menu/useMenuQuery";
 import { useEffect, useMemo, useState } from "react";
 import { useFilterStore } from "../../../../store/filterStore";
 
-interface MenuBarProps {}
-
-function MenuBar({}: MenuBarProps) {
+function MenuBar() {
   const { menuData } = useMenuQuery.useMenu();
   const [filterMenu, setFilterMenu] = useState("");
   const { onClickFilter } = useFilterStore();
@@ -19,7 +17,7 @@ function MenuBar({}: MenuBarProps) {
           title: "All",
         },
       },
-      ...menuData?.items,
+      ...menuData.items,
     ];
   }, [menuData]);
 

@@ -3,20 +3,20 @@
 @tailwind utilities;
 
 :root {
-  color: #0f0f0f;
-  font-family: Arial, Helvetica, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-  letter-spacing: -0.02rem;
-  color-scheme: light dark;
+  --basic-01: #fff;
+}
+
+:root.dark {
+  --basic-01: #202b38;
+}
+
+body {
   background-color: #ffffff;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-body {
+  font-family: Arial, Helvetica, sans-serif;
   margin: 0;
   min-width: 320px;
   min-height: 100vh;
@@ -38,12 +38,8 @@ button {
   transition: all 0.25s;
 }
 
-@media (prefers-color-scheme: ) {
-  :root {
-    color: #ffffff;
-    background-color: #282727;
-  }
-}
+/* 
+
 @media (prefers-color-scheme: dark) {
   :root {
     color: #020202;
@@ -55,4 +51,4 @@ button {
   .flex-center {
     @apply flex items-center justify-center;
   }
-}
+} */

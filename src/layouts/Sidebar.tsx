@@ -1,9 +1,6 @@
 import SidebarLink from "@components/SidebarLink";
 import { Dispatch, SetStateAction, useCallback } from "react";
-import {
-  MdHomeFilled,
-  MdOutlineSubscriptions
-} from "react-icons/md";
+import { MdHomeFilled, MdOutlineSubscriptions } from "react-icons/md";
 import { SiYoutubeshorts } from "react-icons/si";
 import { Link } from "react-router-dom";
 import useDarkStore from "../store/darkStroe";
@@ -19,19 +16,23 @@ function Sidebar({ setToggle }: SidebarProps) {
     setToggle((toggle) => !toggle);
   }, []);
 
-const handleToggleDarkMode = () => {
+  const handleToggleDarkMode = useCallback(() => {
     // 상태 토글
     toggleDarkMode();
 
     // 로컬 스토리지 및 문서 클래스 업데이트
-    if (localStorage.theme === "dark" || (!("theme" in localStorage) && window.matchMedia("(prefers-color-scheme: dark)").matches)) {
+    if (
+      localStorage.theme === "dark" ||
+      (!("theme" in localStorage) &&
+        window.matchMedia("(prefers-color-scheme: dark)").matches)
+    ) {
       localStorage.theme = "light";
       document.documentElement.classList.remove("dark");
     } else {
       localStorage.theme = "dark";
       document.documentElement.classList.add("dark");
     }
-  };
+  }, [localStorage]);
 
   return (
     <aside className="flex left-0 fixed h-screen w-full z-10">
@@ -46,21 +47,18 @@ const handleToggleDarkMode = () => {
           className="size-6 cursor-pointer hover:scale-110 dark:fill-white"
         /> */}
 
-        <button
-          onClick={handleToggleDarkMode}
-          className=""
-        >
+        <button onClick={handleToggleDarkMode}>
           {darkMode ? "Light Mode" : "Dark Mode"}
         </button>
 
         <nav className="p-4 flex flex-col gap-2 text-lg">
-          <SidebarLink classname="" to="/" icon={<MdHomeFilled />}>
+          <SidebarLink to="/" icon={<MdHomeFilled />}>
             Home
           </SidebarLink>
-          <SidebarLink to="" icon={<SiYoutubeshorts />}>
+          <SidebarLink to="#" icon={<SiYoutubeshorts />}>
             Shorts
           </SidebarLink>
-          <SidebarLink to="" icon={<MdOutlineSubscriptions />}>
+          <SidebarLink to="#" icon={<MdOutlineSubscriptions />}>
             Subscriptions
           </SidebarLink>
         </nav>

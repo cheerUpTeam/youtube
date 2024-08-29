@@ -4,14 +4,14 @@ import { Link, useLocation } from "react-router-dom";
 interface SidebarLinkProps {
   to: string;
   icon: ReactNode;
-  classname: string;
+  className?: string;
 }
 
 function SidebarLink({
   children,
   to,
   icon,
-  classname,
+  className,
 }: PropsWithChildren<SidebarLinkProps>) {
   const { pathname } = useLocation();
   const isFilled = pathname === to;
@@ -20,7 +20,7 @@ function SidebarLink({
     <Link
       to={to}
       className={`flex items-center p-2 px-3 gap-3  transition-all hover:bg-gray-200/50
-        ${isFilled && "bg-gray-200/50"} ${classname}`}
+        ${isFilled && "bg-gray-200/50"} ${className}`}
     >
       {icon}
       {children}

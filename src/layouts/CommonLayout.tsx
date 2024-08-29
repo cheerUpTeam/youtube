@@ -9,20 +9,20 @@ function CommonLayout() {
   const [toggle, setToggle] = useState(false);
   const isDetail = pathname.includes("watch");
 
-  // useEffect(() => {
-  //   if (localStorage.theme === "dark") {
-  //     document.documentElement.classList.add("dark");
-  //   } else {
-  //     document.documentElement.classList.remove("dark");
-  //   }
-  // }, [localStorage]);
+  useEffect(() => {
+    if (localStorage.theme === "dark") {
+      document.documentElement.classList.add("dark");
+    } else {
+      document.documentElement.classList.remove("dark");
+    }
+  }, [localStorage]);
 
   console.log(document.documentElement.classList);
-  
-  console.log("123",matchMedia)
+
+  console.log("123", matchMedia);
 
   return (
-    <div className={`flex flex-col relative h-screen`}>
+    <div className={`bg-basic-01 flex flex-col relative h-screen`}>
       {toggle && <Sidebar setToggle={setToggle} />}
 
       <Header toggle={toggle} setToggle={setToggle} />

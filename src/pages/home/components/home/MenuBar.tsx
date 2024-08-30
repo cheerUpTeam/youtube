@@ -4,7 +4,7 @@ import { useFilterStore } from "../../../../store/filterStore";
 
 function MenuBar() {
   const { menuData } = useMenuQuery.useMenu();
-  const [filterMenu, setFilterMenu] = useState("");
+  const [filterMenu, setFilterMenu] = useState("0");
   const { onClickFilter } = useFilterStore();
 
   const items = useMemo(() => {
@@ -32,12 +32,15 @@ function MenuBar() {
   };
 
   return (
-    <ul className="whitespace-nowrap flex gap-4 w-[calc(100vw-20px)] md:w-[calc(100vw-120px)] overflow-auto">
+    <ul className="whitespace-nowrap flex gap-4 ml-5 w-[calc(100vw-40px)] md:w-[calc(100vw-110px)] overflow-auto">
       {items?.map(({ snippet, id }, idx) => {
+        const isSelected = filterMenu === id;
         return (
           <li
             key={idx}
-            className="rounded-lg bg-gray-200/50 font-semibold text-sm hover:brightness-50 p-1"
+            className={`rounded-lg bg-gray-200/50 font-semibold text-sm hover:brightness-50 p-1 ${
+              isSelected ? "bg-black text-white" : "bg-gray-200/50"
+            }`}
             onClick={() => onClickMenu(id)}
           >
             {snippet.title}

@@ -21,8 +21,8 @@ function VideoList({}: VideoListProps) {
   };
 
   return (
-    <section>
-      <ul className="grid gap-4 justify-center min-[700px]:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5">
+    <section className="">
+      <ul className="grid gap-4 mx-5 justify-center sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5">
         {filterData?.items?.map(({ snippet, statistics, id }, idx) => (
           <li
             onClick={() => {

@@ -10,21 +10,21 @@ function Sidebar({}: SidebarProps) {
       <nav className="flex flex-col gap-6 pt-10 text-2xl">
         <SidebarLink
           to=""
-          classname="flex-col p-0 px-0 gap-0"
+          className=" flex-col p-0 px-0 gap-0"
           icon={<MdHomeFilled />}
         >
-          <p className="text-[10px] leading-3"> Home</p>
+          <p className="text-[10px] leading-3"> Homehello</p>
         </SidebarLink>
         <SidebarLink
           to=""
-          classname="flex-col p-0 px-0 gap-0"
+          className="flex-col p-0 px-0 gap-0"
           icon={<SiYoutubeshorts />}
         >
           <p className="text-[10px] leading-3"> Shorts</p>
         </SidebarLink>
         <SidebarLink
           to=""
-          classname="flex-col p-0 px-0 gap-0"
+          className="flex-col p-0 px-0 gap-0"
           icon={<MdOutlineSubscriptions />}
         >
           <p className="text-[10px] leading-3"> Subscriptions</p>

@@ -1,4 +1,3 @@
-import { useEffect } from "react";
 import MenuBar from "./components/home/MenuBar";
 import VideoList from "./components/home/VideoList";
 

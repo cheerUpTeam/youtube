@@ -1,10 +1,13 @@
+import MdHeader from "@components/header/MdHeader";
 import { useGoogleLogin } from "@react-oauth/google";
 import { Dispatch, SetStateAction, useCallback, useState } from "react";
-import { CiMenuBurger, CiSearch } from "react-icons/ci";
-import { FaMicrophone, FaYoutube } from "react-icons/fa";
-import { HiOutlineDotsVertical } from "react-icons/hi";
+import { CiMenuBurger } from "react-icons/ci";
+import { FaYoutube } from "react-icons/fa";
 import { VscAccount } from "react-icons/vsc";
+import { HiOutlineDotsVertical } from "react-icons/hi";
+
 import { Link, useNavigate } from "react-router-dom";
+import SmHeader from "@components/header/SmHeader";
 
 interface HeaderProps {
   toggle: boolean;
@@ -29,14 +32,14 @@ function Header({ setToggle }: HeaderProps) {
   });
 
   return (
-    <header className="flex [&_*]:flex [&_*]:items-center [&>*]:gap-5 justify-between my-2 px-5">
-      <div>
+    <header className="flex-center my-2 px-5 ">
+      <div className="flex-center gap-2">
         <CiMenuBurger
           className="size-6 cursor-pointer transition-all hover:fill-brand"
           onClick={onClickMenu}
           aria-label="menu button"
         />
-        <Link to="/" className="gap-1">
+        <Link to="/" className="flex-center gap-1">
           <FaYoutube className="text-3xl" />
           <p
             className="text-2xl
@@ -47,31 +50,14 @@ function Header({ setToggle }: HeaderProps) {
         </Link>
       </div>
 
-      <nav>
-        <form
-          onSubmit={hadleSubmit}
-          className="border border-gray-300 rounded-3xl overflow-hidden bg-gray-100"
-        >
-          <input
-            className="rounded-l-3xl p-2 px-4 border-e border-gray-300 shadow-inner"
-            onChange={(e: React.ChangeEvent<HTMLInputElement>) => {
-              setInputValue(e.currentTarget.value);
-            }}
-            type="text"
-            placeholder="검색"
-          />
-          <button>
-            <CiSearch className="mx-5 cursor-pointer text-2xl" />
-          </button>
-        </form>
-        <FaMicrophone className="size-10  p-3 cursor-pointer rounded-full bg-gray-100 " />
-      </nav>
+      <MdHeader setInputValue={setInputValue} hadleSubmit={hadleSubmit} />
+      <SmHeader setInputValue={setInputValue} hadleSubmit={hadleSubmit} />
 
-      <nav>
+      <nav className="flex-center gap-2 justify-items-end">
         <HiOutlineDotsVertical className="size-6" />
         <p
           onClick={() => login()}
-          className="border border-gray-300 rounded-3xl px-3 py-1 break-keep
+          className="flex-center border border-gray-300 rounded-3xl px-3 py-1 break-keep
           cursor-pointer text-[#065fd4] hover:bg-[#def1ff]"
         >
           <VscAccount className="fill-[#065fd4] size-5 mr-2 " />

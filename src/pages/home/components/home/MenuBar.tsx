@@ -2,7 +2,11 @@ import useMenuQuery from "@services/menu/useMenuQuery";
 import { useEffect, useMemo, useState } from "react";
 import { useFilterStore } from "../../../../store/filterStore";
 
-function MenuBar() {
+interface MenuBarProps {
+  className: string;
+}
+
+function MenuBar({ className }: MenuBarProps) {
   const { menuData } = useMenuQuery.useMenu();
   const [filterMenu, setFilterMenu] = useState("0");
   const { onClickFilter } = useFilterStore();
@@ -32,14 +36,18 @@ function MenuBar() {
   };
 
   return (
-    <ul className="whitespace-nowrap flex gap-4 ml-5 w-[calc(100vw-40px)] md:w-[calc(100vw-110px)] overflow-auto">
+    <ul
+      className={`whitespace-nowrap flex gap-4 ml-5 w-[calc(100vw-20px)] md:w-[calc(100vw-110px)] overflow-auto ${className}`}
+    >
       {items?.map(({ snippet, id }, idx) => {
         const isSelected = filterMenu === id;
         return (
           <li
             key={idx}
-            className={`rounded-lg bg-gray-200/50 font-semibold text-sm hover:brightness-50 p-1 ${
-              isSelected ? "bg-black text-white" : "bg-gray-200/50"
+            className={`rounded-lg font-semibold text-sm p-1 ${
+              isSelected
+                ? "bg-font-01 !text-basic-01"
+                : "bg-basic-02 !text-font-01 hover:brightness-50"
             }`}
             onClick={() => onClickMenu(id)}
           >

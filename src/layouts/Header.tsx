@@ -10,20 +10,23 @@ import { Link, useNavigate } from "react-router-dom";
 import SmHeader from "@components/header/SmHeader";
 
 interface HeaderProps {
-  toggle: boolean;
-  setToggle: Dispatch<SetStateAction<boolean>>;
+  setMenuToggle: Dispatch<SetStateAction<boolean>>;
+  setSearchToggle: Dispatch<SetStateAction<boolean>>;
 }
 
-function Header({ setToggle }: HeaderProps) {
+function Header({ setMenuToggle, setSearchToggle }: HeaderProps) {
   const navigate = useNavigate();
+  const [inputValue, setInputValue] = useState("");
 
   const onClickMenu = useCallback(() => {
-    setToggle((toggle) => !toggle);
+    setMenuToggle((toggle) => !toggle);
   }, []);
-  const [inputValue, setInputValue] = useState("");
 
   const hadleSubmit = (e: React.SyntheticEvent) => {
     e.preventDefault();
+    if (!inputValue.trim()) {
+      return;
+    }
     navigate(`/results/${inputValue}`);
   };
 
@@ -32,7 +35,7 @@ function Header({ setToggle }: HeaderProps) {
   });
 
   return (
-    <header className="flex-center my-2 px-5 ">
+    <header className="fixed flex-center py-2 px-5 bg-basic-01 w-full">
       <div className="flex-center gap-2">
         <CiMenuBurger
           className="size-6 cursor-pointer transition-all hover:fill-brand"
@@ -51,7 +54,7 @@ function Header({ setToggle }: HeaderProps) {
       </div>
 
       <MdHeader setInputValue={setInputValue} hadleSubmit={hadleSubmit} />
-      <SmHeader setInputValue={setInputValue} hadleSubmit={hadleSubmit} />
+      <SmHeader setSearchToggle={setSearchToggle} />
 
       <nav className="flex-center gap-2 justify-items-end">
         <HiOutlineDotsVertical className="size-6" />

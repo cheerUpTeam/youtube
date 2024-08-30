@@ -36,7 +36,7 @@ function Sidebar({ setToggle }: SidebarProps) {
 
   return (
     <aside className="flex left-0 fixed h-screen w-full z-10">
-      <div className="w-80 h-full bg-white overflow-auto">
+      <div className="w-80 h-full bg-basic-01 overflow-auto">
         <img
           className="mx-auto"
           src="https://www.gstatic.com/youtube/img/promos/growth/3e320f2068ae3f1cb319128f120e09421e3708560bd4273b77e06893ccfdd90e_122x56.webp"

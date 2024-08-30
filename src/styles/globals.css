@@ -4,10 +4,18 @@
 
 :root {
   --basic-01: #fff;
+  --basic-02: #f3f4f6;
+  --font-01: black;
+  --font-02: #aaa;
+  --border-01: rgb(232, 232, 232);
 }
 
 :root.dark {
-  --basic-01: #202b38;
+  --basic-01: black;
+  --basic-02: rgb(68, 68, 68);
+  --font-01: #fff;
+  --font-02: #aaa;
+  --border-01: rgb(50, 50, 50);
 }
 
 body {
@@ -34,15 +42,6 @@ button {
   cursor: pointer;
   transition: all 0.25s;
 }
-
-/* 
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    color: #020202;
-    background-color: #ffffff;
-  }
-}*/
 
 @layer components {
   .flex-center {

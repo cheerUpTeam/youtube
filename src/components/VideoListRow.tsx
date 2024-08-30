@@ -1,12 +1,15 @@
-import { locale } from "@lib/locale";
-import compactNumber from "@lib/numberFormat";
-import useHomeQuery from "@services/home/useHomeQuery";
 import { useNavigate } from "react-router-dom";
-import { useFilterStore } from "../../../../store/filterStore";
+import { useFilterStore } from "../store/filterStore";
+import useHomeQuery from "@services/home/useHomeQuery";
+import compactNumber from "@lib/numberFormat";
+import { locale } from "@lib/locale";
 
-interface VideoListProps {}
+interface VideoListRowProps {
+  className1: string;
+  className2: string;
+}
 
-function VideoList({}: VideoListProps) {
+function VideoListRow({ className1, className2 }: VideoListRowProps) {
   const { homeData } = useHomeQuery.useHome();
   const { filter } = useFilterStore();
 
@@ -19,28 +22,29 @@ function VideoList({}: VideoListProps) {
         ? homeData?.items.filter(({ snippet }) => snippet.categoryId === filter)
         : homeData?.items,
   };
-
   return (
     <section className="">
       {filterData?.items?.length > 0 ? (
-        <ul className="grid gap-4 mx-5 justify-center sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5">
+        <ul className="mx-5">
           {filterData?.items?.map(({ snippet, statistics, id }, idx) => (
             <li
               onClick={() => {
                 navigate(`watch/${id}`);
               }}
-              className="max-w-[500px] my-6 min-[700px]:w-full cursor-pointer"
+              className="my-3 cursor-pointer"
               key={idx}
             >
-              <figure>
+              <figure className="grid grid-cols-10 gap-2">
                 <img
-                  className="w-full rounded-2xl"
+                  className={`${className1} w-full rounded-lg`}
                   src={snippet.thumbnails.maxres.url}
                   alt={snippet.channelTitle}
                 />
 
-                <figcaption className="text-sm  text-gray-600">
-                  <h2 className="text-base font-semibold text-black line-clamp-2 mb-1">
+                <figcaption
+                  className={`${className2} flex flex-col text-xs text-gray-600`}
+                >
+                  <h2 className="text-sm font-semibold text-black line-clamp-2 mb-1">
                     {snippet.localized.title}
                   </h2>
                   <p>{snippet.channelTitle}</p>
@@ -55,10 +59,10 @@ function VideoList({}: VideoListProps) {
           ))}
         </ul>
       ) : (
-        <p className="text-center text-gray-500 mt-10">데이터가 없음</p>
+        <p className="text-center text-gray-500 m-10">데이터가 없음</p>
       )}
     </section>
   );
 }
 
-export default VideoList;
+export default VideoListRow;

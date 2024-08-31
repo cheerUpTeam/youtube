@@ -11,15 +11,13 @@ import { Link, useParams } from "react-router-dom";
 import MenuBar from "./components/home/MenuBar";
 import VideoListRow from "@components/VideoListRow";
 
-interface DetailProps {}
-
 const buttonList = [
   { title: "공유", icon: <PiShareFatLight className="mr-2" /> },
   { title: "저장", icon: <PiBookmarkSimpleLight className="mr-2" /> },
   { title: "", icon: <PiDotsThree className="" /> },
 ];
 
-function Detail({}: DetailProps) {
+function Detail() {
   const { id } = useParams();
   const { detailData } = useDetailQuery.useDetail(id!);
 

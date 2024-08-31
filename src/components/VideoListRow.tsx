@@ -15,7 +15,7 @@ function VideoListRow({ className1, className2 }: VideoListRowProps) {
 
   const navigate = useNavigate();
 
-  const filterData = {
+  const filterData: any = {
     ...homeData,
     items:
       filter !== "0"
@@ -26,37 +26,39 @@ function VideoListRow({ className1, className2 }: VideoListRowProps) {
     <section className="">
       {filterData?.items?.length > 0 ? (
         <ul className="mx-5">
-          {filterData?.items?.map(({ snippet, statistics, id }, idx) => (
-            <li
-              onClick={() => {
-                navigate(`watch/${id}`);
-              }}
-              className="my-3 cursor-pointer"
-              key={idx}
-            >
-              <figure className="grid grid-cols-10 gap-2">
-                <img
-                  className={`${className1} w-full rounded-lg`}
-                  src={snippet.thumbnails.maxres.url}
-                  alt={snippet.channelTitle}
-                />
+          {filterData?.items?.map(
+            ({ snippet, statistics, id }: any, idx: number) => (
+              <li
+                onClick={() => {
+                  navigate(`watch/${id}`);
+                }}
+                className="my-3 cursor-pointer"
+                key={idx}
+              >
+                <figure className="grid grid-cols-10 gap-2">
+                  <img
+                    className={`${className1} w-full rounded-lg`}
+                    src={snippet.thumbnails.maxres.url}
+                    alt={snippet.channelTitle}
+                  />
 
-                <figcaption
-                  className={`${className2} flex flex-col text-xs text-gray-600`}
-                >
-                  <h2 className="text-sm font-semibold text-black line-clamp-2 mb-1">
-                    {snippet.localized.title}
-                  </h2>
-                  <p>{snippet.channelTitle}</p>
-                  <p>{`조회수 ${compactNumber(
-                    parseInt(statistics.viewCount, 10)
-                  )}회 • ${locale(snippet.publishedAt)}
+                  <figcaption
+                    className={`${className2} flex flex-col text-xs text-gray-600`}
+                  >
+                    <h2 className="text-sm font-semibold text-black line-clamp-2 mb-1">
+                      {snippet.localized.title}
+                    </h2>
+                    <p>{snippet.channelTitle}</p>
+                    <p>{`조회수 ${compactNumber(
+                      parseInt(statistics.viewCount, 10)
+                    )}회 • ${locale(snippet.publishedAt)}
               
                 `}</p>
-                </figcaption>
-              </figure>
-            </li>
-          ))}
+                  </figcaption>
+                </figure>
+              </li>
+            )
+          )}
         </ul>
       ) : (
         <p className="text-center text-gray-500 m-10">데이터가 없음</p>

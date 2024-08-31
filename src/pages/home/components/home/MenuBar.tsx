@@ -1,9 +1,9 @@
 import useMenuQuery from "@services/menu/useMenuQuery";
-import { useEffect, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useState } from "react";
 import { useFilterStore } from "../../../../store/filterStore";
 
 interface MenuBarProps {
-  className: string;
+  className?: string;
 }
 
 function MenuBar({ className }: MenuBarProps) {
@@ -25,15 +25,15 @@ function MenuBar({ className }: MenuBarProps) {
     ];
   }, [menuData]);
 
+  const onClickMenu = useCallback((menuId: string) => {
+    setFilterMenu(menuId);
+  }, []);
+
   useEffect(() => {
     if (filterMenu) {
       onClickFilter(filterMenu);
     }
   }, [filterMenu, onClickFilter]);
-
-  const onClickMenu = (menuId: string) => {
-    setFilterMenu(menuId);
-  };
 
   return (
     <ul
@@ -44,7 +44,7 @@ function MenuBar({ className }: MenuBarProps) {
         return (
           <li
             key={idx}
-            className={`rounded-lg font-semibold text-sm p-1 ${
+            className={`cursor-pointer rounded-lg font-semibold text-sm p-1 ${
               isSelected
                 ? "bg-font-01 !text-basic-01"
                 : "bg-basic-02 !text-font-01 hover:brightness-50"

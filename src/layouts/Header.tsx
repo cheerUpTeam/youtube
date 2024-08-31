@@ -1,13 +1,13 @@
-import MdHeader from "@components/header/MdHeader";
 import { useGoogleLogin } from "@react-oauth/google";
 import { Dispatch, SetStateAction, useCallback, useState } from "react";
 import { CiMenuBurger } from "react-icons/ci";
 import { FaYoutube } from "react-icons/fa";
-import { VscAccount } from "react-icons/vsc";
 import { HiOutlineDotsVertical } from "react-icons/hi";
+import { VscAccount } from "react-icons/vsc";
 
+import MobileHeader from "@components/header/MobileHeader";
+import PcHeader from "@components/header/PcHeader";
 import { Link, useNavigate } from "react-router-dom";
-import SmHeader from "@components/header/SmHeader";
 
 interface HeaderProps {
   setMenuToggle: Dispatch<SetStateAction<boolean>>;
@@ -20,7 +20,7 @@ function Header({ setMenuToggle, setSearchToggle }: HeaderProps) {
 
   const onClickMenu = useCallback(() => {
     setMenuToggle((toggle) => !toggle);
-  }, []);
+  }, [setMenuToggle]);
 
   const hadleSubmit = (e: React.SyntheticEvent) => {
     e.preventDefault();
@@ -53,8 +53,8 @@ function Header({ setMenuToggle, setSearchToggle }: HeaderProps) {
         </Link>
       </div>
 
-      <MdHeader setInputValue={setInputValue} hadleSubmit={hadleSubmit} />
-      <SmHeader setSearchToggle={setSearchToggle} />
+      <PcHeader setInputValue={setInputValue} hadleSubmit={hadleSubmit} />
+      <MobileHeader setSearchToggle={setSearchToggle} />
 
       <nav className="flex-center gap-2 justify-items-end">
         <HiOutlineDotsVertical className="size-6" />

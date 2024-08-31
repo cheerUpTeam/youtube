@@ -1,12 +1,12 @@
 import { CiSearch } from "react-icons/ci";
 import { FaMicrophone } from "react-icons/fa";
 
-interface MdHeaderProps {
+interface PcHeaderProps {
   setInputValue: (value: string) => void;
   hadleSubmit: (e: React.SyntheticEvent) => void;
 }
 
-function MdHeader({ setInputValue, hadleSubmit }: MdHeaderProps) {
+function PcHeader({ setInputValue, hadleSubmit }: PcHeaderProps) {
   return (
     <nav className="hidden sm:flex-center mx-16 flex-1 gap-2">
       <form
@@ -30,4 +30,4 @@ function MdHeader({ setInputValue, hadleSubmit }: MdHeaderProps) {
   );
 }
 
-export default MdHeader;
+export default PcHeader;

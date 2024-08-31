@@ -20,7 +20,7 @@ function CommonLayout() {
   }, [localStorage]);
 
   return (
-    <div className="bg-basic-01 flex flex-col h-screen [&_*]:text-font-01">
+    <div className="min-w-[400px] bg-basic-01 flex flex-col h-screen [&_*]:text-font-01">
       {menuToggle && <Sidebar setToggle={setMenuToggle} />}
       {searchToggle && <SearchHeader setSearchToggle={setSearchToggle} />}
       {!searchToggle && (

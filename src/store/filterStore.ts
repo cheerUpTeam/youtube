@@ -8,7 +8,6 @@ interface Filter {
 
 interface FilterProps extends Filter {
   // 함수들만
-  increate: () => void;
   onClickFilter: (text: string) => void;
 }
 
@@ -22,6 +21,5 @@ export const useFilterStore = create<FilterProps>((set) => ({
   ...INIT,
 
   // 함수들만
-  increate: () => set(({ test }) => ({ filter: "music" })),
   onClickFilter: (text) => set(() => ({ filter: text })),
 }));

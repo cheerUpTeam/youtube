@@ -2,10 +2,11 @@ import { useQuery } from "@tanstack/react-query";
 import { queryKey } from "@utils/const/queryKey";
 import { getHome } from ".";
 
-function useHome() {
+function useHome(params: any) {
   const { data: homeData } = useQuery({
     queryKey: [queryKey.home],
-    queryFn: getHome,
+    queryFn: () => getHome(params),
+    retry: 0,
   });
 
   return { homeData };

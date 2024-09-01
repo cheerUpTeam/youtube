@@ -1,8 +1,9 @@
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 import { useFilterStore } from "../store/filterStore";
 import useHomeQuery from "@services/home/useHomeQuery";
 import compactNumber from "@lib/numberFormat";
 import { locale } from "@lib/locale";
+import { categoryParams } from "@lib/params";
 
 interface VideoListRowProps {
   className1: string;
@@ -10,7 +11,8 @@ interface VideoListRowProps {
 }
 
 function VideoListRow({ className1, className2 }: VideoListRowProps) {
-  const { homeData } = useHomeQuery.useHome();
+  const { keyword: q } = useParams();
+  const { homeData } = useHomeQuery.useHome({ ...categoryParams, q });
   const { filter } = useFilterStore();
 
   const navigate = useNavigate();

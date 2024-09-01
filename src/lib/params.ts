@@ -4,3 +4,9 @@ export const homeParams = {
   regionCode: "KR",
   key: import.meta.env.VITE_API_KEY,
 };
+
+export const categoryParams = {
+  hl: "en",
+  regionCode: "KR",
+  key: import.meta.env.VITE_API_KEY,
+};

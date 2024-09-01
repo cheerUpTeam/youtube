@@ -1,18 +1,21 @@
-import useMenuQuery from "@services/menu/useMenuQuery";
 import { useCallback, useEffect, useMemo, useState } from "react";
 import { useFilterStore } from "../../../../store/filterStore";
+import useCategoryQuery from "@services/category/useCategoryQuery";
+import { categoryParams } from "@lib/params";
 
 interface MenuBarProps {
   className?: string;
 }
 
 function MenuBar({ className }: MenuBarProps) {
-  const { menuData } = useMenuQuery.useMenu();
+  const { categoryData } = useCategoryQuery.useCategory(categoryParams);
   const [filterMenu, setFilterMenu] = useState("0");
   const { onClickFilter } = useFilterStore();
 
+  console.log(categoryData?.items);
+
   const items = useMemo(() => {
-    if (!menuData) return [];
+    if (!categoryData) return [];
 
     return [
       {
@@ -21,9 +24,9 @@ function MenuBar({ className }: MenuBarProps) {
           title: "All",
         },
       },
-      ...menuData.items,
+      ...categoryData.items,
     ];
-  }, [menuData]);
+  }, [categoryData]);
 
   const onClickMenu = useCallback((menuId: string) => {
     setFilterMenu(menuId);

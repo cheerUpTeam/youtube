@@ -6,7 +6,10 @@ export default function Results() {
   return (
     <section>
       {keyword}
-      <VideoListRow className1="col-span-5" className2="col-span-5" />
+      <VideoListRow
+        className1="col-span-5 "
+        className2="col-span-5 text-lg [&_p]:text-sm"
+      />
     </section>
   );
 }

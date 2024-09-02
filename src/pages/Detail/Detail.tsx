@@ -8,7 +8,7 @@ import {
   PiThumbsUp,
 } from "react-icons/pi";
 import { Link, useParams } from "react-router-dom";
-import MenuBar from "./components/home/MenuBar";
+import MenuBar from "../home/components/home/MenuBar";
 import VideoListRow from "@components/VideoListRow";
 
 const buttonList = [
@@ -25,8 +25,8 @@ function Detail() {
   const { snippet, statistics } = detailData;
 
   return (
-    <section className="w-full">
-      <article className="mx-5">
+    <section className="w-full grid lg:grid-cols-5">
+      <article className="mx-5 col-span-3">
         <iframe
           className="w-full aspect-video my-6 rounded-2xl"
           id="player"
@@ -81,9 +81,12 @@ function Detail() {
         </div>
       </article>
 
-      <article>
+      <article className="col-span-2">
         <MenuBar className="my-5" />
-        <VideoListRow className1="col-span-3" className2="col-span-7" />
+        <VideoListRow
+          className1="col-span-3 lg:col-span-5"
+          className2="col-span-7 lg:col-span-5 text-xs"
+        />
       </article>
     </section>
   );

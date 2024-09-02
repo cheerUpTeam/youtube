@@ -1,8 +1,8 @@
 import CommonLayout from "@layouts/CommonLayout";
 import ErrorLayout from "./ErrorLayout";
 import Home from "@pages/home/Home";
-import Detail from "@pages/home/Detail";
-import Results from "@pages/home/Results";
+import Detail from "@pages/Detail/Detail";
+import Results from "@pages/Results/Results";
 
 export default {
   path: "/",

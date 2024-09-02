@@ -45,9 +45,9 @@ function VideoListRow({ className1, className2 }: VideoListRowProps) {
                   />
 
                   <figcaption
-                    className={`${className2} flex flex-col text-xs text-gray-600`}
+                    className={`${className2} flex flex-col text-gray-600`}
                   >
-                    <h2 className="text-sm font-semibold text-black line-clamp-2 mb-1">
+                    <h2 className="font-semibold text-black line-clamp-2 mb-1">
                       {snippet.localized.title}
                     </h2>
                     <p>{snippet.channelTitle}</p>

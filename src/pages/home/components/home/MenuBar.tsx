@@ -12,8 +12,6 @@ function MenuBar({ className }: MenuBarProps) {
   const [filterMenu, setFilterMenu] = useState("0");
   const { onClickFilter } = useFilterStore();
 
-  console.log(categoryData?.items);
-
   const items = useMemo(() => {
     if (!categoryData) return [];
 

@@ -9,10 +9,13 @@ interface VideoListRowProps {
 }
 
 function VideoListRow({ className1, className2 }: VideoListRowProps) {
+  const navigate = useNavigate();
+
   const { keyword: q } = useParams();
   const { keywordData } = useKeywordQuery.useKeyword({ ...keywordParams, q });
-  const navigate = useNavigate();
+
   if (!keywordData) return <p>검색결과가 없습니다.</p>;
+
   return (
     <section className="">
       {keywordData?.items?.length > 0 ? (

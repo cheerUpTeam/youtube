@@ -1,14 +1,13 @@
 import { Instance } from "../Instance";
-import { PopularItemDataType, PopularItemsDataType } from "./type";
+import { DetailDataType, DetailItemDataType } from "./type";
 
-const PATH = "popular.json";
+const PATH =
+  import.meta.env.VITE_IS_PROD === "true"
+    ? "youtube/v3/videos"
+    : "popular.json";
 
-export function getDetail(detailId: string): Promise<PopularItemDataType> {
-  return Instance.get(PATH).then((data) => {
-    const items = data.data.items as PopularItemsDataType;
-    const result = items.find(
-      ({ id }) => detailId === id
-    ) as PopularItemDataType;
-    return result;
-  });
+export async function getDetail(
+  params: any
+): Promise<DetailDataType | DetailItemDataType> {
+  return Instance.get(PATH, { params }).then((data) => data.data);
 }

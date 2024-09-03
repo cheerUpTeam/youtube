@@ -17,3 +17,9 @@ export const keywordParams = {
   q: "surfing",
   key: import.meta.env.VITE_API_KEY,
 };
+
+export const detailParams = {
+  part: "snippet,contentDetails,statistics",
+  id: "ma67yOdMQfs",
+  key: import.meta.env.VITE_API_KEY,
+};

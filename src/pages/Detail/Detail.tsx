@@ -10,6 +10,7 @@ import {
 import { Link, useParams } from "react-router-dom";
 import MenuBar from "../home/components/home/MenuBar";
 import VideoListRow from "@components/VideoListRow";
+import { detailParams } from "@lib/params";
 
 const buttonList = [
   { title: "공유", icon: <PiShareFatLight className="mr-2" /> },
@@ -19,9 +20,10 @@ const buttonList = [
 
 function Detail() {
   const { id } = useParams();
-  const { detailData } = useDetailQuery.useDetail(id!);
+  const { detailData } = useDetailQuery.useDetail({ ...detailParams, id: id });
 
   if (!detailData) return;
+
   const { snippet, statistics } = detailData;
 
   return (
@@ -34,7 +36,7 @@ function Detail() {
         />
 
         <div className="[&_*]:flex">
-          <h1 className="text-xl font-extrabold my-3">{snippet.title}</h1>
+          {/* <h1 className="text-xl font-extrabold my-3">{snippet.title}</h1> */}
 
           <div className="flex-col sm:flex-row">
             <div className="items-center mr-3 [&_*]:items-center">

@@ -1,8 +1,8 @@
 import CommonLayout from "@layouts/CommonLayout";
 import ErrorLayout from "./ErrorLayout";
 import Home from "@pages/home/Home";
-import Detail from "@pages/home/Detail";
-import Results from "@pages/home/Results";
+import Detail from "@pages/Detail/Detail";
+import Results from "@pages/Results/Results";
 
 export default {
   path: "/",
@@ -11,6 +11,6 @@ export default {
   children: [
     { index: true, element: <Home /> },
     { path: "results/:keyword", element: <Results /> },
-    { path: "detail", element: <Detail title="디테일" /> },
+    { path: "watch/:id", element: <Detail /> },
   ],
 };

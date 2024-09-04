@@ -1,15 +1,11 @@
-import { Link } from "react-router-dom";
-import Test from "./components/home/Test";
-import Common from "@components/Common";
+import MenuBar from "./components/home/MenuBar";
+import VideoList from "./components/home/VideoList";
 
 function Home() {
   return (
-    <div className="text-white w-screen">
-      main! 페이지입니다.
-      <Link to="detail">디테일 페이지로 이동</Link>
-      <Test />
-      <br />
-      <Common />
+    <div>
+      <MenuBar />
+      <VideoList />
     </div>
   );
 }

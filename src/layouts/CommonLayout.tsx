@@ -1,16 +1,36 @@
-import { Outlet } from "react-router-dom";
+import SideMenu from "@layouts/SideMenu";
+import { useEffect } from "react";
+import { Outlet, useLocation } from "react-router-dom";
 import Header from "./Header";
 import Sidebar from "./Sidebar";
-import { useState } from "react";
+import SearchHeader from "./SearchHeader";
+import useMenuStore from "../store/menuStroe";
+import useSearchStore from "../store/searchStore";
 
 function CommonLayout() {
-  const [toggle, setToggle] = useState(false);
+  const { pathname } = useLocation();
+
+  const { menuMode } = useMenuStore();
+  const { searchMode } = useSearchStore();
+
+  const isDetail = pathname.includes("watch");
+
+  useEffect(() => {
+    if (localStorage.theme === "dark") {
+      document.documentElement.classList.add("dark");
+    } else {
+      document.documentElement.classList.remove("dark");
+    }
+  }, [localStorage]);
 
   return (
-    <div className={`flex flex-col w-screen relative px-5 `}>
-      <Sidebar toggle={toggle} />
-      <Header toggle={toggle} setToggle={setToggle} />
-      <main className="max-w-[1220px] mx-auto w-full">
+    <div className="min-w-[400px] bg-basic-01 flex flex-col h-screen [&_*]:text-font-01">
+      {menuMode && <Sidebar />}
+      {searchMode && <SearchHeader />}
+      {!searchMode && <Header />}
+
+      <main className="dark:bg-black flex gap-5 max-w-[3100px] mt-16 mx-auto w-full">
+        {!isDetail && <SideMenu />}
         <Outlet />
       </main>
     </div>

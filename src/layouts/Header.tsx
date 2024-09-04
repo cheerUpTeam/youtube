@@ -1,57 +1,93 @@
-import { FormEvent, MouseEvent, useCallback, useState } from "react";
-import { CiMenuBurger, CiSearch } from "react-icons/ci";
+import { useGoogleLogin } from "@react-oauth/google";
+import { useCallback, useState } from "react";
+import { CiMenuBurger } from "react-icons/ci";
 import { FaYoutube } from "react-icons/fa";
+import { PiMoonLight, PiSunLight } from "react-icons/pi";
+import { VscAccount } from "react-icons/vsc";
+
+import MobileHeader from "@components/header/MobileHeader";
+import PcHeader from "@components/header/PcHeader";
 import { Link, useNavigate } from "react-router-dom";
+import useDarkStore from "../store/darkStroe";
+import useMenuStore from "../store/menuStroe";
 
-interface HeaderProps {
-  toggle: boolean;
-  setToggle: React.Dispatch<React.SetStateAction<boolean>>;
-}
-
-function Header({ toggle, setToggle }: HeaderProps) {
+function Header() {
   const navigate = useNavigate();
-
   const [inputValue, setInputValue] = useState("");
 
-  const handleSubmit = useCallback((e: FormEvent) => {
+  const { toggleDarkMode, darkMode } = useDarkStore();
+  const { toggleMenuMode } = useMenuStore();
+
+  const hadleSubmit = (e: React.SyntheticEvent) => {
     e.preventDefault();
-    navigate(`results/${inputValue}`);
-  }, []);
-  const onClickMenu = useCallback(
-    (e: MouseEvent<HTMLOrSVGElement>) => {
-      setToggle((toggle) => !toggle);
-    },
-    [toggle]
-  );
-  // const onChange = useCallback((e: ChangeEvent<HTMLInputElement>) => {}, []);
+    if (!inputValue.trim()) {
+      return;
+    }
+    navigate(`/results/${inputValue}`);
+  };
+
+  const login = useGoogleLogin({
+    onSuccess: (tokenResponse) => console.log(tokenResponse),
+  });
+
+  const handleToggleDarkMode = useCallback(() => {
+    // 상태 토글
+    toggleDarkMode();
+
+    // 로컬 스토리지 및 문서 클래스 업데이트
+    if (
+      localStorage.theme === "dark" ||
+      (!("theme" in localStorage) &&
+        window.matchMedia("(prefers-color-scheme: dark)").matches)
+    ) {
+      localStorage.theme = "light";
+      document.documentElement.classList.remove("dark");
+    } else {
+      localStorage.theme = "dark";
+      document.documentElement.classList.add("dark");
+    }
+  }, [toggleDarkMode]);
 
   return (
-    <header className="flex items-center">
-      <div className="flex items-center gap-5">
+    <header className="fixed flex-center py-2 px-5 bg-basic-01 w-full">
+      <div className="flex-center gap-2">
         <CiMenuBurger
           className="size-6 cursor-pointer transition-all hover:fill-brand"
-          onClick={onClickMenu}
+          onClick={toggleMenuMode}
           aria-label="menu button"
         />
-        <Link to="/" className="flex items-center text-xl">
-          <FaYoutube />
-          YouTube
+        <Link to="/" className="flex-center gap-1">
+          <FaYoutube className="text-3xl" />
+          <p
+            className="text-2xl
+          font-semibold tracking-tighter "
+          >
+            YoungTube
+          </p>
         </Link>
       </div>
-      <form
-        className="flex items-center border rounded-3xl overflow-hidden mx-auto"
-        onSubmit={handleSubmit}
-      >
-        <input
-          type="text"
-          value={inputValue}
-          onChange={(e) => setInputValue(e.target.value)}
-          placeholder="search"
-        />
-        <button type="submit" className="rounded-none border-l-gray-200">
-          <CiSearch />
+
+      <PcHeader setInputValue={setInputValue} hadleSubmit={hadleSubmit} />
+      <MobileHeader />
+
+      <nav className="flex-center gap-2 justify-items-end">
+        <button onClick={handleToggleDarkMode}>
+          {darkMode ? (
+            <PiMoonLight className="text-2xl" />
+          ) : (
+            <PiSunLight className="text-2xl font-thin" />
+          )}
         </button>
-      </form>
+
+        <p
+          onClick={() => login()}
+          className="flex-center border border-gray-300 rounded-3xl px-3 py-1 break-keep
+          cursor-pointer text-[#065fd4] hover:bg-[#def1ff]"
+        >
+          <VscAccount className="fill-[#065fd4] size-5 mr-2 " />
+          로그인
+        </p>
+      </nav>
     </header>
   );
 }

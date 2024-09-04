@@ -1,30 +1,27 @@
-# React + TypeScript + Vite
+<!-- - html 수정 -->
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- 반응형 수정
+- 사이드메뉴 반응형
+- 필터링 홈 화면
+- 캐러셀
+- keyword 서치 기능
 
-Currently, two official plugins are available:
+get('videos') -> list data
+get('video/iccN1QquAqiSK-veHyOsSLOUh2s') -> detail
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 로그인(@react-oauth/google)
 
-## Expanding the ESLint configuration
+## 포트폴리오
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+6. 디테일 페이지 완료해놓기
+7. search 페이지 진행
+8. 실제 api 불러오기
+9. 헤더 store로 변경
 
-- Configure the top-level `parserOptions` property like this:
+### 완료
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json', './tsconfig.app.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+1. 필터 클릭 시 색상 변경해주기 o
+2. 데이터 없을 때 o
+3. 헤더 정리하기 o
+4. 다크모드 완료하기
+5. 홈 화면 반응형 css 맞추기 o

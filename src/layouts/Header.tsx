@@ -1,26 +1,22 @@
 import { useGoogleLogin } from "@react-oauth/google";
-import { Dispatch, SetStateAction, useCallback, useState } from "react";
+import { useCallback, useState } from "react";
 import { CiMenuBurger } from "react-icons/ci";
 import { FaYoutube } from "react-icons/fa";
-import { HiOutlineDotsVertical } from "react-icons/hi";
+import { PiMoonLight, PiSunLight } from "react-icons/pi";
 import { VscAccount } from "react-icons/vsc";
 
 import MobileHeader from "@components/header/MobileHeader";
 import PcHeader from "@components/header/PcHeader";
 import { Link, useNavigate } from "react-router-dom";
+import useDarkStore from "../store/darkStroe";
+import useMenuStore from "../store/menuStroe";
 
-interface HeaderProps {
-  setMenuToggle: Dispatch<SetStateAction<boolean>>;
-  setSearchToggle: Dispatch<SetStateAction<boolean>>;
-}
-
-function Header({ setMenuToggle, setSearchToggle }: HeaderProps) {
+function Header() {
   const navigate = useNavigate();
   const [inputValue, setInputValue] = useState("");
 
-  const onClickMenu = useCallback(() => {
-    setMenuToggle((toggle) => !toggle);
-  }, [setMenuToggle]);
+  const { toggleDarkMode, darkMode } = useDarkStore();
+  const { toggleMenuMode } = useMenuStore();
 
   const hadleSubmit = (e: React.SyntheticEvent) => {
     e.preventDefault();
@@ -34,12 +30,30 @@ function Header({ setMenuToggle, setSearchToggle }: HeaderProps) {
     onSuccess: (tokenResponse) => console.log(tokenResponse),
   });
 
+  const handleToggleDarkMode = useCallback(() => {
+    // 상태 토글
+    toggleDarkMode();
+
+    // 로컬 스토리지 및 문서 클래스 업데이트
+    if (
+      localStorage.theme === "dark" ||
+      (!("theme" in localStorage) &&
+        window.matchMedia("(prefers-color-scheme: dark)").matches)
+    ) {
+      localStorage.theme = "light";
+      document.documentElement.classList.remove("dark");
+    } else {
+      localStorage.theme = "dark";
+      document.documentElement.classList.add("dark");
+    }
+  }, [toggleDarkMode]);
+
   return (
     <header className="fixed flex-center py-2 px-5 bg-basic-01 w-full">
       <div className="flex-center gap-2">
         <CiMenuBurger
           className="size-6 cursor-pointer transition-all hover:fill-brand"
-          onClick={onClickMenu}
+          onClick={toggleMenuMode}
           aria-label="menu button"
         />
         <Link to="/" className="flex-center gap-1">
@@ -54,10 +68,17 @@ function Header({ setMenuToggle, setSearchToggle }: HeaderProps) {
       </div>
 
       <PcHeader setInputValue={setInputValue} hadleSubmit={hadleSubmit} />
-      <MobileHeader setSearchToggle={setSearchToggle} />
+      <MobileHeader />
 
       <nav className="flex-center gap-2 justify-items-end">
-        <HiOutlineDotsVertical className="size-6" />
+        <button onClick={handleToggleDarkMode}>
+          {darkMode ? (
+            <PiMoonLight className="text-2xl" />
+          ) : (
+            <PiSunLight className="text-2xl font-thin" />
+          )}
+        </button>
+
         <p
           onClick={() => login()}
           className="flex-center border border-gray-300 rounded-3xl px-3 py-1 break-keep

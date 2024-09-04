@@ -25,7 +25,7 @@ function PcHeader({ setInputValue, hadleSubmit }: PcHeaderProps) {
           <CiSearch className="mx-5 cursor-pointer text-2xl" />
         </button>
       </form>
-      <FaMicrophone className="shrink-0 size-10 p-3 cursor-pointer rounded-full bg-border-01 " />
+      {/* <FaMicrophone className="shrink-0 size-10 p-3 cursor-pointer rounded-full bg-border-01 " /> */}
     </nav>
   );
 }

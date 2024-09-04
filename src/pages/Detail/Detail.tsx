@@ -36,7 +36,7 @@ function Detail() {
         />
 
         <div className="[&_*]:flex">
-          {/* <h1 className="text-xl font-extrabold my-3">{snippet.title}</h1> */}
+          <h1 className="text-xl font-extrabold my-3">{snippet.title}</h1>
 
           <div className="flex-col sm:flex-row">
             <div className="items-center mr-3 [&_*]:items-center">
@@ -88,6 +88,7 @@ function Detail() {
         <VideoListRow
           className1="col-span-3 lg:col-span-5"
           className2="col-span-7 lg:col-span-5 text-xs"
+          title={snippet.title}
         />
       </article>
     </section>

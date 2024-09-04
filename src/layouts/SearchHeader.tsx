@@ -1,16 +1,14 @@
 import { CiSearch } from "react-icons/ci";
 import { IoArrowBackSharp } from "react-icons/io5";
-import { FaMicrophone } from "react-icons/fa";
 
-import { Dispatch, SetStateAction, useCallback, useState } from "react";
+import { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import useSearchStore from "../store/searchStore";
 
-interface SearchHeaderProps {
-  setSearchToggle: Dispatch<SetStateAction<boolean>>;
-}
-
-function SearchHeader({ setSearchToggle }: SearchHeaderProps) {
+function SearchHeader() {
   const navigate = useNavigate();
+
+  const { toggleSearchMode } = useSearchStore();
   const [inputValue, setInputValue] = useState("");
 
   const hadleSubmit = (e: React.SyntheticEvent) => {
@@ -21,14 +19,10 @@ function SearchHeader({ setSearchToggle }: SearchHeaderProps) {
     navigate(`/results/${inputValue}`);
   };
 
-  const onClickSearch = useCallback(() => {
-    setSearchToggle((toggle) => !toggle);
-  }, []);
-
   return (
     <aside className="left-0 fixed w-full h-screen">
       <div className="flex flex-center px-5 mt-2 bg-basic-01 gap-4">
-        <button onClick={onClickSearch}>
+        <button onClick={toggleSearchMode}>
           <IoArrowBackSharp className="size-5" />
         </button>
 
@@ -48,9 +42,8 @@ function SearchHeader({ setSearchToggle }: SearchHeaderProps) {
             <CiSearch className="mx-5 cursor-pointer text-2xl" />
           </button>
         </form>
-        <FaMicrophone className="shrink-0 size-4 cursor-pointer" />
       </div>
-      <div onClick={onClickSearch} className="w-full h-screen" />
+      <div onClick={toggleSearchMode} className="w-full h-screen" />
     </aside>
   );
 }

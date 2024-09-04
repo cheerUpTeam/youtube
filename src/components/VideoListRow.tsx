@@ -1,3 +1,4 @@
+import numberFormat from "@hooks/numberFormat";
 import { locale } from "@lib/locale";
 import { keywordParams } from "@lib/params";
 import useKeywordQuery from "@services/keyword/useKeywordQuery";
@@ -6,16 +7,21 @@ import { useNavigate, useParams } from "react-router-dom";
 interface VideoListRowProps {
   className1: string;
   className2: string;
+  title?: string;
 }
 
-function VideoListRow({ className1, className2 }: VideoListRowProps) {
+function VideoListRow({ className1, className2, title }: VideoListRowProps) {
   const navigate = useNavigate();
 
-  const { keyword: q } = useParams();
-  const { keywordData } = useKeywordQuery.useKeyword({ ...keywordParams, q });
+  const { keyword } = useParams();
+  const searchQuery = title || keyword;
+  const { keywordData } = useKeywordQuery.useKeyword({
+    ...keywordParams,
+    q: searchQuery,
+  });
 
   if (!keywordData) return <p>검색결과가 없습니다.</p>;
-
+  console.log(keywordData);
   return (
     <section className="">
       {keywordData?.items?.length > 0 ? (
@@ -24,7 +30,7 @@ function VideoListRow({ className1, className2 }: VideoListRowProps) {
             <li
               className="my-3 cursor-pointer"
               onClick={() => {
-                navigate(`watch/${id.videoId}`);
+                navigate(`/watch/${id.videoId}`);
               }}
               key={idx}
             >
@@ -39,12 +45,17 @@ function VideoListRow({ className1, className2 }: VideoListRowProps) {
                   className={`${className2} flex flex-col text-gray-600`}
                 >
                   <h2 className="font-semibold text-black line-clamp-2 mb-1">
-                    {snippet.thumbnails.title}
+                    {snippet.title}
                   </h2>
                   <p>{snippet.channelTitle}</p>
-                  <p>{`${locale(snippet.publishedAt)}
+                  <p>{` ${locale(snippet.publishedAt)}
               
                 `}</p>
+                  {!title && (
+                    <p className="whitespace-pre-line line-clamp-1 pt-4">
+                      {snippet.description}
+                    </p>
+                  )}
                 </figcaption>
               </figure>
             </li>

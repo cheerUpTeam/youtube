@@ -10,9 +10,11 @@ import PcHeader from "@components/header/PcHeader";
 import { Link, useNavigate } from "react-router-dom";
 import useDarkStore from "../store/darkStroe";
 import useMenuStore from "../store/menuStroe";
+import { useAuthStore } from "../store/authStore";
 
 function Header() {
   const navigate = useNavigate();
+  const { isLogin, setLogin, setLogout } = useAuthStore();
   const [inputValue, setInputValue] = useState("");
 
   const { toggleDarkMode, darkMode } = useDarkStore();
@@ -27,7 +29,9 @@ function Header() {
   };
 
   const login = useGoogleLogin({
-    onSuccess: (tokenResponse) => console.log(tokenResponse),
+    onSuccess: (tokenResponse) => {
+      setLogin(tokenResponse.access_token);
+    },
   });
 
   const handleToggleDarkMode = useCallback(() => {
@@ -47,6 +51,11 @@ function Header() {
       document.documentElement.classList.add("dark");
     }
   }, [toggleDarkMode]);
+
+  const onClickAuth = useCallback(() => {
+    if (isLogin) setLogout();
+    else login();
+  }, [isLogin, setLogout, login]);
 
   return (
     <header className="fixed flex-center py-2 px-5 bg-basic-01 w-full">
@@ -80,12 +89,12 @@ function Header() {
         </button>
 
         <p
-          onClick={() => login()}
+          onClick={onClickAuth}
           className="flex-center border border-gray-300 rounded-3xl px-3 py-1 break-keep
           cursor-pointer text-[#065fd4] hover:bg-[#def1ff]"
         >
           <VscAccount className="fill-[#065fd4] size-5 mr-2 " />
-          로그인
+          {isLogin ? "로그아웃" : "로그인"}
         </p>
       </nav>
     </header>

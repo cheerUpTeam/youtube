@@ -1,6 +1,7 @@
 import { locale } from "@lib/locale";
 import { keywordParams } from "@lib/params";
 import useKeywordQuery from "@services/keyword/useKeywordQuery";
+import Markdown from "react-markdown";
 import { useNavigate, useParams } from "react-router-dom";
 
 interface VideoListRowProps {
@@ -18,9 +19,9 @@ function VideoListRow({ className1, className2, title }: VideoListRowProps) {
     ...keywordParams,
     q: searchQuery,
   });
-  console.log(keywordData);
+
   if (!keywordData) return <p>검색결과가 없습니다.</p>;
-  console.log(keywordData);
+
   return (
     <section className="mt-6">
       {keywordData?.items?.length > 0 ? (
@@ -44,7 +45,7 @@ function VideoListRow({ className1, className2, title }: VideoListRowProps) {
                   className={`${className2} flex flex-col text-gray-600`}
                 >
                   <h2 className="font-semibold text-black line-clamp-2 mb-1">
-                    {snippet.title}
+                    <Markdown>{snippet.title}</Markdown>
                   </h2>
                   <p>{snippet.channelTitle}</p>
                   <p>{` ${locale(snippet.publishedAt)}

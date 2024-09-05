@@ -23,7 +23,7 @@ function Detail() {
   const { detailData } = useDetailQuery.useDetail({ ...detailParams, id: id });
 
   if (!detailData) return;
-
+  console.log(detailData);
   const { snippet, statistics } = detailData;
 
   return (
@@ -48,18 +48,18 @@ function Detail() {
               <Link to="#" className="font-semibold">
                 {snippet.channelTitle}
               </Link>
-              <button className="bg-gray-100 rounded-3xl h-9 px-4 ml-4">
+              <button className="bg-font-01 !text-basic-01 rounded-3xl h-9 px-4 ml-4">
                 구독
               </button>
             </div>
 
-            <div className="my-3 gap-3 [&_*]:items-center [&>*]:bg-gray-100 [&>*]:rounded-3xl [&_*]:h-9 [&>*]:break-keep">
+            <div className="my-3 gap-3 [&_*]:items-center [&>*]:bg-basic-02 [&>*]:rounded-3xl [&_*]:h-9 [&>*]:break-keep">
               <span className="px-3 gap-3">
                 <button>
                   <PiThumbsUp className="m-2" />
                   {`${compactNumber(parseInt(statistics.likeCount!, 10))}`}
                 </button>
-                <button className="border-l">
+                <button className="border-l border-border-01">
                   <PiThumbsDown className="ml-2" />
                 </button>
               </span>
@@ -73,7 +73,7 @@ function Detail() {
             </div>
           </div>
 
-          <dl className="flex flex-col gap-5 bg-gray-100 rounded-2xl p-2">
+          <dl className="flex flex-col gap-5 bg-basic-02 text-font-01 rounded-2xl p-2">
             <dt className="block font-bold">{`조회수${compactNumber(
               parseInt(statistics.viewCount)
             )}회  
@@ -84,7 +84,6 @@ function Detail() {
       </article>
 
       <article className="col-span-2">
-        <MenuBar className="my-5" />
         <VideoListRow
           className1="col-span-3 lg:col-span-5"
           className2="col-span-7 lg:col-span-5 text-xs"

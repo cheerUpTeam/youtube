@@ -4,7 +4,7 @@ import { getKeyword } from ".";
 
 function useKeyword(params: any) {
   const { data: keywordData } = useQuery({
-    queryKey: [queryKey.keyword],
+    queryKey: [queryKey.keyword, params.q],
     queryFn: () => getKeyword(params),
     retry: 0,
   });

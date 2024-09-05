@@ -1,4 +1,3 @@
-import numberFormat from "@hooks/numberFormat";
 import { locale } from "@lib/locale";
 import { keywordParams } from "@lib/params";
 import useKeywordQuery from "@services/keyword/useKeywordQuery";
@@ -19,11 +18,11 @@ function VideoListRow({ className1, className2, title }: VideoListRowProps) {
     ...keywordParams,
     q: searchQuery,
   });
-
+  console.log(keywordData);
   if (!keywordData) return <p>검색결과가 없습니다.</p>;
   console.log(keywordData);
   return (
-    <section className="">
+    <section className="mt-6">
       {keywordData?.items?.length > 0 ? (
         <ul className="mx-5">
           {keywordData?.items?.map(({ snippet, id }: any, idx: number) => (

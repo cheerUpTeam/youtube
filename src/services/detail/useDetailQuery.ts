@@ -1,7 +1,7 @@
 import { useQuery } from "@tanstack/react-query";
 import { queryKey } from "@utils/const/queryKey";
 import { getDetail } from ".";
-import { DetailDataType, DetailItemDataType } from "./type";
+import { DetailDataType } from "./type";
 
 function useDetail(params: any) {
   const { data: detailData } = useQuery({
@@ -23,10 +23,7 @@ function useDetail(params: any) {
       //   snippet: items.snippet,
       //   statistics: items.statistics,
       // };
-      const items =
-        import.meta.env.VITE_IS_PROD === "true"
-          ? (data as DetailDataType).items[0]
-          : (data as DetailItemDataType);
+      const items = (data as DetailDataType).items[0];
 
       return {
         snippet: items.snippet,

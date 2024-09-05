@@ -1,5 +1,4 @@
 import { CiSearch } from "react-icons/ci";
-import { FaMicrophone } from "react-icons/fa";
 
 interface PcHeaderProps {
   setInputValue: (value: string) => void;
@@ -8,13 +7,13 @@ interface PcHeaderProps {
 
 function PcHeader({ setInputValue, hadleSubmit }: PcHeaderProps) {
   return (
-    <nav className="hidden sm:flex-center mx-16 flex-1 gap-2">
+    <nav className="hidden sm:flex-center mx-16 flex-1 gap-2 justify-center">
       <form
         onSubmit={hadleSubmit}
-        className="flex-center flex-1 border border-gray-300 rounded-3xl overflow-hidden bg-gray-100"
+        className="flex-center flex-1 border border-border-01 rounded-3xl overflow-hidden max-w-[600px]"
       >
         <input
-          className="flex-1 w-full box-border rounded-l-3xl p-2 px-4 border-e shadow-inner"
+          className="flex-1 w-full box-border rounded-l-3xl p-2 px-4 border-e border-border-01 shadow-inner bg-basic-01"
           onChange={(e: React.ChangeEvent<HTMLInputElement>) => {
             setInputValue(e.currentTarget.value);
           }}

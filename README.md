@@ -1,105 +1,97 @@
 <div align="center"><img src="https://github.com/user-attachments/assets/224e12c2-9c1f-443f-98a6-3ffcd2d1f9d6" alt="Material Bread logo"></div>
 
-# 🎬 Carrot Clone Project
+# 🎬 YouTube Clone Project
 
-당근마켓의 주요 기능들을 구현한 클론 프로젝트입니다. 모바일 환경에 최적화된 UI/UX를 제공합니다. 🚀
+YouTube의 주요 기능들을 구현한 클론 프로젝트입니다. 반응형 디자인으로 다양한 디바이스에서 최적화된 경험을 제공합니다. 🚀
 
 ## 🚀 프로젝트 소개
 
-당근마켓의 핵심 기능들을 구현한 클론 프로젝트입니다. 회원가입과 로그인, 지역 기반 서비스, 상품 CRUD, 채팅, 찜하기 등 당근마켓의 주요 기능들을 구현했습니다. 특히 모바일 환경에 최적화된 UI/UX를 제공하여 실제 서비스와 유사한 사용자 경험을 제공합니다.
+YouTube의 핵심 기능들을 구현한 클론 프로젝트입니다. 동영상 검색, 재생, 채널 정보 조회, 댓글 기능 등 YouTube의 주요 기능들을 구현했습니다. YouTube Data API를 활용하여 실제 데이터를 기반으로 서비스를 제공합니다.
 
 ## 🛠 사용 기술
 
-- **프론트엔드**: React, TypeScript, Zustand, React Router, FSD Architecture
-- **UI 라이브러리**: Tailwind CSS, shadcn/ui
+- **프론트엔드**: React, TypeScript, React Query, React Router
+- **스타일링**: Tailwind CSS
+- **API**: YouTube Data API v3
 
 <div align="center">
     <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=React&logoColor=white"/>
+    <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=TypeScript&logoColor=white"/>
+    <img src="https://img.shields.io/badge/React_Query-FF4154?style=for-the-badge&logo=React Query&logoColor=white"/>
     <img src="https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=TailwindCSS&logoColor=white"/>
-    <img src="https://img.shields.io/badge/shadcn/ui-000000?style=for-the-badge&logoColor=white&logo=shadcnui"/>
-    <img src="https://img.shields.io/badge/fetch-4285F4?style=for-the-badge&logoColor=white"/>
-    <img src="https://img.shields.io/badge/Zustand-8E44AD?style=for-the-badge&logoColor=white"/>
-    <img src="https://img.shields.io/badge/FSD (Feature Slice Design)-FF5733?style=for-the-badge&logoColor=white"/>
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=GitHub&logoColor=white"/>
+    <img src="https://img.shields.io/badge/YouTube_API-FF0000?style=for-the-badge&logo=YouTube&logoColor=white"/>
     <img src="https://img.shields.io/badge/React Router-CA4245?style=for-the-badge&logo=React Router&logoColor=white"/>
 </div>
 
 ## 📌 주요 기능
 
-1. **로그인 & 회원가입** 🔐
+1. **동영상 검색 및 필터링** 🔍
 
-<img  align="right" src="https://user-images.githubusercontent.com/101618759/197943525-3fbbf517-4b72-47cb-8704-756bf63c9150.gif" width="40%">
+<img align="right" src="[검색 기능 GIF URL]" width="40%">
 
-- JWT 인증 방식 적용
-- 카카오 소셜 로그인 지원
-
-<br />
-<br />
-<br />
-<br />
-
-2. **지역 기반 서비스** 🌍
-
-<img  align="right" src="https://user-images.githubusercontent.com/101618759/197943525-3fbbf517-4b72-47cb-8704-756bf63c9150.gif" width="45%">
-
-- 사용자별 최대 2개 동네 설정 가능
-- 지역 기반 상품 필터링
+- 실시간 검색어 추천
+- 다양한 필터링 옵션 (업로드 날짜, 조회수 등)
+- 무한 스크롤 구현
 
 <br />
 <br />
 <br />
 <br />
 
-3. **관심/찜하기 기능** 🧡
-   - 관심 있는 상품 찜하기
-   - 찜한 상품 모아보기
-   - 관심 상품 가격 변동 알림
+2. **동영상 재생 및 상세 정보** 📺
+
+<img align="right" src="[동영상 재생 GIF URL]" width="45%">
+
+- 동영상 플레이어 구현
+- 채널 정보 표시
+- 관련 동영상 추천
+- 조회수, 좋아요 수 등 상세 정보 표시
 
 <br />
 <br />
 <br />
 <br />
 
-4. **채팅 기능** 💬
-   - 실시간 채팅 지원
-   - 상품 거래 협의
-   - 이미지 전송 기능
-   - 채팅방 목록 관리
+3. **댓글 시스템** 💬
+   - 댓글 작성 및 조회
+   - 댓글 좋아요/싫어요
+   - 대댓글 기능
+   - 댓글 정렬 (인기순/최신순)
 
 <br />
 <br />
 <br />
 <br />
 
-5. **검색 기능** 🔍
-   - 키워드 기반 상품 검색
-   - 카테고리별 필터링
-   - 가격대 설정
-   - 최신순/인기순 정렬
-   - 검색 기록 관리
+4. **반응형 디자인** 📱
+   - 모바일, 태블릿, 데스크톱 지원
+   - 사이드바 토글 기능
+   - 동적 그리드 레이아웃
 
 <br />
 <br />
 <br />
 <br />
 
-## 🏗 프로젝트 구조 (FSD - Feature Slice Design)
+## 🏗 프로젝트 구조
 
 ```
 📂 src
- ┣ 📂 app         # 애플리케이션 초기 설정 (라우팅, 글로벌 스타일, 프로바이더 등)
- ┣ 📂 pages       # 전체 페이지 및 중첩 라우팅이 적용된 대형 페이지 단위
- ┣ 📂 widgets     # 특정 기능을 담당하는 독립적인 UI 블록 (예: 네비게이션 바, 사이드바)
- ┣ 📂 features    # 사용자가 직접 수행하는 주요 기능 (예: 좋아요 버튼, 검색 필터)
- ┣ 📂 entities    # 비즈니스 엔티티 (예: User, Movie, Genre)
- ┗ 📂 shared      # 공통 모듈 (유틸리티, API 함수, UI 컴포넌트 등)
+ ┣ 📂 components  # 재사용 가능한 UI 컴포넌트
+ ┣ 📂 pages       # 페이지 컴포넌트
+ ┣ 📂 api         # API 관련 로직
+ ┣ 📂 hooks       # 커스텀 훅
+ ┣ 📂 context     # Context API 관련 파일
+ ┣ 📂 utils       # 유틸리티 함수
+ ┗ 📂 types       # TypeScript 타입 정의
+
 ```
 
 # 🛠 기술적 도전
 
-- Feature Slice Design 아키텍처 적용으로 확장 가능한 코드 구조 구현
-- Tailwind CSS와 shadcn/ui를 활용한 모던한 UI/UX
-- React Hook Form과 Zod를 활용한 견고한 폼 검증
-- Zustand를 활용한 효율적인 상태 관리
-- 카카오 소셜 로그인 기능
-- 모바일 환경 최적화
+- YouTube Data API를 활용한 실제 데이터 연동
+- React Query를 활용한 효율적인 데이터 캐싱 및 상태 관리
+- TypeScript를 활용한 타입 안정성 확보
+- 무한 스크롤 구현으로 대용량 데이터 효율적 로딩
+- 반응형 디자인으로 다양한 디바이스 지원
+- 컴포넌트 재사용성을 고려한 설계

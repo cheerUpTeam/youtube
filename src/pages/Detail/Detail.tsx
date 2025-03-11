@@ -1,4 +1,6 @@
+import VideoListRow from "@components/VideoListRow";
 import compactNumber from "@lib/numberFormat";
+import { detailParams } from "@lib/params";
 import useDetailQuery from "@services/detail/useDetailQuery";
 import {
   PiBookmarkSimpleLight,
@@ -8,9 +10,6 @@ import {
   PiThumbsUp,
 } from "react-icons/pi";
 import { Link, useParams } from "react-router-dom";
-import MenuBar from "../home/components/home/MenuBar";
-import VideoListRow from "@components/VideoListRow";
-import { detailParams } from "@lib/params";
 
 const buttonList = [
   { title: "공유", icon: <PiShareFatLight className="mr-2" /> },

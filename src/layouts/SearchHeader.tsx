@@ -18,7 +18,7 @@ function SearchHeader() {
     }
     navigate(`/results/${inputValue}`);
   };
-
+  console.log(inputValue);
   return (
     <aside className="left-0 fixed w-full h-screen">
       <div className="flex flex-center px-5 mt-2 bg-basic-01 gap-4">

@@ -1,38 +1,105 @@
-<!-- - html 수정 -->
+<div align="center"><img src="https://github.com/user-attachments/assets/224e12c2-9c1f-443f-98a6-3ffcd2d1f9d6" alt="Material Bread logo"></div>
 
-- 반응형 수정
-- 사이드메뉴 반응형
-- 필터링 홈 화면
-- 캐러셀
-- keyword 서치 기능
+# 🎬 Carrot Clone Project
 
-get('videos') -> list data
-get('video/iccN1QquAqiSK-veHyOsSLOUh2s') -> detail
+당근마켓의 주요 기능들을 구현한 클론 프로젝트입니다. 모바일 환경에 최적화된 UI/UX를 제공합니다. 🚀
 
-- 로그인(@react-oauth/google)
+## 🚀 프로젝트 소개
 
-## 포트폴리오
+당근마켓의 핵심 기능들을 구현한 클론 프로젝트입니다. 회원가입과 로그인, 지역 기반 서비스, 상품 CRUD, 채팅, 찜하기 등 당근마켓의 주요 기능들을 구현했습니다. 특히 모바일 환경에 최적화된 UI/UX를 제공하여 실제 서비스와 유사한 사용자 경험을 제공합니다.
 
-1. 로그인 햇을때 zustand 아래 예제로 스토리지 저장 이후 로그인 시 token값 저장하여 token값 유무로 로그인 확인(token값 있을때 : 로그아웃 / token값 없을때: 로그인) x
+## 🛠 사용 기술
 
-### 개발
+- **프론트엔드**: React, TypeScript, Zustand, React Router, FSD Architecture
+- **UI 라이브러리**: Tailwind CSS, shadcn/ui
 
-1. 디테일 페이지 완료해놓기 o
-2. search 페이지 진행 (검색하면 api 늦게 불러와짐 시간 설정돼있나??)
-3. 실제 api 불러오기 o
-4. 헤더 store로 변경 o
+<div align="center">
+    <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=React&logoColor=white"/>
+    <img src="https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=TailwindCSS&logoColor=white"/>
+    <img src="https://img.shields.io/badge/shadcn/ui-000000?style=for-the-badge&logoColor=white&logo=shadcnui"/>
+    <img src="https://img.shields.io/badge/fetch-4285F4?style=for-the-badge&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Zustand-8E44AD?style=for-the-badge&logoColor=white"/>
+    <img src="https://img.shields.io/badge/FSD (Feature Slice Design)-FF5733?style=for-the-badge&logoColor=white"/>
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=GitHub&logoColor=white"/>
+    <img src="https://img.shields.io/badge/React Router-CA4245?style=for-the-badge&logo=React Router&logoColor=white"/>
+</div>
 
-### 완료
+## 📌 주요 기능
 
-1. 필터 클릭 시 색상 변경해주기 o
-2. 데이터 없을 때 o
-3. 헤더 정리하기 o
-4. 다크모드 완료하기
-5. 홈 화면 반응형 css 맞추기 o
-6. detail 페이지 가로 스크롤 제거 0
-7. 다크모드 디테일 부분 o
-8. 다크모드 헤더부분 o
-9. 멕스 크기 맞추기(특히 search) 부분 o
-10. react swiper 사용해서 nav bar 수정 ㅅ
-    https://swiperjs.com/demos#grab-cursor
-11. 마크다운 기능 x
+1. **로그인 & 회원가입** 🔐
+
+<img  align="right" src="https://user-images.githubusercontent.com/101618759/197943525-3fbbf517-4b72-47cb-8704-756bf63c9150.gif" width="40%">
+
+- JWT 인증 방식 적용
+- 카카오 소셜 로그인 지원
+
+<br />
+<br />
+<br />
+<br />
+
+2. **지역 기반 서비스** 🌍
+
+<img  align="right" src="https://user-images.githubusercontent.com/101618759/197943525-3fbbf517-4b72-47cb-8704-756bf63c9150.gif" width="45%">
+
+- 사용자별 최대 2개 동네 설정 가능
+- 지역 기반 상품 필터링
+
+<br />
+<br />
+<br />
+<br />
+
+3. **관심/찜하기 기능** 🧡
+   - 관심 있는 상품 찜하기
+   - 찜한 상품 모아보기
+   - 관심 상품 가격 변동 알림
+
+<br />
+<br />
+<br />
+<br />
+
+4. **채팅 기능** 💬
+   - 실시간 채팅 지원
+   - 상품 거래 협의
+   - 이미지 전송 기능
+   - 채팅방 목록 관리
+
+<br />
+<br />
+<br />
+<br />
+
+5. **검색 기능** 🔍
+   - 키워드 기반 상품 검색
+   - 카테고리별 필터링
+   - 가격대 설정
+   - 최신순/인기순 정렬
+   - 검색 기록 관리
+
+<br />
+<br />
+<br />
+<br />
+
+## 🏗 프로젝트 구조 (FSD - Feature Slice Design)
+
+```
+📂 src
+ ┣ 📂 app         # 애플리케이션 초기 설정 (라우팅, 글로벌 스타일, 프로바이더 등)
+ ┣ 📂 pages       # 전체 페이지 및 중첩 라우팅이 적용된 대형 페이지 단위
+ ┣ 📂 widgets     # 특정 기능을 담당하는 독립적인 UI 블록 (예: 네비게이션 바, 사이드바)
+ ┣ 📂 features    # 사용자가 직접 수행하는 주요 기능 (예: 좋아요 버튼, 검색 필터)
+ ┣ 📂 entities    # 비즈니스 엔티티 (예: User, Movie, Genre)
+ ┗ 📂 shared      # 공통 모듈 (유틸리티, API 함수, UI 컴포넌트 등)
+```
+
+# 🛠 기술적 도전
+
+- Feature Slice Design 아키텍처 적용으로 확장 가능한 코드 구조 구현
+- Tailwind CSS와 shadcn/ui를 활용한 모던한 UI/UX
+- React Hook Form과 Zod를 활용한 견고한 폼 검증
+- Zustand를 활용한 효율적인 상태 관리
+- 카카오 소셜 로그인 기능
+- 모바일 환경 최적화

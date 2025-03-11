@@ -58,7 +58,7 @@ function Header() {
   }, [isLogin, setLogout, login]);
 
   return (
-    <header className="fixed flex-center py-2 px-5 bg-basic-01 w-full">
+    <header className="fixed flex-center py-2 px-5 bg-basic-01 w-full z-30 ">
       <div className="flex-center gap-2">
         <CiMenuBurger
           className="size-6 cursor-pointer transition-all hover:fill-brand"

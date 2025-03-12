@@ -6,10 +6,9 @@ import {
   PiBookmarkSimpleLight,
   PiDotsThree,
   PiShareFatLight,
-  PiThumbsDown,
-  PiThumbsUp,
 } from "react-icons/pi";
 import { Link, useParams } from "react-router-dom";
+import { LIkeMenu } from "./components/LikeMenu";
 
 const buttonList = [
   { title: "공유", icon: <PiShareFatLight className="mr-2" /> },
@@ -22,7 +21,6 @@ function Detail() {
   const { detailData } = useDetailQuery.useDetail({ ...detailParams, id: id });
 
   if (!detailData) return;
-  console.log(detailData);
   const { snippet, statistics } = detailData;
 
   return (
@@ -52,19 +50,13 @@ function Detail() {
               </button>
             </div>
 
-            <div className="my-3 gap-3 [&_*]:items-center [&>*]:bg-basic-02 [&>*]:rounded-3xl [&_*]:h-9 [&>*]:break-keep">
-              <span className="px-3 gap-3">
-                <button>
-                  <PiThumbsUp className="m-2" />
-                  {`${compactNumber(parseInt(statistics.likeCount!, 10))}`}
-                </button>
-                <button className="border-l border-border-01">
-                  <PiThumbsDown className="ml-2" />
-                </button>
-              </span>
-
+            <div className="my-3 gap-3 [&_*]:items-center [&_button]:bg-basic-02 [&_*]:h-9 [&>*]:break-keep">
+              <LIkeMenu snippet={snippet} statistics={statistics} />
               {buttonList.map(({ title, icon }) => (
-                <button key={title} className="px-2">
+                <button
+                  key={title}
+                  className="px-2 rounded-full hover:brightness-90"
+                >
                   {icon}
                   {title}
                 </button>

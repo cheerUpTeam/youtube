@@ -24,12 +24,12 @@ function CommonLayout() {
   }, [localStorage]);
 
   return (
-    <div className="min-w-[400px] bg-basic-01 flex flex-col h-screen [&_*]:text-font-01">
+    <div className="min-w-[400px] bg-basic-01 flex  flex-col h-screen [&_*]:text-font-01">
       {menuMode && <Sidebar />}
       {searchMode && <SearchHeader />}
       {!searchMode && <Header />}
 
-      <main className="dark:bg-black flex gap-5 max-w-[3100px] mt-16 mx-auto w-full">
+      <main className="dark:bg-black flex max-w-[3100px] mt-16 mx-auto w-full">
         {!isDetail && <SideMenu />}
         <Outlet />
       </main>

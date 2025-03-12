@@ -11,12 +11,12 @@ import { Link, useNavigate } from "react-router-dom";
 import useDarkStore from "../store/darkStroe";
 import useMenuStore from "../store/menuStroe";
 import { useAuthStore } from "../store/authStore";
+import axios from "axios";
 
 function Header() {
   const navigate = useNavigate();
   const { isLogin, setLogin, setLogout } = useAuthStore();
   const [inputValue, setInputValue] = useState("");
-
   const { toggleDarkMode, darkMode } = useDarkStore();
   const { toggleMenuMode } = useMenuStore();
 
@@ -29,16 +29,25 @@ function Header() {
   };
 
   const login = useGoogleLogin({
-    onSuccess: (tokenResponse) => {
-      setLogin(tokenResponse.access_token);
+    onSuccess: async (tokenResponse) => {
+      try {
+        const res = await axios.get(
+          "https://www.googleapis.com/oauth2/v2/userinfo",
+          {
+            headers: { Authorization: `Bearer ${tokenResponse.access_token}` },
+          }
+        );
+
+        setLogin(tokenResponse.access_token, res.data.id);
+      } catch (error) {
+        console.error("Error fetching user info:", error);
+      }
     },
   });
 
   const handleToggleDarkMode = useCallback(() => {
-    // 상태 토글
     toggleDarkMode();
 
-    // 로컬 스토리지 및 문서 클래스 업데이트
     if (
       localStorage.theme === "dark" ||
       (!("theme" in localStorage) &&
@@ -61,7 +70,7 @@ function Header() {
     <header className="fixed flex-center py-2 px-5 bg-basic-01 w-full z-30 ">
       <div className="flex-center gap-2">
         <CiMenuBurger
-          className="size-6 cursor-pointer transition-all hover:fill-brand"
+          className="size-6 cursor-pointer transition-all hover:fill-brand md:ml-2 md:mr-[1.70rem]"
           onClick={toggleMenuMode}
           aria-label="menu button"
         />

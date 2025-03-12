@@ -5,11 +5,12 @@ interface Auth {
   // 변수값만
   isLogin: boolean;
   token: string;
+  userId: string;
 }
 
 interface AuthProps extends Auth {
   // 함수들만
-  setLogin: (token: string) => void;
+  setLogin: (token: string, userId: string) => void;
   setLogout: () => void;
 }
 
@@ -17,6 +18,7 @@ const INIT = {
   // 변수값만
   isLogin: false,
   token: "",
+  userId: "",
 };
 
 // export const useAuthStore = create<AuthProps>((set) => ({
@@ -32,7 +34,8 @@ export const useAuthStore = create(
     (set) => ({
       ...INIT,
 
-      setLogin: (token) => set(() => ({ isLogin: true, token })),
+      setLogin: (token, userId) =>
+        set(() => ({ isLogin: true, token, userId })),
       setLogout: () => set({ ...INIT }),
     }),
     {

@@ -47,5 +47,9 @@ button {
   .flex-center {
     display: flex;
     align-items: center;
+    justify-content: center;
+  }
+  .common-padding {
+    padding: 1.25rem;
   }
 }

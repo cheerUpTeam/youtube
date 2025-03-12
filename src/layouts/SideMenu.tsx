@@ -2,9 +2,8 @@ import SidebarLink from "@components/SidebarLink";
 import { MdHomeFilled, MdOutlineSubscriptions } from "react-icons/md";
 import { SiYoutubeshorts } from "react-icons/si";
 
-interface SidebarProps {}
 
-function Sidebar({}: SidebarProps) {
+function Sidebar() {
   return (
     <aside className="w-20 hidden md:flex">
       <nav className="flex flex-col gap-6 pt-10 text-2xl">

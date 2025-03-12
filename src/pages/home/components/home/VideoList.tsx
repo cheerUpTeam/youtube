@@ -9,7 +9,6 @@ function VideoList() {
   const { homeData } = useHomeQuery.useHome(homeParams);
 
   const { filter } = useFilterStore();
-
   const navigate = useNavigate();
 
   const filterData: any = {
@@ -21,7 +20,7 @@ function VideoList() {
   };
 
   return (
-    <section className="">
+    <section>
       {filterData?.items?.length > 0 ? (
         <ul className="grid gap-4 mx-5 justify-center sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5">
           {filterData?.items?.map(

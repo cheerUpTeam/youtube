@@ -52,7 +52,7 @@ function MenuBar({ className }: MenuBarProps) {
         slidesPerView="auto"
         pagination={{ clickable: true, type: "fraction" }}
         navigation={true}
-        className={`whitespace-nowrap flex gap-4 ml-5 md:w-[calc(100vw-140px)] w-[calc(100vw-60px)] overflow-hidden 
+        className={`whitespace-nowrap flex gap-4 ml-5 md:w-[calc(100vw-140px)] w-[calc(100vw-60px)] overflow-hidden z-0
 
           [&_.swiper-button-next]:bg-gradient-to-l [&_.swiper-button-next]:from-white [&_.swiper-button-next]:via-white [&_.swiper-button-next]:via-50% [&_.swiper-button-next]:to-white/0
           dark:[&_.swiper-button-next]:from-black dark:[&_.swiper-button-next]:via-black dark:[&_.swiper-button-next]:via-50% dark:[&_.swiper-button-next]:to-black/0

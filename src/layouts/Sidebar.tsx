@@ -1,6 +1,7 @@
 import SidebarLink from "@components/SidebarLink";
 import { MdHomeFilled, MdOutlineSubscriptions } from "react-icons/md";
 import { SiYoutubeshorts } from "react-icons/si";
+import { PiThumbsUp } from "react-icons/pi";
 import { Link } from "react-router-dom";
 import useMenuStore from "../store/menuStroe";
 
@@ -25,6 +26,9 @@ function Sidebar() {
           </SidebarLink>
           <SidebarLink to="#" icon={<MdOutlineSubscriptions />}>
             Subscriptions
+          </SidebarLink>
+          <SidebarLink to="/liked" icon={<PiThumbsUp />}>
+            Liked Videos
           </SidebarLink>
         </nav>
 

@@ -1,8 +1,6 @@
 import SidebarLink from "@components/SidebarLink";
 import { MdHomeFilled, MdOutlineSubscriptions } from "react-icons/md";
-import { SiYoutubeshorts } from "react-icons/si";
-
-
+import { PiThumbsUp } from "react-icons/pi";
 function Sidebar() {
   return (
     <aside className="w-20 hidden md:flex">
@@ -12,21 +10,21 @@ function Sidebar() {
           className=" flex-col p-0 px-0 gap-0"
           icon={<MdHomeFilled />}
         >
-          <p className="text-[10px] leading-3"> Homehello</p>
+          <p className="text-[10px] leading-3"> Home</p>
         </SidebarLink>
         <SidebarLink
-          to=""
-          className="flex-col p-0 px-0 gap-0"
-          icon={<SiYoutubeshorts />}
-        >
-          <p className="text-[10px] leading-3"> Shorts</p>
-        </SidebarLink>
-        <SidebarLink
-          to=""
-          className="flex-col p-0 px-0 gap-0"
+          to="/subscriptions"
+          className="flex-col p-0 px-0 gap-0 bg-transparent"
           icon={<MdOutlineSubscriptions />}
         >
           <p className="text-[10px] leading-3"> Subscriptions</p>
+        </SidebarLink>
+        <SidebarLink
+          to="/liked"
+          className="flex-col p-0 px-0 gap-0 bg-transparent"
+          icon={<PiThumbsUp />}
+        >
+          <p className="text-[10px] leading-3 "> Liked Videos</p>
         </SidebarLink>
       </nav>
     </aside>

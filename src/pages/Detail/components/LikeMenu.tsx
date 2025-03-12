@@ -28,7 +28,7 @@ interface LIkeMenuProps {
   };
 }
 
-export function LIkeMenu({ snippet, statistics }: LIkeMenuProps) {
+export function LikeMenu({ snippet, statistics }: LIkeMenuProps) {
   const { id } = useParams();
 
   const { userId } = useAuthStore();
@@ -74,9 +74,31 @@ export function LIkeMenu({ snippet, statistics }: LIkeMenuProps) {
   };
 
   const toggleDislike = () => {
+    if (!userId) return alert("로그인 후 이용해주세요.");
+
     setIsDisliked(!isDisliked);
     if (isLiked) {
       setIsLiked(false);
+      const userData = JSON.parse(localStorage.getItem("userData") || "{}");
+
+      if (!userData[userId]) {
+        userData[userId] = { likedVideos: {} };
+      }
+      const likedVideos = userData[userId].likedVideos || {};
+      if (!id) return;
+      if (id in likedVideos) {
+        delete likedVideos[id];
+        localStorage.setItem(
+          "userData",
+          JSON.stringify({
+            ...userData,
+            [userId]: {
+              ...userData[userId],
+              likedVideos,
+            },
+          })
+        );
+      }
     }
   };
 

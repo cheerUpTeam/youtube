@@ -2,19 +2,10 @@ import VideoListRow from "@components/VideoListRow";
 import compactNumber from "@lib/numberFormat";
 import { detailParams } from "@lib/params";
 import useDetailQuery from "@services/detail/useDetailQuery";
-import {
-  PiBookmarkSimpleLight,
-  PiDotsThree,
-  PiShareFatLight,
-} from "react-icons/pi";
-import { Link, useParams } from "react-router-dom";
-import { LIkeMenu } from "./components/LikeMenu";
-
-const buttonList = [
-  { title: "공유", icon: <PiShareFatLight className="mr-2" /> },
-  { title: "저장", icon: <PiBookmarkSimpleLight className="mr-2" /> },
-  { title: "", icon: <PiDotsThree className="" /> },
-];
+import { useParams } from "react-router-dom";
+import { LikeMenu } from "./components/LikeMenu";
+import { ShareMenu } from "./components/ShareMenu";
+import { SubscribeMenu } from "./components/SubscribeMenu";
 
 function Detail() {
   const { id } = useParams();
@@ -22,7 +13,7 @@ function Detail() {
 
   if (!detailData) return;
   const { snippet, statistics } = detailData;
-
+  console.log(snippet);
   return (
     <section className="w-full grid lg:grid-cols-5">
       <article className="mx-5 col-span-3">
@@ -35,32 +26,14 @@ function Detail() {
         <div className="[&_*]:flex">
           <h1 className="text-xl font-extrabold my-3">{snippet.title}</h1>
 
-          <div className="flex-col sm:flex-row">
-            <div className="items-center mr-3 [&_*]:items-center">
-              <img
-                src="#"
-                alt="channelImg"
-                className="self-center h-4 w-4 rounded-full mr-2"
-              />
-              <Link to="#" className="font-semibold">
-                {snippet.channelTitle}
-              </Link>
-              <button className="bg-font-01 !text-basic-01 rounded-3xl h-9 px-4 ml-4">
-                구독
-              </button>
-            </div>
-
+          <div className="flex-col gap-3  sm:flex-row">
+            <SubscribeMenu
+              channelTitle={snippet.channelTitle}
+              channelId={snippet.channelId}
+            />
             <div className="my-3 gap-3 [&_*]:items-center [&_button]:bg-basic-02 [&_*]:h-9 [&>*]:break-keep">
-              <LIkeMenu snippet={snippet} statistics={statistics} />
-              {buttonList.map(({ title, icon }) => (
-                <button
-                  key={title}
-                  className="px-2 rounded-full hover:brightness-90"
-                >
-                  {icon}
-                  {title}
-                </button>
-              ))}
+              <LikeMenu snippet={snippet} statistics={statistics} />
+              <ShareMenu />
             </div>
           </div>
 

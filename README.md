@@ -1,4 +1,4 @@
-<div align="center"><img src="https://github.com/user-attachments/assets/224e12c2-9c1f-443f-98a6-3ffcd2d1f9d6" alt="Material Bread logo"></div>
+<div align="center"><img src="https://github.com/user-attachments/assets/48bcaf5f-af80-44a3-8c3a-38c9c5cf9eef" alt="Material Bread logo"></div>
 
 # 🎬 YouTube Clone Project
 

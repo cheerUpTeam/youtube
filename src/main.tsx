@@ -7,7 +7,7 @@ import { RouterProvider } from "react-router-dom";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   // <React.StrictMode>
-  <GoogleOAuthProvider clientId="1069756463356-f7d08l2n9mn58pdhnro4vsldoks37nhm.apps.googleusercontent.com">
+  <GoogleOAuthProvider clientId={import.meta.env.VITE_GOOGLE_CLIENT_ID}>
     <ReactQueryProvider>
       <RouterProvider router={routes} />
     </ReactQueryProvider>

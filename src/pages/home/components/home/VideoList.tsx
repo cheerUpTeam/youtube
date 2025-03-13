@@ -1,23 +1,40 @@
 import { locale } from "@lib/locale";
 import compactNumber from "@lib/numberFormat";
 import { homeParams } from "@lib/params";
-import useHomeQuery from "@services/home/useHomeQuery";
+import useInfiniteHomeQuery from "@services/home/useInfiniteHomeQuery";
 import { useNavigate } from "react-router-dom";
 import { useFilterStore } from "../../../../store/filterStore";
+import { useEffect } from "react";
+import { useInView } from "react-intersection-observer";
+import { IoReloadOutline } from "react-icons/io5";
 
 function VideoList() {
-  const { homeData } = useHomeQuery.useHome(homeParams);
-
+  const { homeData, fetchNextPage, isFetchingNextPage } =
+    useInfiniteHomeQuery.useInfiniteHome(homeParams);
   const { filter } = useFilterStore();
   const navigate = useNavigate();
 
+  console.log(111, homeData);
   const filterData: any = {
     ...homeData,
     items:
       filter !== "0"
-        ? homeData?.items.filter(({ snippet }) => snippet.categoryId === filter)
-        : homeData?.items,
+        ? homeData?.pages.flatMap((page) =>
+            page.items.filter(({ snippet }) => snippet.categoryId === filter)
+          )
+        : homeData?.pages.flatMap((page) => page.items),
   };
+
+  const { ref, inView } = useInView({
+    rootMargin: "0px 0px 0px 0px",
+    threshold: 0.5,
+  });
+
+  useEffect(() => {
+    if (inView) {
+      fetchNextPage();
+    }
+  }, [inView, fetchNextPage]);
 
   return (
     <section>
@@ -26,6 +43,7 @@ function VideoList() {
           {filterData?.items?.map(
             ({ snippet, statistics, id }: any, idx: number) => (
               <li
+                ref={idx === filterData?.items?.length - 1 ? ref : null}
                 onClick={() => {
                   navigate(`watch/${id}`);
                 }}
@@ -57,6 +75,9 @@ function VideoList() {
         </ul>
       ) : (
         <p className="text-center text-gray-500 mt-10">데이터가 없음</p>
+      )}
+      {isFetchingNextPage && (
+        <IoReloadOutline className="mt-4 justify-self-center animate-spin  rounded-full size-10" />
       )}
     </section>
   );

@@ -1,8 +1,9 @@
 export const homeParams = {
   part: "snippet,contentDetails,statistics",
   chart: "mostPopular",
-  maxResults: "10",
+  maxResults: "9",
   regionCode: "KR",
+  pageToken: "",
   key: import.meta.env.VITE_API_KEY,
 };
 
@@ -14,7 +15,7 @@ export const categoryParams = {
 
 export const keywordParams = {
   part: "snippet",
-  maxResults: "5",
+  maxResults: "4",
   q: "surfing",
   key: import.meta.env.VITE_API_KEY,
 };

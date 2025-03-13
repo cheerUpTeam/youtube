@@ -34,8 +34,8 @@ export function Liked() {
     return <div className="flex-center h-screen">로그인 후 이용해주세요.</div>;
   return (
     <div className="w-full common-padding">
-      <div className="h-36 flex-center bg-gradient-to-b from-[#C7926F] via-[#DAD3A2] to-basic-01">
-        play all
+      <div className="h-36 flex-center bg-gradient-to-b from-[#a69999] via-[#c6c6c6] to-basic-01">
+        Liked Videos
       </div>
       <div className="space-y-4">
         {likedVideos.map((video, index) => (

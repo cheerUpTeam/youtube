@@ -26,9 +26,9 @@ YouTube의 핵심 기능들을 구현한 클론 프로젝트입니다. 동영상
 
 ## 📌 주요 기능
 
-1. **동영상 검색 및 필터링** 🔍
-
 <img align="right" src="https://github.com/user-attachments/assets/49602918-5aed-48c7-8f91-688b0fa3ed21" width="45%">
+
+1. **동영상 검색 및 필터링** 🔍
 
 - 동영상 검색 기능
 - 카테고리 필터링 옵션
@@ -39,10 +39,9 @@ YouTube의 핵심 기능들을 구현한 클론 프로젝트입니다. 동영상
 <br />
 <br />
 <br />
+<img align="right" src="https://github.com/user-attachments/assets/0dafce65-3579-4003-bd16-544261fac83c" width="45%">
 
 2. **동영상 재생 및 상세 정보** 📺
-
-<img align="right" src="https://github.com/user-attachments/assets/0dafce65-3579-4003-bd16-544261fac83c" width="45%">
 
 - 동영상 플레이어 구현
 - 채널 정보 표시
@@ -56,10 +55,9 @@ YouTube의 핵심 기능들을 구현한 클론 프로젝트입니다. 동영상
 <br />
 <br />
 <br />
+<img align="right" src="https://github.com/user-attachments/assets/e20c58d3-aa73-44ca-89b1-4844a08dacf7" width="45%">
 
 3. **반응형 디자인** 📱
-
-<img align="right" src="https://github.com/user-attachments/assets/e20c58d3-aa73-44ca-89b1-4844a08dacf7" width="45%">
 
 - 모바일, 태블릿, 데스크톱 지원
 - 사이드바 토글 기능

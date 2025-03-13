@@ -42,7 +42,7 @@ YouTube의 핵심 기능들을 구현한 클론 프로젝트입니다. 동영상
 <br />
 <br />
 <br />
-<img align="right" src="https://github.com/user-attachments/assets/ef737e0b-aaa5-43bf-9b01-8f7469611a46" width="45%">
+<img align="right" src="https://github.com/user-attachments/assets/1bd6277e-1f20-40c5-8e59-f4bc20c553f5" width="45%">
 
 2. **동영상 재생 및 상세 정보** 📺
 

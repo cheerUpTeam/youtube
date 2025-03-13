@@ -56,10 +56,11 @@ YouTube의 핵심 기능들을 구현한 클론 프로젝트입니다. 동영상
 
 3. **반응형 디자인** 📱
 
-<img src="https://github.com/user-attachments/assets/e20c58d3-aa73-44ca-89b1-4844a08dacf7" width="45%">
-   - 모바일, 태블릿, 데스크톱 지원
-   - 사이드바 토글 기능
-   - 동적 그리드 레이아웃
+<img align="right" src="https://github.com/user-attachments/assets/e20c58d3-aa73-44ca-89b1-4844a08dacf7" width="45%">
+
+- 모바일, 태블릿, 데스크톱 지원
+- 사이드바 토글 기능
+- 동적 그리드 레이아웃
 
 <br />
 <br />

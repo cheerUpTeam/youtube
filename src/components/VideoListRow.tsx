@@ -26,7 +26,6 @@ function VideoListRow({ className1, className2, title }: VideoListRowProps) {
     rootMargin: "0px 0px 0px 0px",
     threshold: 0.5,
   });
-
   useEffect(() => {
     if (inView) {
       fetchNextPage();
@@ -36,7 +35,7 @@ function VideoListRow({ className1, className2, title }: VideoListRowProps) {
   if (!keywordData) return <p>검색결과가 없습니다.</p>;
 
   return (
-    <section className="mt-6">
+    <section className="mt-6 ">
       {keywordData?.pages.flatMap((pages) =>
         pages.items?.length > 0 ? (
           <ul className="mx-5">
@@ -73,7 +72,9 @@ function VideoListRow({ className1, className2, title }: VideoListRowProps) {
             ))}
           </ul>
         ) : (
-          <p className="text-center text-gray-500 m-10">데이터가 없음</p>
+          <p className="text-gray-500 justify-self-center">
+            검색 결과가 없습니다.
+          </p>
         )
       )}
       {isFetchingNextPage && (

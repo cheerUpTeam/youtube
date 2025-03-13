@@ -36,20 +36,20 @@ export function LikeMenu({ snippet, statistics }: LIkeMenuProps) {
   const [isDisliked, setIsDisliked] = useState(false);
 
   const toggleLike = () => {
-    if (!userId) return alert("로그인 후 이용해주세요.");
+    if (!userId) {
+      alert("로그인 후 이용해주세요.");
+      return;
+    }
+    if (!id) return;
 
     const userData = JSON.parse(localStorage.getItem("userData") || "{}");
-    if (!userData[userId]) {
-      userData[userId] = { likedVideos: {} };
-    }
-    const likedVideos = userData[userId].likedVideos || {};
+    const userLikedVideos = userData[userId]?.likedVideos || {};
 
-    if (!id) return;
-    if (id in likedVideos) {
-      delete likedVideos[id];
+    if (id in userLikedVideos) {
+      delete userLikedVideos[id];
       setIsLiked(false);
     } else {
-      likedVideos[id] = {
+      userLikedVideos[id] = {
         id,
         snippet,
         statistics,
@@ -65,12 +65,10 @@ export function LikeMenu({ snippet, statistics }: LIkeMenuProps) {
         ...userData,
         [userId]: {
           ...userData[userId],
-          likedVideos,
+          likedVideos: userLikedVideos,
         },
       })
     );
-
-    setIsLiked(!isLiked);
   };
 
   const toggleDislike = () => {

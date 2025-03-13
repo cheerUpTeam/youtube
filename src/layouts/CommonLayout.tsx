@@ -6,10 +6,12 @@ import Sidebar from "./Sidebar";
 import SearchHeader from "./SearchHeader";
 import useMenuStore from "../store/menuStroe";
 import useSearchStore from "../store/searchStore";
+import useDarkStore from "../store/darkStroe";
 
 function CommonLayout() {
   const { pathname } = useLocation();
 
+  const { toggleDarkMode } = useDarkStore();
   const { menuMode } = useMenuStore();
   const { searchMode } = useSearchStore();
 
@@ -18,6 +20,7 @@ function CommonLayout() {
   useEffect(() => {
     if (localStorage.theme === "dark") {
       document.documentElement.classList.add("dark");
+      toggleDarkMode();
     } else {
       document.documentElement.classList.remove("dark");
     }

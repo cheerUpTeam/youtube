@@ -1,6 +1,7 @@
 export const homeParams = {
   part: "snippet,contentDetails,statistics",
   chart: "mostPopular",
+  maxResults: "10",
   regionCode: "KR",
   key: import.meta.env.VITE_API_KEY,
 };

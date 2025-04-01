@@ -46,6 +46,7 @@ export function SubscribeBtn({ channelTitle, channelId }: SubscribeBtnProps) {
       setIsSubscribe(true);
     }
   }, [channelId, userId]);
+
   return (
     <button
       className="bg-font-01 !text-basic-01 text-sm rounded-3xl py-1 px-4 "

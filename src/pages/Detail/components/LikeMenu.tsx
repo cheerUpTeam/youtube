@@ -83,6 +83,7 @@ export function LikeMenu({ snippet, statistics }: LIkeMenuProps) {
         userData[userId] = { likedVideos: {} };
       }
       const likedVideos = userData[userId].likedVideos || {};
+
       if (!id) return;
       if (id in likedVideos) {
         delete likedVideos[id];
